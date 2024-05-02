@@ -2,6 +2,10 @@
 
 {
   home-manager.users.luke.dconf.settings = {
+    "org/gnome/Console" = {
+      "audible-bell" = false;
+      "visual-bell" = false;
+    };
     "org/gnome/desktop/interface" = {
       "color-scheme" = "prefer-dark";
       "document-font-name" = "FreeSans 11";

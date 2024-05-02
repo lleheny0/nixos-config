@@ -83,11 +83,11 @@
         "font.default.x-western" = "sans-serif";
         "font.name.sans-serif.x-western" = "FreeSans";
         "media.rdd-process.enabled" = false;
-        "mousewheel.default.delta_multiplier_y" = 25;
+
+        # for macbook touchpad only
+        # "mousewheel.default.delta_multiplier_y" = 25;
         "places.history.enabled" = false;
-        "privacy.fingerprintingProtection" = false;
         "privacy.firstparty.isolate" = true;
-        "privacy.resistFingerprinting" = true;
       };
     };
   };

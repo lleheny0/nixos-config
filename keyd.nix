@@ -9,10 +9,14 @@
         settings = {
           main = {
             capslock = "layer(control)";
-            leftmeta = "layer(alt)";
-            leftalt = "layer(meta)";
-            fn = "layer(aux)";
-            # leftcontrol = "layer(aux)";
+
+            ## mac keyboard
+            # fn = "layer(aux)";
+            # leftmeta = "layer(alt)";
+            # leftalt = "layer(meta)";
+
+            ## non-mac keyboard
+            leftcontrol = "layer(aux)";
           };
           aux = {
             j = "down";

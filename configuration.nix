@@ -62,8 +62,10 @@
 
   environment.systemPackages = with pkgs; [];
   environment.shellAliases = {
-    nc = "sudo vim /etc/nixos/configuration.nix";
+    nb = "sudo nixos-rebuild boot";
+    nc = "sudo nix-collect-garbage -d";
     nr = "sudo nixos-rebuild switch";
+    nu = "sudo nix-channel --update";
   };
 
   system.stateVersion = "23.11";

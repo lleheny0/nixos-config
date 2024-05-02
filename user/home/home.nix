@@ -15,15 +15,6 @@
       home.packages = [];
 
       programs.home-manager.enable = true;
-
-      # programs.vscode = {
-      #   enable = true;
-      #   userSettings = {
-      #     "editor.fontFamily" = "Comic Mono";
-      #     "editor.mouseWheelScrollSensitivity" = 0.25;
-      #     "window.menuBarVisibility" = "hidden";
-      #   };
-      # };
     };
   };
 }
