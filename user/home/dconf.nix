@@ -7,6 +7,7 @@
       "visual-bell" = false;
     };
     "org/gnome/desktop/interface" = {
+      "clock-format" = "12h";
       "color-scheme" = "prefer-dark";
       "document-font-name" = "FreeSans 11";
       "gtk-theme" = "Adwaita-dark";

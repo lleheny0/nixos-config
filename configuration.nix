@@ -67,6 +67,9 @@
     nr = "sudo nixos-rebuild switch";
     nu = "sudo nix-channel --update";
   };
+  environment.variables = {
+    EDITOR = "vim";
+  };
 
   system.stateVersion = "23.11";
 }

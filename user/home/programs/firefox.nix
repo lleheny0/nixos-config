@@ -82,9 +82,6 @@
         "extensions.formautofill.creditCards.enabled" = false;
         "font.default.x-western" = "sans-serif";
         "font.name.sans-serif.x-western" = "FreeSans";
-        "media.rdd-process.enabled" = false;
-
-        # for macbook touchpad only
         # "mousewheel.default.delta_multiplier_y" = 25;
         "places.history.enabled" = false;
         "privacy.firstparty.isolate" = true;

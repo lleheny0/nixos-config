@@ -12,8 +12,10 @@
       git
       gnome.dconf-editor
       gnome3.gnome-tweaks
+      gnomeExtensions.dash-to-dock
       home-manager
       obs-studio
+      openzone-cursors
       vim
       vscode
     ];
