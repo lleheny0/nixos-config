@@ -75,8 +75,6 @@
         "browser.warnOnQuitShortcut" = false;
         "datareporting.healthreport.uploadEnabled" = false;
         "dom.battery.enabled" = true;
-        "dom.event.clipboardevents.enabled" = false;
-        "dom.security.https_only_mode" = true;
         "extensions.activeThemeID" = "firefox-compact-dark@mozilla.org";
         "extensions.formautofill.addresses.enabled" = false;
         "extensions.formautofill.creditCards.enabled" = false;
