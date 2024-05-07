@@ -16,6 +16,7 @@
       home-manager
       obs-studio
       openzone-cursors
+      prismlauncher
       vim
       vscode
     ];
