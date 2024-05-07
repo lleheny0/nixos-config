@@ -50,6 +50,9 @@
             s = "C-S-s";
             w = "C-S-w";
           };
+          "meta+shift" = {
+            s = "sysrq";
+          };
         };
       };
     };
