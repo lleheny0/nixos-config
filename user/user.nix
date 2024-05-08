@@ -14,6 +14,7 @@
       gnome.dconf-editor
       gnome3.gnome-tweaks
       gnomeExtensions.dash-to-dock
+      helvum
       home-manager
       obs-studio
       openzone-cursors
