@@ -15,6 +15,14 @@
       home.packages = [];
 
       programs.home-manager.enable = true;
+
+      qt = {
+        enable = true;
+        platformTheme = {
+          name = "gnome";
+        };
+        style.name = "adwaita-dark";
+      };
     };
   };
 }

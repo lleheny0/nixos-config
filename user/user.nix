@@ -8,6 +8,7 @@
     description = "Luke";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
+      adwaita-qt
       firefox
       git
       gnome.dconf-editor
