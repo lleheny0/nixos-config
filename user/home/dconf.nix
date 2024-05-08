@@ -12,7 +12,7 @@
       "cursor-theme" = "OpenZone_Black";
       "document-font-name" = "FreeSans 11";
       "font-name" = "FreeSans 11";
-      "gtk-theme" = "Adwaita-dark";
+      # "gtk-theme" = "Adwaita-dark";
       "enable-hot-corners" = false;
       "monospace-font-name" = "Fantasque Sans Mono Bold 12";
     };
