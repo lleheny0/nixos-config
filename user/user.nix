@@ -9,6 +9,7 @@
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       adwaita-qt
+      chromium
       firefox
       git
       gnome.dconf-editor
