@@ -69,5 +69,5 @@
     EDITOR = "vim";
   };
 
-  system.stateVersion = "23.11";
+  system.stateVersion = "unstable";
 }
