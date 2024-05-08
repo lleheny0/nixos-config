@@ -17,6 +17,7 @@
       "monospace-font-name" = "Fantasque Sans Mono Bold 12";
     };
     "org/gnome/desktop/notifications" = {
+      "show-banners" = false;
       "show-in-lock-screen" = false;
     };
     "org/gnome/desktop/peripherals/mouse" = {
@@ -33,9 +34,12 @@
     "org/gnome/mutter" = {
       "center-new-windows" = true;
       "dynamic-workspaces" = true;
+      "workspaces-only-on-primary" = true;
     };
-    "org/gnome/desktop/notifications" = {
-      "show-banners" = false;
+    "org/gnome/settings-daemon/plugins/color" = {
+      "night-light-enabled" = true;
+      "night-light-schedule-automatic" = true;
+      "night-light-temperature" = "uint32 2700";
     };
     "org/gnome/settings-daemon/plugins/power" = {
       "power-button-action" = "interactive";
