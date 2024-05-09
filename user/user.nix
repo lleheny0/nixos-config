@@ -20,6 +20,7 @@
       obs-studio
       openzone-cursors
       prismlauncher
+      spotify
       vim
       vscode
     ];
