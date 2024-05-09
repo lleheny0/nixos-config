@@ -23,6 +23,7 @@
       obs-studio-plugins.obs-vaapi
       openzone-cursors
       prismlauncher
+      signal-desktop
       spotify
       vim
       vscode
