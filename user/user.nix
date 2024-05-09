@@ -20,6 +20,7 @@
       helvum
       home-manager
       obs-studio
+      obs-studio-plugins.obs-vaapi
       openzone-cursors
       prismlauncher
       spotify
