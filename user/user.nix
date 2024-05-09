@@ -12,6 +12,7 @@
       chromium
       firefox
       git
+      glfw-wayland-minecraft
       gnome.dconf-editor
       gnome3.gnome-tweaks
       gnomeExtensions.appindicator
