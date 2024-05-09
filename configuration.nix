@@ -38,6 +38,7 @@
     variant = "";
   };
   services.printing.enable = true;
+  services.flatpak.enable = true;
 
   sound.enable = true;
   hardware.pulseaudio.enable = false;
@@ -58,9 +59,6 @@
 
   nixpkgs.config.allowUnfree = true;
 
-  environment.systemPackages = with pkgs; [
-    steam
-  ];
   environment.shellAliases = {
     nb = "sudo nixos-rebuild boot";
     nc = "sudo nix-collect-garbage -d";
@@ -70,8 +68,6 @@
   environment.variables = {
     EDITOR = "vim";
   };
-
-  programs.steam.enable = true;
 
   # todo: make this less bad
   systemd.tmpfiles.rules = [
