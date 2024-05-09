@@ -14,6 +14,7 @@
       git
       gnome.dconf-editor
       gnome3.gnome-tweaks
+      gnomeExtensions.appindicator
       gnomeExtensions.dash-to-dock
       helvum
       home-manager
