@@ -21,6 +21,7 @@
       helvum
       home-manager
       joycond-cemuhook
+      mullvad-vpn
       obs-studio
       obs-studio-plugins.obs-vaapi
       openzone-cursors

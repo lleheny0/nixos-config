@@ -5,6 +5,7 @@
     [
       ./hardware-configuration.nix
       ./keyd.nix
+      ./mullvad.nix
       ./user
     ];
 
