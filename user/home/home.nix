@@ -4,6 +4,7 @@
   imports = [
     <home-manager/nixos>
     ./dconf.nix
+    ./dotfiles.nix
     ./programs
   ];
 
