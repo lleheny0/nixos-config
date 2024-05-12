@@ -13,6 +13,7 @@
 
   boot.extraModulePackages = with config.boot.kernelPackages; [ v4l2loopback ];
   boot.kernelModules = [
+    "hid-nintendo"
     "v4l2loopback"
   ];
 

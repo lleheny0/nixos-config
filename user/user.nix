@@ -9,6 +9,7 @@
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       adwaita-qt
+      cemu
       chromium
       firefox
       git
@@ -19,6 +20,7 @@
       gnomeExtensions.dash-to-dock
       helvum
       home-manager
+      joycond-cemuhook
       obs-studio
       obs-studio-plugins.obs-vaapi
       openzone-cursors
