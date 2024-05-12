@@ -43,7 +43,6 @@
     variant = "";
   };
   services.printing.enable = true;
-  services.flatpak.enable = true;
 
   sound.enable = true;
   hardware.pulseaudio.enable = false;
@@ -73,6 +72,10 @@
   environment.variables = {
     EDITOR = "vim";
   };
+  environment.systemPackages = with pkgs; [
+  ];
+
+  programs.steam.enable = true;
 
   # todo: make this less bad
   systemd.tmpfiles.rules = [
