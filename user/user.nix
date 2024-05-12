@@ -12,6 +12,7 @@
       cemu
       chromium
       firefox
+      fragments
       git
       glfw-wayland-minecraft
       gnome.dconf-editor
