@@ -36,6 +36,16 @@
       "dynamic-workspaces" = true;
       "workspaces-only-on-primary" = true;
     };
+    "org/gnome/nautilus/icon-view" = {
+      "default-zoom-level" = "small-plus";
+    };
+    "org/gnome/nautilus/list-view" = {
+      "default-zoom-level" = "small";
+      "use-tree-view" = true;
+    };
+    "org/gnome/nautilus/preferences" = {
+      "default-folder-viewer" = "icon-view";
+    };
     "org/gnome/settings-daemon/plugins/color" = {
       "night-light-enabled" = true;
       "night-light-schedule-automatic" = true;
