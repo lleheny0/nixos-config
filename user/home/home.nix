@@ -8,22 +8,22 @@
     ./programs
   ];
 
-  home-manager = {
-    users.luke = { pkgs, ... }: {
-      home.username = "luke";
-      home.homeDirectory = "/home/luke";
-      home.stateVersion = "23.11";
-      home.packages = [];
+  home-manager.users.luke = {
+    home = {
+      username = "luke";
+      homeDirectory = "/home/luke";
+      stateVersion = "24.05";
+      packages = [];
+    };
 
-      programs.home-manager.enable = true;
+    programs.home-manager.enable = true;
 
-      qt = {
-        enable = true;
-        platformTheme = {
-          name = "gnome";
-        };
-        style.name = "adwaita-dark";
+    qt = {
+      enable = true;
+      platformTheme = {
+        name = "gnome";
       };
+      style.name = "adwaita-dark";
     };
   };
 }
