@@ -72,6 +72,7 @@
     nu = "sudo nix-channel --update";
   };
   environment.variables = {
+    BROWSER = "firefox";
     EDITOR = "vim";
   };
   environment.systemPackages = with pkgs; [
