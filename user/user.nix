@@ -10,7 +10,6 @@
     packages = with pkgs; [
       adwaita-qt
       cemu
-      chromium
       firefox
       fragments
       git
