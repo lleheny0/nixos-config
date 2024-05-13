@@ -28,7 +28,7 @@
     };
     "org/gnome/desktop/wm/preferences" = {
       "button-layout" = "appmenu:minimize,maximize,close";
-      "mouse-button-modifier" = "<Alt>";
+      "mouse-button-modifier" = "<Super>";
       "resize-with-right-button" = true;
     };
     "org/gnome/mutter" = {
