@@ -87,6 +87,7 @@
         "places.history.enabled" = false;
         "privacy.firstparty.isolate" = true;
         "privacy.userContext.enabled" = false;
+        "ui.key.menuAccessKeyFocuses" = false;
       };
     };
   };
