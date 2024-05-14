@@ -8,6 +8,9 @@
     };
     "org/gnome/desktop/interface" = {
       "clock-format" = "12h";
+      "clock-show-date" = true;
+      "clock-show-seconds" = false;
+      "clock-show-weekday" = true;
       "color-scheme" = "prefer-dark";
       "cursor-theme" = "OpenZone_Black";
       "document-font-name" = "FreeSans 11";
@@ -44,6 +47,7 @@
       "use-tree-view" = true;
     };
     "org/gnome/nautilus/preferences" = {
+      "date-time-format" = "detailed";
       "default-folder-viewer" = "icon-view";
     };
     "org/gnome/settings-daemon/plugins/color" = {
@@ -54,6 +58,9 @@
     "org/gnome/settings-daemon/plugins/power" = {
       "power-button-action" = "interactive";
       "sleep-inactive-ac-type" = "nothing";
+    };
+    "org/gtk/settings/file-chooser" = {
+      "clock-format" = "12h";
     };
   };
 }
