@@ -9,6 +9,7 @@
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       adwaita-qt
+      appimage-run
       cemu
       firefox
       fragments
@@ -27,6 +28,7 @@
       obs-studio-plugins.obs-vaapi
       openzone-cursors
       prismlauncher
+      protonup-ng
       signal-desktop
       spotify
       vim
