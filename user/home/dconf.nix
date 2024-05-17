@@ -89,15 +89,14 @@
       customize-alphas = true;
       disable-overview-on-startup = true;
       intellihide = false;
-      min-alpha = 0.0;
-      max-alpha = 1.0;
+        multi-monitor = true;
       require-pressure-to-show = false;
       scroll-action = "cycle-windows";
       shift-click-action = "launch";
       show-mounts-network = true;
       show-show-apps-button = false;
       show-trash = false;
-      transparency-mode = "DYNAMIC";
+        transparency-mode = "DEFAULT";
     };
     "org/gtk/settings/file-chooser" = {
       clock-format = "12h";
