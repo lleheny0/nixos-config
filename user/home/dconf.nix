@@ -59,6 +59,46 @@
       "power-button-action" = "interactive";
       "sleep-inactive-ac-type" = "nothing";
     };
+    "org/gnome/shell" = {
+      "disabled-extensions" = [];
+      "enabled-extensions" = [
+        "appindicatorsupport@rgcjonas.gmail.com"
+        "dash-to-dock@micxgx.gmail.com"
+        "drive-menu@gnome-shell-extensions.gcampax.github.com"
+        "places-menu@gnome-shell-extensions.gcampax.github.com"
+        "apps-menu@gnome-shell-extensions.gcampax.github.com"
+      ];
+      "favorite-apps" = [
+        "firefox.desktop"
+        "org.gnome.Nautilus.desktop"
+        "org.gnome.Console.desktop"
+        "signal-desktop.desktop"
+        "spotify.desktop"
+        "code.desktop"
+        "steam.desktop"
+        "org.prismlauncher.PrismLauncher.desktop"
+        "info.cemu.Cemu.desktop"
+        "com.obsproject.Studio.desktop"
+      ];
+    };
+    "org/gnome/shell/extensions/dash-to-dock" = {
+      "animation-time" = 0.1;
+      "background-color" = "rgb(0,0,0)";
+      "click-action" = "focus-minimize-or-previews";
+      "custom-background-color" = true;
+      "customize-alphas" = true;
+      "disable-overview-on-startup" = true;
+      "intellihide" = false;
+      "min-alpha" = 0.0;
+      "max-alpha" = 1.0;
+      "require-pressure-to-show" = false;
+      "scroll-action" = "cycle-windows";
+      "shift-click-action" = "launch";
+      "show-mounts-network" = true;
+      "show-show-apps-button" = false;
+      "show-trash" = false;
+      "transparency-mode" = "DYNAMIC";
+    };
     "org/gtk/settings/file-chooser" = {
       "clock-format" = "12h";
     };
