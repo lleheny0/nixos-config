@@ -91,7 +91,7 @@
         customize-alphas = true;
         disable-overview-on-startup = true;
         intellihide = false;
-        multi-monitor = true;
+        multi-monitor = false;
         require-pressure-to-show = false;
         scroll-action = "cycle-windows";
         shift-click-action = "launch";
