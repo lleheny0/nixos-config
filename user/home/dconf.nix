@@ -85,6 +85,11 @@
           "com.obsproject.Studio.desktop"
         ];
       };
+      "org/gnome/shell/extensions/appindicator" = {
+        icon-opacity = 255;
+        icon-saturation = 1.0;
+        icon-size = 22;
+      };
       "org/gnome/shell/extensions/dash-to-dock" = {
         animation-time = 0.1;
         background-color = "rgb(0,0,0)";
