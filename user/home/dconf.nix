@@ -63,6 +63,7 @@
         sleep-inactive-ac-type = "nothing";
       };
       "org/gnome/shell" = {
+        disable-user-extensions = false;
         disabled-extensions = [];
         enabled-extensions = [
           "appindicatorsupport@rgcjonas.gmail.com"
