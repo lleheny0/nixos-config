@@ -39,6 +39,7 @@
       "org/gnome/mutter" = {
         center-new-windows = true;
         dynamic-workspaces = true;
+        edge-tiling = true;
         workspaces-only-on-primary = true;
       };
       "org/gnome/nautilus/icon-view" = {
