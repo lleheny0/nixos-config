@@ -97,6 +97,7 @@
         custom-background-color = true;
         customize-alphas = true;
         disable-overview-on-startup = true;
+        hotkeys-show-dock = false;
         intellihide = false;
         multi-monitor = false;
         require-pressure-to-show = false;
