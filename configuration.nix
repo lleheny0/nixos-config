@@ -50,6 +50,9 @@
   hardware.pulseaudio.enable = true;
   hardware.pulseaudio.support32Bit = true;
   hardware.pulseaudio.extraConfig = "load-module module-combine-sink";
+  hardware.pulseaudio.daemon.config = {
+    default-sample-rate = 48000;
+  };
   security.rtkit.enable = true;
   # services.pipewire = {
   #   enable = true;
