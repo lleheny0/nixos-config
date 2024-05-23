@@ -28,6 +28,7 @@
       obs-studio
       obs-studio-plugins.obs-vaapi
       openzone-cursors
+      pavucontrol
       prismlauncher
       protonup-ng
       signal-desktop
