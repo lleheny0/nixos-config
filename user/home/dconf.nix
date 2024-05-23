@@ -25,6 +25,11 @@
       "org/gnome/desktop/peripherals/mouse" = {
         accel-profile = "flat";
       };
+      "org/gnome/desktop/privacy" = {
+        remember-recent-files = false;
+        remove-old-temp-files = true;
+        remove-old-trash-files = true;
+      };
       "org/gnome/desktop/session" = {
         idle-delay = lib.hm.gvariant.mkUint32 900;
       };
