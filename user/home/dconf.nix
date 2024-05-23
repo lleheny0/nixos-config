@@ -52,7 +52,6 @@
       };
       "org/gnome/nautilus/list-view" = {
         default-zoom-level = "small";
-        use-tree-view = true;
       };
       "org/gnome/nautilus/preferences" = {
         date-time-format = "detailed";
