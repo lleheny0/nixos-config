@@ -20,7 +20,7 @@
       gnome3.gnome-tweaks
       gnomeExtensions.appindicator
       gnomeExtensions.dash-to-dock
-      # helvum
+      helvum
       home-manager
       joycond-cemuhook
       mpv

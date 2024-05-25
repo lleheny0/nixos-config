@@ -47,19 +47,19 @@
   services.printing.enable = true;
 
   sound.enable = true;
-  hardware.pulseaudio.enable = true;
-  hardware.pulseaudio.support32Bit = true;
-  hardware.pulseaudio.extraConfig = "load-module module-combine-sink";
-  hardware.pulseaudio.daemon.config = {
-    default-sample-rate = 48000;
-  };
-  security.rtkit.enable = true;
-  # services.pipewire = {
-  #   enable = true;
-  #   alsa.enable = true;
-  #   alsa.support32Bit = true;
-  #   pulse.enable = true;
+  hardware.pulseaudio.enable = false;
+  # hardware.pulseaudio.support32Bit = true;
+  # hardware.pulseaudio.extraConfig = "load-module module-combine-sink";
+  # hardware.pulseaudio.daemon.config = {
+  #   default-sample-rate = 48000;
   # };
+  security.rtkit.enable = true;
+  services.pipewire = {
+    enable = true;
+    alsa.enable = true;
+    alsa.support32Bit = true;
+    pulse.enable = true;
+  };
 
   fonts.packages = with pkgs; [
     comic-mono
