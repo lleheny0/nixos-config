@@ -35,6 +35,7 @@
       spotify
       vim
       vscode
+      webcord
     ];
   };
 }
