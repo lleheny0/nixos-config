@@ -10,7 +10,7 @@
     home = {
       username = "luke";
       homeDirectory = "/home/luke";
-      stateVersion = "24.05";
+      stateVersion = "24.11";
       packages = [];
     };
 
