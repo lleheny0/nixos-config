@@ -6,6 +6,7 @@
       ./hardware-configuration.nix
       ./keyd.nix
       ./mullvad.nix
+      ./private.nix
       ./user
     ];
 
@@ -70,6 +71,7 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.shellAliases = {
+    jc = "sudo joycond-cemuhook";
     nb = "sudo nixos-rebuild boot";
     nc = "sudo nix-collect-garbage -d";
     nr = "sudo nixos-rebuild switch";
