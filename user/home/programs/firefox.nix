@@ -83,7 +83,6 @@
         "media.hardware-video-decoding.force-enabled" = true;
         # "mousewheel.default.delta_multiplier_y" = 25;
         "places.history.enabled" = false;
-        "privacy.firstparty.isolate" = true;
         "privacy.userContext.enabled" = false;
         "ui.key.menuAccessKeyFocuses" = false;
       };
