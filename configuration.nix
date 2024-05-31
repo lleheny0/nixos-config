@@ -62,10 +62,9 @@
   };
 
   fonts.packages = with pkgs; [
-    comic-mono
     fantasque-sans-mono
-    fira-code
     freefont_ttf
+    iosevka
   ];
 
   nixpkgs.config.allowUnfree = true;
