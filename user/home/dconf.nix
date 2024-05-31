@@ -106,6 +106,7 @@
         intellihide = false;
         multi-monitor = false;
         require-pressure-to-show = false;
+        running-indicator-style = "DOTS";
         scroll-action = "cycle-windows";
         shift-click-action = "launch";
         show-mounts-network = true;
