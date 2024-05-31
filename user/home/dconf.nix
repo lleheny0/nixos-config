@@ -16,7 +16,7 @@
         font-name = "FreeSans 11";
         # "gtk-theme" = "Adwaita-dark";
         enable-hot-corners = false;
-        monospace-font-name = "Iosevka Bold 12";
+        monospace-font-name = "Fantasque Sans Mono Bold 12";
       };
       "org/gnome/desktop/notifications" = {
         show-banners = false;
