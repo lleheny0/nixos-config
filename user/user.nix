@@ -1,5 +1,10 @@
-{ pkgs, ... }:
+{ config, pkgs, ... }:
 
+let
+  stable = import
+    (builtins.fetchTarball https://github.com/nixos/nixpkgs/tarball/24.05)
+    { config = config.nixpkgs.config; };
+in
 {
   imports = [ ./home ];
 
@@ -11,7 +16,7 @@
       adwaita-qt
       amberol
       appimage-run
-      cemu
+      stable.cemu
       firefox
       fragments
       git
