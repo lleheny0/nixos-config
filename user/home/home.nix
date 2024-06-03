@@ -6,6 +6,8 @@
     ./programs
   ];
 
+  home-manager.useGlobalPkgs = true;
+
   home-manager.users.luke = {
     home = {
       username = "luke";
