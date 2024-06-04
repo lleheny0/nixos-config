@@ -14,7 +14,6 @@ in
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       adwaita-qt
-      amberol
       appimage-run
       stable.cemu
       firefox
