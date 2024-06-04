@@ -177,6 +177,7 @@
       "files.trimFinalNewlines" = true;
       "files.trimTrailingWhitespace" = true;
       "security.workspace.trust.untrustedFiles" = "open";
+      "telemetry.telemetryLevel" = "off";
       "terminal.integrated.fontSize" = 15;
       "terminal.integrated.fontWeight" = "bold";
       "vim.useSystemClipboard" = true;
