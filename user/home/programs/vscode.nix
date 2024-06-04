@@ -182,6 +182,7 @@
       "vim.useSystemClipboard" = true;
       "workbench.colorTheme" = "Monokai One Dark Vivid";
       "window.titleBarStyle" = "custom";
+      "workbench.startupEditor" = "none";
     };
   };
 }
