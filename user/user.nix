@@ -18,6 +18,7 @@ in
       stable.cemu
       firefox
       fragments
+      g4music
       git
       glfw-wayland-minecraft
       gnome.dconf-editor
