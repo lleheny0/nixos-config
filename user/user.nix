@@ -1,10 +1,5 @@
 { config, pkgs, ... }:
 
-let
-  stable = import
-    (builtins.fetchTarball https://github.com/nixos/nixpkgs/tarball/24.05)
-    { config = config.nixpkgs.config; };
-in
 {
   imports = [ ./home ];
 
@@ -15,7 +10,7 @@ in
     packages = with pkgs; [
       adwaita-qt
       appimage-run
-      stable.cemu
+      cemu
       firefox
       fragments
       g4music
