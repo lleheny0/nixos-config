@@ -6,6 +6,8 @@
     extensions = with pkgs.vscode-extensions; [
       # ashpowell.monokai-one-dark-vivid
       bbenoist.nix
+      dbaeumer.vscode-eslint
+      esbenp.prettier-vscode
       # ms-vscode.remote-explorer
       # ms-vscode-remote.remote-ssh
       # ms-vscode-remote.remote-ssh-edit
@@ -168,10 +170,12 @@
       }
     ];
     userSettings = {
+      "editor.defaultFormatter" = "esbenp.prettier-vscode";
       "editor.fontFamily" = "fantasque sans mono";
       "editor.fontLigatures" = true;
       "editor.fontSize" = 16;
       "editor.fontWeight" = 600;
+      "editor.formatOnSave" = true;
       "editor.tabSize" = 2;
       "files.insertFinalNewline" = true;
       "files.trimFinalNewlines" = true;
