@@ -67,7 +67,8 @@
   environment.shellAliases = {
     jc = "sudo joycond-cemuhook";
     nb = "sudo nixos-rebuild boot";
-    nc = "sudo nix-collect-garbage -d";
+    nc = "sudo nix-collect-garbage --delete-older-than 14d";
+    nf = "nu && nr && nc";
     nr = "sudo nixos-rebuild switch";
     nu = "sudo nix-channel --update";
   };
