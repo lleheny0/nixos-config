@@ -177,6 +177,7 @@
       "editor.fontWeight" = 600;
       "editor.formatOnSave" = true;
       "editor.tabSize" = 2;
+      "explorer.confirmDragAndDrop" = false;
       "files.insertFinalNewline" = true;
       "files.trimFinalNewlines" = true;
       "files.trimTrailingWhitespace" = true;
