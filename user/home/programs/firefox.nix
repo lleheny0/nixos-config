@@ -74,7 +74,6 @@
         "browser.warnOnQuitShortcut" = false;
         "datareporting.healthreport.uploadEnabled" = false;
         "dom.battery.enabled" = true;
-        "extensions.activeThemeID" = "firefox-compact-dark@mozilla.org";
         "extensions.formautofill.addresses.enabled" = false;
         "extensions.formautofill.creditCards.enabled" = false;
         "font.default.x-western" = "sans-serif";
