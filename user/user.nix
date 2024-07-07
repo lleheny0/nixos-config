@@ -17,8 +17,8 @@
       g4music
       git
       glfw-wayland-minecraft
-      gnome.dconf-editor
-      gnome3.gnome-tweaks
+      dconf-editor
+      gnome-tweaks
       gnomeExtensions.appindicator
       gnomeExtensions.dash-to-dock
       helvum
