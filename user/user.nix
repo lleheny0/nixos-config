@@ -11,6 +11,7 @@
       adwaita-qt
       appimage-run
       cemu
+      chromium
       firefox
       fragments
       g4music
