@@ -42,11 +42,6 @@
       PictureInPicture = {
         Enabled = false;
       };
-      SanitizeOnShutdown = {
-        Cache = true;
-        Cookies = true;
-        Locked = true;
-      };
     };
     profiles.default = {
       id = 0;
@@ -82,6 +77,15 @@
         "media.hardware-video-decoding.force-enabled" = true;
         # "mousewheel.default.delta_multiplier_y" = 25;
         "places.history.enabled" = false;
+        "privacy.clearOnShutdown.cache" = true;
+        "privacy.clearOnShutdown.cookies" = true;
+        "privacy.clearOnShutdown.downloads" = true;
+        "privacy.clearOnShutdown.formData" = true;
+        "privacy.clearOnShutdown.history" = false;
+        "privacy.clearOnShutdown.offlineApps" = true;
+        "privacy.clearOnShutdown.openWindows" = true;
+        "privacy.clearOnShutdown.sessions" = true;
+        "privacy.clearOnShutdown.siteSettings" = false;
         "privacy.userContext.enabled" = false;
         "ui.key.menuAccessKeyFocuses" = false;
       };
