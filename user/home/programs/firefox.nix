@@ -86,6 +86,7 @@
         "privacy.clearOnShutdown.openWindows" = true;
         "privacy.clearOnShutdown.sessions" = true;
         "privacy.clearOnShutdown.siteSettings" = false;
+        "privacy.sanitize.sanitizeOnShutdown" = true;
         "privacy.userContext.enabled" = false;
         "ui.key.menuAccessKeyFocuses" = false;
       };
