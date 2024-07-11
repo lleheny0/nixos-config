@@ -168,6 +168,18 @@
         "command" = "-git.revertSelectedRanges";
         "when" = "isInDiffEditor && !operationInProgress";
       }
+      {
+        "key" = "ctrl+t";
+        "command" = "-workbench.action.showAllSymbols";
+      }
+        {
+        "key" = "ctrl+t";
+        "command" = "workbench.action.quickOpen";
+      }
+      {
+        "key" = "ctrl+p";
+        "command" = "-workbench.action.quickOpen";
+      }
     ];
     userSettings = {
       "editor.defaultFormatter" = "esbenp.prettier-vscode";
