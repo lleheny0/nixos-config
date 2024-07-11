@@ -71,6 +71,7 @@
 
   environment.shellAliases = {
     jc = "sudo joycond-cemuhook";
+    mb = "cd /home/luke && rm -rf .mozilla.backup && mkdir .mozilla.backup && cp -r .mozilla/* .mozilla.backup";
     nb = "sudo nixos-rebuild boot";
     nc = "sudo nix-collect-garbage --delete-older-than 14d";
     nf = "nu && nr && nc";
