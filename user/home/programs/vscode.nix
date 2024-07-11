@@ -176,10 +176,6 @@
         "key" = "ctrl+t";
         "command" = "workbench.action.quickOpen";
       }
-      {
-        "key" = "ctrl+p";
-        "command" = "-workbench.action.quickOpen";
-      }
     ];
     userSettings = {
       "editor.defaultFormatter" = "esbenp.prettier-vscode";
