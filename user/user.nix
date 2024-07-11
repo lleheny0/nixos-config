@@ -11,9 +11,7 @@
       adwaita-qt
       appimage-run
       cemu
-      chromium
       firefox
-      fragments
       g4music
       git
       glfw-wayland-minecraft
