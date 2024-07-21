@@ -8,13 +8,13 @@
           main = {
             capslock = "layer(control)";
 
-            ## mac keyboard
-            # fn = "layer(aux)";
-            # leftmeta = "layer(alt)";
-            # leftalt = "layer(meta)";
+            # mac-hardware
+            fn = "layer(aux)";
+            leftmeta = "layer(alt)";
+            leftalt = "layer(meta)";
 
-            ## non-mac keyboard
-            leftcontrol = "layer(aux)";
+            # non-mac-hardware
+            # leftcontrol = "layer(aux)";
           };
           aux = {
             j = "down";
