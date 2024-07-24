@@ -107,7 +107,7 @@
         disable-overview-on-startup = true;
         hotkeys-show-dock = false;
         intellihide = false;
-        multi-monitor = false;
+        multi-monitor = true;
         require-pressure-to-show = false;
         running-indicator-style = "DOTS";
         scroll-action = "cycle-windows";
