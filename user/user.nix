@@ -10,6 +10,7 @@
     packages = with pkgs; [
       adwaita-qt
       appimage-run
+      btop
       cemu
       firefox
       g4music
