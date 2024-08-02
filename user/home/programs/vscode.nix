@@ -178,6 +178,7 @@
       }
     ];
     userSettings = {
+      "editor.colorDecorators" = false;
       "editor.defaultFormatter" = "esbenp.prettier-vscode";
       "editor.fontFamily" = "fantasque sans mono";
       "editor.fontLigatures" = true;
