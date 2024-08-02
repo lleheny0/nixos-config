@@ -11,10 +11,6 @@
         clock-show-seconds = false;
         clock-show-weekday = true;
         color-scheme = "prefer-dark";
-
-        # non-mac-hardware
-        # cursor-theme = "OpenZone_Black";
-
         document-font-name = "FreeSans 11";
         font-name = "FreeSans 11";
         # "gtk-theme" = "Adwaita-dark";

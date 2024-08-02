@@ -7,14 +7,6 @@
         settings = {
           main = {
             capslock = "layer(control)";
-
-            # mac-hardware
-            fn = "layer(aux)";
-            leftmeta = "layer(alt)";
-            leftalt = "layer(meta)";
-
-            # non-mac-hardware
-            # leftcontrol = "layer(aux)";
           };
           aux = {
             j = "down";

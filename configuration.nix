@@ -7,6 +7,7 @@
       ./keyd.nix
       ./mullvad.nix
       ./private.nix
+      ./variations/laptop.nix
       ./user
     ];
 
