@@ -35,6 +35,7 @@
         idle-delay = lib.mkDefault (lib.hm.gvariant.mkUint32 900);
       };
       "org/gnome/desktop/sound" = {
+        allow-volume-above-100-percent = true;
         event-sounds = false;
       };
       "org/gnome/desktop/wm/preferences" = {
