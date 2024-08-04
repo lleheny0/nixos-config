@@ -23,8 +23,8 @@
         show-in-lock-screen = false;
       };
       "org/gnome/desktop/peripherals/mouse" = {
-        accel-profile = "flat";
-        natural-scroll = false;
+        accel-profile = lib.mkDefault "flat";
+        natural-scroll = lib.mkDefault false;
       };
       "org/gnome/desktop/privacy" = {
         remember-recent-files = false;
@@ -32,7 +32,7 @@
         remove-old-trash-files = true;
       };
       "org/gnome/desktop/session" = {
-        idle-delay = lib.hm.gvariant.mkUint32 900;
+        idle-delay = lib.mkDefault (lib.hm.gvariant.mkUint32 900);
       };
       "org/gnome/desktop/sound" = {
         event-sounds = false;
