@@ -103,6 +103,7 @@
         custom-background-color = true;
         customize-alphas = true;
         disable-overview-on-startup = true;
+        hide-delay = 0.0001;
         hotkeys-show-dock = false;
         intellihide = false;
         multi-monitor = true;
@@ -110,6 +111,7 @@
         running-indicator-style = "DOTS";
         scroll-action = "cycle-windows";
         shift-click-action = "launch";
+        show-delay = 0.0001;
         show-mounts-network = true;
         show-show-apps-button = false;
         show-trash = false;
