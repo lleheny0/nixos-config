@@ -7,6 +7,7 @@
         settings = {
           main = {
             capslock = "layer(control)";
+            leftcontrol = "layer(aux)";
           };
           aux = {
             j = "down";

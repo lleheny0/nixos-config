@@ -11,6 +11,7 @@
         clock-show-seconds = false;
         clock-show-weekday = true;
         color-scheme = "prefer-dark";
+        cursor-theme = "OpenZone_Black";
         document-font-name = "FreeSans 11";
         font-name = "FreeSans 11";
         # "gtk-theme" = "Adwaita-dark";
@@ -23,6 +24,7 @@
       };
       "org/gnome/desktop/peripherals/mouse" = {
         accel-profile = "flat";
+        natural-scroll = false;
       };
       "org/gnome/desktop/privacy" = {
         remember-recent-files = false;

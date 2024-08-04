@@ -1,21 +1,16 @@
 { config, pkgs, ... }:
 
 {
-  imports =
-    [
-      ./hardware-configuration.nix
-      ./keyd.nix
-      ./mullvad.nix
-      ./private.nix
-      ./variations/laptop.nix
-      ./user
-    ];
+  imports = [
+    ./hardware-configuration.nix
+    ./base
+    ./modules
+  ];
 
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
   boot.kernelModules = [
-    "hid-nintendo"
     "v4l2loopback"
   ];
   boot.extraModulePackages = with config.boot.kernelPackages; [ v4l2loopback ];
@@ -68,29 +63,6 @@
   ];
 
   nixpkgs.config.allowUnfree = true;
-
-  environment.shellAliases = {
-    jc = "sudo joycond-cemuhook";
-    mb = "cd /home/luke && rm -rf .mozilla.backup && mkdir .mozilla.backup && cp -r .mozilla/* .mozilla.backup";
-    nb = "sudo nixos-rebuild boot";
-    nc = "sudo nix-collect-garbage --delete-older-than 14d";
-    nf = "mb && nu && nr && nc";
-    nr = "sudo nixos-rebuild switch";
-    nu = "sudo nix-channel --update";
-  };
-  environment.variables = {
-    BROWSER = "firefox";
-    EDITOR = "vim";
-  };
-  environment.systemPackages = with pkgs; [
-  ];
-
-  programs.steam.enable = true;
-
-  # todo: make this less bad
-  # systemd.tmpfiles.rules = [
-  #   ''f+ /run/gdm/.config/monitors.xml - gdm gdm - <monitors version="2"> <configuration> <logicalmonitor> <x>0</x> <y>0</y> <scale>1</scale> <primary>yes</primary> <monitor> <monitorspec> <connector>DP-1</connector> <vendor>BNQ</vendor> <product>ZOWIE XL LCD</product> <serial>7BK02001SL0</serial> </monitorspec> <mode> <width>1920</width> <height>1080</height> <rate>119.982</rate> </mode> </monitor> </logicalmonitor> <logicalmonitor> <x>3840</x> <y>0</y> <scale>1</scale> <monitor> <monitorspec> <connector>DP-3</connector> <vendor>HJW</vendor> <product>MACROSILICON</product> <serial>0x0002e9bd</serial> </monitorspec> <mode> <width>1920</width> <height>1080</height> <rate>60.000</rate> </mode> </monitor> </logicalmonitor> <logicalmonitor> <x>1920</x> <y>0</y> <scale>1</scale> <monitor> <monitorspec> <connector>DP-2</connector> <vendor>DEL</vendor> <product>DELL E2216H</product> <serial>JF44Y65IAM7L</serial> </monitorspec> <mode> <width>1920</width> <height>1080</height> <rate>60.000</rate> </mode> </monitor> </logicalmonitor> </configuration> </monitors>''
-  # ];
 
   system.stateVersion = "unstable";
 }
