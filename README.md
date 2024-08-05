@@ -12,25 +12,18 @@ sudo nix-channel --add https://github.com/nix-community/home-manager/archive/mas
 sudo nix-channel --update
 ```
 
-## 3. Create private.nix
+## 3. Clone repository
 ```bash
-touch private.nix
-```
-(This will eventually be automatic but I'm too busy to learn more Nix right now)
-
-## 4. Clone repository
-todo
-
-## 5. Move harware-configuration.nix to repo directory
-todo
-
-## 6. Import any relevant nixos-hardware modules from hardware-configuration.nix
-```
-<nixos-hardware/apple/macbook-pro/12-1>
+git clone git@github.com:lleheny0/nixos-config.git
 ```
 
-## 6. Create symlink to repo's configuration.nix
+## 4. Move harware-configuration.nix to repo directory
+```bash
+sudo mv /etc/nixos/hardware-configuration [repo_location]/
+```
+
+## 5. Create symlink to repo's configuration.nix
 ```bash
 sudo rm /etc/nixos/configuration.nix
-sudo ln -s [repo location]/configuration.nix /etc/nixos/configuration.nix
+sudo ln -s [repo_location]/configuration.nix /etc/nixos/configuration.nix
 ```
