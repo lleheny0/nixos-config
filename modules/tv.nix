@@ -5,6 +5,9 @@
 
   home-manager.users.luke = { lib, ... }: {
     dconf.settings = {
+      "org/gnome/desktop/interface" = {
+        text-scaling-factor = 1.5;
+      };
       "org/gnome/desktop/session" = {
         idle-delay = lib.hm.gvariant.mkUint32 0;
       };
