@@ -1,3 +1,5 @@
+{ lib, ... }:
+
 {
   services.keyd = {
     enable = true;
@@ -7,7 +9,7 @@
         settings = {
           main = {
             capslock = "layer(control)";
-            leftcontrol = "layer(aux)";
+            leftcontrol = lib.mkDefault "layer(aux)";
           };
           aux = {
             j = "down";

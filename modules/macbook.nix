@@ -6,7 +6,7 @@
   home-manager.users.luke = {
     dconf.settings = {
       "org/gnome/desktop/interface" = {
-        cursor-theme = "";
+        cursor-theme = "Adwaita";
       };
     };
     programs.firefox.profiles.default.settings = {
@@ -18,5 +18,15 @@
     fn = "layer(aux)";
     leftmeta = "layer(alt)";
     leftalt = "layer(meta)";
+    leftcontrol = "leftcontrol";
+  };
+
+  services.mbpfan = {
+    settings.general = {
+      polling_interval = 5;
+      max_temp = 75;
+      low_temp = 45;
+      high_temp = 60;
+    };
   };
 }
