@@ -17,6 +17,7 @@
         # "gtk-theme" = "Adwaita-dark";
         enable-hot-corners = false;
         monospace-font-name = "Fantasque Sans Mono Bold 12";
+        show-battery-percentage = true;
         text-scaling-factor = lib.mkDefault 1.0;
       };
       "org/gnome/desktop/notifications" = {
