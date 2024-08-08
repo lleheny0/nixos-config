@@ -2,6 +2,7 @@
 
 {
   imports = [
+    <nixos-hardware/apple/macbook-pro/12-1>
     ./touchpad.nix
   ];
 
