@@ -1,3 +1,5 @@
+{ config, pkgs, lib, ... }:
+
 {
   imports = [
     ./touchpad.nix
@@ -14,6 +16,8 @@
     };
   };
 
+  networking.hostName = "macbookpro";
+
   services.keyd.keyboards.default.settings.main = {
     fn = "layer(aux)";
     leftmeta = "layer(alt)";
@@ -24,9 +28,9 @@
   services.mbpfan = {
     settings.general = {
       polling_interval = 5;
-      max_temp = 75;
+      max_temp = 85;
       low_temp = 45;
-      high_temp = 60;
+      high_temp = 65;
     };
   };
 }

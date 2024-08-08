@@ -16,4 +16,6 @@
       };
     };
   };
+
+  networking.hostName = "tv";
 }
