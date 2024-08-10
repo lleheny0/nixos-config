@@ -5,6 +5,12 @@
         audible-bell = false;
         visual-bell = false;
       };
+      "org/gnome/desktop/background" = {
+        color-shading-type = "solid";
+        picture-options = "zoom";
+        picture-uri = "/home/luke/.background-image";
+        picture-uri-dark = "/home/luke/.background-image";
+      };
       "org/gnome/desktop/interface" = {
         clock-format = "12h";
         clock-show-date = true;
@@ -32,6 +38,12 @@
         remember-recent-files = false;
         remove-old-temp-files = true;
         remove-old-trash-files = true;
+      };
+      "org/gnome/desktop/screensaver" = {
+        color-shading-type = "solid";
+        picture-options = "zoom";
+        picture-uri = "/home/luke/.background-image";
+        picture-uri-dark = "/home/luke/.background-image";
       };
       "org/gnome/desktop/session" = {
         idle-delay = lib.mkDefault (lib.hm.gvariant.mkUint32 900);
@@ -125,5 +137,7 @@
         clock-format = "12h";
       };
     };
+
+    home.file.".background-image".source = ./background.png;
   };
 }
