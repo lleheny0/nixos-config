@@ -1,3 +1,5 @@
+{ pkgs, ... }:
+
 {
   imports = [
     ../modules/large-text.nix
@@ -5,6 +7,10 @@
   ];
 
   networking.hostName = "ideapad";
+
+  users.users.luke.packages = with pkgs; [
+    easyeffects
+  ];
 
   home-manager.users.luke = { lib, ... }: {
     dconf.settings = {
