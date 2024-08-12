@@ -16,7 +16,7 @@
         idle-delay = lib.hm.gvariant.mkUint32 0;
       };
       "org/gnome/settings-daemon/plugins/color" = {
-        night-light-temperature = lib.hm.gvariant.mkUint32 3750;
+        night-light-temperature = lib.hm.gvariant.mkUint32 3600;
       };
     };
   };
