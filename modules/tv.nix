@@ -4,12 +4,6 @@
     ../modules/logitech-k400-plus.nix
   ];
 
-  networking.hostName = "tv";
-
-  boot.extraModprobeConfig = ''
-    options snd_hda_intel power_save=0
-  '';
-
   home-manager.users.luke = { lib, ... }: {
     dconf.settings = {
       "org/gnome/desktop/session" = {
