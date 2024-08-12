@@ -11,9 +11,9 @@
   services.mbpfan = {
     settings.general = {
       polling_interval = 5;
-      max_temp = 85;
-      low_temp = 45;
-      high_temp = 65;
+      max_temp = 90;
+      low_temp = 50;
+      high_temp = 70;
     };
   };
 
