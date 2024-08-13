@@ -3,6 +3,7 @@
 {
   imports = [
     <nixos-hardware/apple/macbook-pro/12-1>
+    ../modules/laptop-speakers.nix
     ../modules/mac-input.nix
   ];
 

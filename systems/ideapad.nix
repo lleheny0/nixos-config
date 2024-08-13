@@ -2,15 +2,12 @@
 
 {
   imports = [
+    ../modules/laptop-speakers.nix
     ../modules/large-text.nix
     ../modules/slow-scroll.nix
   ];
 
   networking.hostName = "ideapad";
-
-  users.users.luke.packages = with pkgs; [
-    easyeffects
-  ];
 
   home-manager.users.luke = { lib, ... }: {
     dconf.settings = {
