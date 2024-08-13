@@ -76,6 +76,7 @@
           "font.name.sans-serif.x-western" = "FreeSans";
           "media.ffmpeg.vaapi.enabled" = true;
           "media.hardware-video-decoding.force-enabled" = true;
+          "mousewheel.default.delta_multiplier_x" = lib.mkDefault 100;
           "mousewheel.default.delta_multiplier_y" = lib.mkDefault 100;
           "places.history.enabled" = false;
           "privacy.clearOnShutdown.cache" = true;
