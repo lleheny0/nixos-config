@@ -34,6 +34,9 @@
         accel-profile = lib.mkDefault "flat";
         natural-scroll = lib.mkDefault false;
       };
+      "org/gnome/desktop/peripherals/touchpad" = {
+        tap-to-click = false;
+      };
       "org/gnome/desktop/privacy" = {
         remember-recent-files = false;
         remove-old-temp-files = true;
