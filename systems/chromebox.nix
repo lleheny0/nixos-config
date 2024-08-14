@@ -1,6 +1,7 @@
 {
   imports = [
-    ../modules/tv.nix
+    ./base
+    ./modules/tv.nix
   ];
 
   networking.hostName = "chromebox";

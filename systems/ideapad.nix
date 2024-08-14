@@ -2,9 +2,10 @@
 
 {
   imports = [
-    ../modules/laptop-speakers.nix
-    ../modules/large-text.nix
-    ../modules/slow-scroll.nix
+    ./base
+    ./modules/laptop-speakers.nix
+    ./modules/large-text.nix
+    ./modules/slow-scroll.nix
   ];
 
   networking.hostName = "ideapad";
