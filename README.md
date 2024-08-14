@@ -13,7 +13,8 @@ sudo nix-channel --update
 
 ```sh
 ssh-keygen -t ed25519 -C "luke.leheny@pm.me"
-ssh-add ~/.ssh/id_ed25519
+ssh-add /home/luke/.ssh/id_ed25519
+cat /home/luke/.ssh/id_ed25519
 ```
 
 [Add it to Github](https://github.com/settings/ssh/new)
