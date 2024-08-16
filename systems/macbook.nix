@@ -4,8 +4,7 @@
   imports = [
     ./base
     <nixos-hardware/apple/macbook-pro/12-1>
-    ./modules/laptop-speakers.nix
-    ./modules/mac-input.nix
+    ./modules/tv.nix
   ];
 
   networking.hostName = "macbookpro";
@@ -19,11 +18,11 @@
     };
   };
 
-  home-manager.users.luke = {
-    dconf.settings = {
-      "org/gnome/desktop/interface" = {
-        cursor-theme = "Adwaita";
-      };
-    };
-  };
+  # home-manager.users.luke = {
+  #   dconf.settings = {
+  #     "org/gnome/desktop/interface" = {
+  #       cursor-theme = "Adwaita";
+  #     };
+  #   };
+  # };
 }
