@@ -4,6 +4,8 @@
     ../modules/logitech-k400-plus.nix
   ];
 
+  services.logind.lidSwitch = "ignore";
+
   home-manager.users.luke = { lib, ... }: {
     dconf.settings = {
       "org/gnome/desktop/session" = {
