@@ -17,12 +17,4 @@
       max_temp = 90;
     };
   };
-
-  # home-manager.users.luke = {
-  #   dconf.settings = {
-  #     "org/gnome/desktop/interface" = {
-  #       cursor-theme = "Adwaita";
-  #     };
-  #   };
-  # };
 }
