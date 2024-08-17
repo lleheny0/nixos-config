@@ -1,6 +1,6 @@
 {
   imports = [
-    ./base
+    ./core
     ./modules/tv.nix
   ];
 
