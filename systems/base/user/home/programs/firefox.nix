@@ -58,7 +58,9 @@
           "browser.search.suggest.enabled.private" = true;
           "browser.sessionstore.restore_pinned_tabs_on_demand" = true;
           "browser.startup.page" = 3;
+          "browser.tabs.firefox-view" = false;
           "browser.tabs.tabClipWidth" = 0;
+          "browser.tabs.tabmanager.enabled" = false;
           "browser.urlbar.shortcuts.bookmarks" = false;
           "browser.urlbar.shortcuts.history" = false;
           "browser.urlbar.shortcuts.quickactions" = false;
