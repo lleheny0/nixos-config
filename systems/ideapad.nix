@@ -2,9 +2,9 @@
 
 {
   imports = [
-    ./core
-    ./modules/large-text.nix
-    ./modules/slow-scroll.nix
+    ../core
+    ../modules/large-text.nix
+    ../modules/slow-scroll.nix
   ];
 
   networking.hostName = "ideapad";

@@ -2,9 +2,9 @@
 
 {
   imports = [
-    ./core
+    ../core
     <nixos-hardware/apple/macbook-pro/12-1>
-    ./modules/tv.nix
+    ../modules/tv.nix
   ];
 
   networking.hostName = "macbookpro";
