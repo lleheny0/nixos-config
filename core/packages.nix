@@ -5,6 +5,7 @@
     btop
     git
     home-manager
+    lm_sensors
     vim
   ];
 }
