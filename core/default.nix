@@ -2,12 +2,11 @@
   imports = [
     ./boot.nix
     ./environment.nix
-    ./fonts.nix
-    ./gnome.nix
+    ./home.nix
     ./keyd.nix
     ./locale.nix
+    ./luke.nix
     ./networking.nix
-    ./pipewire.nix
-    ./user
+    ./packages.nix
   ];
 }

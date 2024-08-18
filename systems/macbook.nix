@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ../core
+    ../core/desktop
     <nixos-hardware/apple/macbook-pro/12-1>
     ../modules/tv.nix
   ];

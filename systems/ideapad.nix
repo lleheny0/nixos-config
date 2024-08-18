@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ../core
+    ../core/desktop
     ../modules/large-text.nix
     ../modules/slow-scroll.nix
   ];
