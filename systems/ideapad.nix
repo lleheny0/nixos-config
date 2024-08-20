@@ -4,6 +4,7 @@
   imports = [
     ../core/desktop
     ../modules/large-text.nix
+    ../modules/no-audio-powersave.nix
     ../modules/slow-scroll.nix
   ];
 
