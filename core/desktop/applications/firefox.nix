@@ -80,6 +80,8 @@
           "media.hardware-video-decoding.force-enabled" = true;
           "mousewheel.default.delta_multiplier_x" = lib.mkDefault 100;
           "mousewheel.default.delta_multiplier_y" = lib.mkDefault 100;
+          "permissions.default.desktop-notification" = 2;
+          "permissions.default.geo" = 2;
           "places.history.enabled" = false;
           "privacy.clearOnShutdown.cache" = true;
           "privacy.clearOnShutdown.cookies" = true;
