@@ -28,6 +28,8 @@
             d = "nextsong";
             z = "back";
             x = "forward";
+            c = "brightnessdown";
+            v = "brightnessup";
           };
           "control+alt" = {
             q = "A-f4";
