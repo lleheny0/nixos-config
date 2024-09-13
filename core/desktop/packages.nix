@@ -3,6 +3,7 @@
 {
   users.users.luke.packages = with pkgs; [
     adwaita-qt
+    alsa-utils
     firefox
     g4music
     dconf-editor
