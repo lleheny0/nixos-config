@@ -94,7 +94,7 @@
           "dash-to-dock@micxgx.gmail.com"
           "drive-menu@gnome-shell-extensions.gcampax.github.com"
           "places-menu@gnome-shell-extensions.gcampax.github.com"
-          "system-monitor@gnome-shell-extensions.gcampax.github.com"
+          "Vitals@CoreCoding.com"
         ];
         favorite-apps = [
           "firefox.desktop"
@@ -136,8 +136,13 @@
         show-trash = false;
         transparency-mode = "DEFAULT";
       };
-      "org/gnome/shell/extensions/system-monitor" = {
-        show-swap = false;
+      "org/gnome/shell/extensions/vitals" = {
+        hot-sensors = [
+          "__temperature_avg__"
+          "_processor_usage_"
+          "_memory_usage_"
+          "_storage_free_"
+        ];
       };
       "org/gtk/settings/file-chooser" = {
         clock-format = "12h";

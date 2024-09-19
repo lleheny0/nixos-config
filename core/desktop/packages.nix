@@ -11,6 +11,7 @@
     gnome-tweaks
     gnomeExtensions.appindicator
     gnomeExtensions.dash-to-dock
+    gnomeExtensions.vitals
     helvum
     mpv
     mullvad-vpn
