@@ -3,7 +3,6 @@
 {
   users.users.luke.packages = with pkgs; [
     adwaita-qt
-    alsa-utils
     firefox
     fragments
     g4music

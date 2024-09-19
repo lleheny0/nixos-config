@@ -2,6 +2,7 @@
 
 {
   users.users.luke.packages = with pkgs; [
+    alsa-utils
     btop
     git
     home-manager
