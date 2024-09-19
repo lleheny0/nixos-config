@@ -5,6 +5,7 @@
     adwaita-qt
     alsa-utils
     firefox
+    fragments
     g4music
     dconf-editor
     gnome-tweaks
