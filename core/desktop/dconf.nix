@@ -90,10 +90,11 @@
         disabled-extensions = [];
         enabled-extensions = [
           "appindicatorsupport@rgcjonas.gmail.com"
+          "apps-menu@gnome-shell-extensions.gcampax.github.com"
           "dash-to-dock@micxgx.gmail.com"
           "drive-menu@gnome-shell-extensions.gcampax.github.com"
           "places-menu@gnome-shell-extensions.gcampax.github.com"
-          "apps-menu@gnome-shell-extensions.gcampax.github.com"
+          "system-monitor@gnome-shell-extensions.gcampax.github.com"
         ];
         favorite-apps = [
           "firefox.desktop"
@@ -134,6 +135,9 @@
         show-show-apps-button = false;
         show-trash = false;
         transparency-mode = "DEFAULT";
+      };
+      "org/gnome/shell/extensions/system-monitor" = {
+        show-swap = false;
       };
       "org/gtk/settings/file-chooser" = {
         clock-format = "12h";
