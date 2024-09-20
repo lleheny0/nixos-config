@@ -78,6 +78,10 @@
       };
       "org/gnome/settings-daemon/plugins/color" = {
         night-light-enabled = true;
+        night-light-last-coordinates = lib.hm.gvariant.mkTuple([
+          41.8240
+          (-71.4128)
+        ]);
         night-light-schedule-automatic = true;
         night-light-temperature = lib.mkDefault (lib.hm.gvariant.mkUint32 3000);
       };
