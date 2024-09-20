@@ -141,6 +141,7 @@
         transparency-mode = "DEFAULT";
       };
       "org/gnome/shell/extensions/vitals" = {
+        hide-icons = true;
         hot-sensors = [
           "__temperature_avg__"
           "_processor_usage_"
