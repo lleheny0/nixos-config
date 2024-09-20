@@ -148,6 +148,7 @@
           "_memory_usage_"
           "_storage_free_"
         ];
+        menu-centered = true;
       };
       "org/gtk/settings/file-chooser" = {
         clock-format = "12h";
