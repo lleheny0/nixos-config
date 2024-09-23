@@ -8,8 +8,8 @@
       "org/gnome/desktop/background" = {
         color-shading-type = "solid";
         picture-options = "zoom";
-        picture-uri = "/home/luke/Pictures/wallpaper.png";
-        picture-uri-dark = "/home/luke/Pictures/wallpaper.png";
+        picture-uri = "/home/luke/Pictures/wallpaper.jpg";
+        picture-uri-dark = "/home/luke/Pictures/wallpaper.jpg";
       };
       "org/gnome/desktop/interface" = {
         clock-format = "12h";
@@ -45,8 +45,8 @@
       "org/gnome/desktop/screensaver" = {
         color-shading-type = "solid";
         picture-options = "zoom";
-        picture-uri = "/home/luke/Pictures/wallpaper.png";
-        picture-uri-dark = "/home/luke/Pictures/wallpaper.png";
+        picture-uri = "/home/luke/Pictures/wallpaper.jpg";
+        picture-uri-dark = "/home/luke/Pictures/wallpaper.jpg";
       };
       "org/gnome/desktop/session" = {
         idle-delay = lib.mkDefault (lib.hm.gvariant.mkUint32 900);
@@ -155,6 +155,6 @@
       };
     };
 
-    home.file."Pictures/wallpaper.png".source = ./images/wallpaper.png;
+    home.file."Pictures/wallpaper.jpg".source = ./images/wallpaper.jpg;
   };
 }
