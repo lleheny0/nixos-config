@@ -98,7 +98,7 @@
           "dash-to-dock@micxgx.gmail.com"
           "drive-menu@gnome-shell-extensions.gcampax.github.com"
           "places-menu@gnome-shell-extensions.gcampax.github.com"
-          "Vitals@CoreCoding.com"
+          # "Vitals@CoreCoding.com"
         ];
         favorite-apps = [
           "firefox.desktop"
