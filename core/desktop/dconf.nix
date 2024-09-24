@@ -135,6 +135,7 @@
         scroll-action = "cycle-windows";
         shift-click-action = "launch";
         show-delay = 0.0001;
+        show-dock-urgent-notify = false;
         show-mounts-network = true;
         show-show-apps-button = false;
         show-trash = false;
