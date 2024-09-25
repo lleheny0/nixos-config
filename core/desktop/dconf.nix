@@ -42,6 +42,13 @@
         remove-old-temp-files = true;
         remove-old-trash-files = true;
       };
+      "org/gnome/desktop/search-providers" = {
+        disabled = [
+          "org.gnome.Characters.desktop"
+          "org.gnome.clocks.desktop"
+          "org.gnome.Epiphany.desktop"
+        ];
+      };
       "org/gnome/desktop/screensaver" = {
         color-shading-type = "solid";
         picture-options = "zoom";
