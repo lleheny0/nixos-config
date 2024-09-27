@@ -15,6 +15,7 @@
     cemu
     glfw-wayland-minecraft
     joycond-cemuhook
+    mcaselector
     prismlauncher
     protonup-ng
   ];

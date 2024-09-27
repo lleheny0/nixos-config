@@ -12,7 +12,6 @@
     gnomeExtensions.dash-to-dock
     gnomeExtensions.vitals
     helvum
-    mcaselector
     mpv
     mullvad-vpn
     obs-studio
