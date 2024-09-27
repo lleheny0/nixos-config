@@ -19,33 +19,37 @@ cat /home/luke/.ssh/id_ed25519.pub
 
 [Add it to Github](https://github.com/settings/ssh/new)
 
-## 3. Clone repository
+## 3. Install vim and git in a temp shell
+
+```sh
+nix-shell -p vim git
+```
+
+## 4. Clone repository
 
 ```sh
 cd
 mkdir Projects
 cd Projects
-nix-shell -p git
 git clone git@github.com:lleheny0/nixos-config.git
 ```
 
-## 4. Relocate harware-configuration.nix
+## 5. Relocate harware-configuration.nix
 
 ```sh
 sudo mv /etc/nixos/hardware-configuration.nix /home/luke/Projects/nixos-config/
 ```
 
-## 5. Create symlink to configuration.nix
+## 6. Create symlink to configuration.nix
 
 ```sh
 sudo rm /etc/nixos/configuration.nix
 sudo ln -s /home/luke/Projects/nixos-config/configuration.nix /etc/nixos/configuration.nix
 ```
 
-## 6. Import system
+## 7. Import system
 
 ```sh
-nix-shell -p vim
 vim configuration.nix
 ```
 
@@ -58,10 +62,10 @@ Replace the line
 with something like
 
 ```nix
-./systems/macbook.nix
+./systems/desktop.nix
 ```
 
-## 7. Rebuild
+## 8. Rebuild
 
 ```sh
 rm /home/luke/.mozilla -rf
