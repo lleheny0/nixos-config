@@ -3,6 +3,9 @@
 {
   users.users.luke.packages = with pkgs; [
     adwaita-qt
+    beeper
+    exiftool
+    ffmpeg
     firefox
     fragments
     g4music
