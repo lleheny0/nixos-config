@@ -23,6 +23,7 @@
     pavucontrol
     signal-desktop
     spotify
+    texliveFull
     vscode
     webcord
   ];
