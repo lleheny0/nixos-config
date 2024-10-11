@@ -31,12 +31,17 @@
             c = "brightnessdown";
             v = "brightnessup";
           };
+          control = {
+            j = "escape";
+          };
           "control+alt" = {
             q = "A-f4";
+            j = "C-A-j";
           };
           "control+shift" = {
             "[" = "C-pageup";
             "]" = "C-pagedown";
+            j = "C-S-j";
           };
           "aux+shift" = {
             f1 = "C-S-f1";
