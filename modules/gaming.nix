@@ -16,7 +16,10 @@
     glfw-wayland-minecraft
     joycond-cemuhook
     mcaselector
+    piper
     prismlauncher
     protonup-ng
   ];
+
+  services.ratbagd.enable = true;
 }
