@@ -16,20 +16,18 @@
             k = "up";
             h = "left";
             l = "right";
-            y = "home";
-            u = "pagedown";
-            i = "pageup";
-            o = "end";
             q = "mute";
             w = "volumedown";
             e = "volumeup";
             a = "previoussong";
             s = "playpause";
             d = "nextsong";
+            f = "brightnessup";
+            g = "brightnessdown";
             z = "back";
             x = "forward";
-            c = "brightnessdown";
-            v = "brightnessup";
+            c = "home";
+            v = "end";
           };
           control = {
             j = "escape";
