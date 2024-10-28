@@ -3,6 +3,7 @@
 {
   users.users.luke.packages = with pkgs; [
     adwaita-qt
+    amberol
     beeper
     exiftool
     ffmpeg
