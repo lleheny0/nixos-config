@@ -49,6 +49,7 @@
         name = "default";
         isDefault = true;
         settings = {
+          "accessibility.force_disabled" = 1;
           "browser.aboutConfig.showWarning" = false;
           "browser.bookmarks.editDialog.showForNewBookmarks" = false;
           "browser.download.alwaysOpenPanel" = false;
