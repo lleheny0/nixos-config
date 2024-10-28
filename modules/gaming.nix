@@ -13,7 +13,7 @@
 
   users.users.luke.packages = with pkgs; [
     cemu
-    glfw-wayland-minecraft
+    glfw3-minecraft
     joycond-cemuhook
     mcaselector
     piper
