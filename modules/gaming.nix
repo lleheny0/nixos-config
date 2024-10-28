@@ -17,7 +17,7 @@
     joycond-cemuhook
     mcaselector
     piper
-    prismlauncher
+    (prismlauncher.override { jdks = [ jdk21 jdk8 ]; })
     protonup-ng
   ];
 
