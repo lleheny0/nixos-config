@@ -176,6 +176,14 @@
         "key" = "ctrl+t";
         "command" = "workbench.action.quickOpen";
       }
+      {
+        "key" = "ctrl+alt+t";
+        "command" = "workbench.action.openRecent";
+      }
+      {
+        "key" = "ctrl+r";
+        "command" = "-workbench.action.openRecent";
+      }
     ];
     userSettings = {
       "editor.colorDecorators" = false;
