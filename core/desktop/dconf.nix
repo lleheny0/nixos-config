@@ -128,11 +128,13 @@
       };
       "org/gnome/shell/extensions/dash-to-dock" = {
         animation-time = 0.1;
+        apply-custom-theme = true;
         background-color = "rgb(0,0,0)";
         click-action = "focus-minimize-or-previews";
-        custom-background-color = true;
+        custom-background-color = false;
         customize-alphas = true;
         disable-overview-on-startup = true;
+        dock-fixed = false;
         hide-delay = 0.0001;
         hotkeys-show-dock = false;
         intellihide = false;
