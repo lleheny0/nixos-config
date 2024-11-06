@@ -17,7 +17,6 @@
     gnomeExtensions.dash-to-dock
     gnomeExtensions.vitals
     helvum
-    mpv
     mullvad-vpn
     obs-studio
     obs-studio-plugins.obs-vaapi
@@ -26,6 +25,7 @@
     signal-desktop
     spotify
     texliveFull
+    vlc
     vscode
     webcord
   ];
