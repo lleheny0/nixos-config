@@ -5,6 +5,7 @@
     adwaita-qt
     amberol
     beeper
+    chromium
     exiftool
     ffmpeg
     firefox
