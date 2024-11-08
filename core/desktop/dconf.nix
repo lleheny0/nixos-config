@@ -160,6 +160,13 @@
         ];
         menu-centered = true;
       };
+      "org/gnome/TextEditor" = {
+        highlight-current-line = true;
+        keybindings = "vim";
+        restore-session = false;
+        show-grid = true;
+        style-scheme = "classic-dark";
+      };
       "org/gtk/settings/file-chooser" = {
         clock-format = "12h";
       };
