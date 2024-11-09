@@ -7,6 +7,7 @@
     ./locale.nix
     ./luke.nix
     ./networking.nix
+    ./nix.nix
     ./packages.nix
   ];
 }
