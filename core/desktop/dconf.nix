@@ -164,7 +164,7 @@
         highlight-current-line = true;
         keybindings = "vim";
         restore-session = false;
-        show-grid = true;
+        show-grid = false;
         style-scheme = "classic-dark";
       };
       "org/gtk/settings/file-chooser" = {
