@@ -62,6 +62,16 @@
         allow-volume-above-100-percent = true;
         event-sounds = false;
       };
+      "org/gnome/desktop/wm/keybindings" = {
+        cycle-group = ["<Super>Tab"];
+        cycle-group-backward = ["<Super>grave"];
+        switch-applications = [];
+        switch-applications-backward = [];
+        switch-group = [];
+        switch-group-backward = [];
+        switch-windows = ["<Alt>Tab"];
+        switch-windows-backward = ["<Alt>grave"];
+      };
       "org/gnome/desktop/wm/preferences" = {
         button-layout = "appmenu:minimize,maximize,close";
         mouse-button-modifier = "<Super>";
@@ -105,7 +115,6 @@
           "dash-to-dock@micxgx.gmail.com"
           "drive-menu@gnome-shell-extensions.gcampax.github.com"
           "places-menu@gnome-shell-extensions.gcampax.github.com"
-          # "Vitals@CoreCoding.com"
         ];
         favorite-apps = [
           "firefox.desktop"
@@ -120,6 +129,12 @@
           "info.cemu.Cemu.desktop"
           "com.obsproject.Studio.desktop"
         ];
+      };
+      "org/gnome/shell/app-switcher" = {
+        current-workspace-only = false;
+      };
+      "org/gnome/shell/window-switcher" = {
+        current-workspace-only = false;
       };
       "org/gnome/shell/extensions/appindicator" = {
         icon-opacity = 255;
