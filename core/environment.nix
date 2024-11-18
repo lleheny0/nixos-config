@@ -5,7 +5,7 @@
     dw = "dconf watch /";
     ll = "ls -alF";
     ir = "exiftool '-filename<CreateDate' -d '%Y-%m-%d %H.%M.%S%%-c.%%le' .";
-    mb = "cd /home/luke && rm -rf .mozilla.backup && mkdir .mozilla.backup && cp -r .mozilla/* .mozilla.backup";
+    mb = "pushd /home/luke && rm -rf .mozilla.backup && mkdir .mozilla.backup && cp -r .mozilla/* .mozilla.backup && popd";
     nb = "sudo nixos-rebuild boot";
     nf = "mb && nu && nb";
     nr = "sudo nixos-rebuild switch";
