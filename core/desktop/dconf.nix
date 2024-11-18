@@ -63,12 +63,12 @@
         event-sounds = false;
       };
       "org/gnome/desktop/wm/keybindings" = {
-        cycle-group = ["<Super>Tab"];
-        cycle-group-backward = ["<Super>grave"];
+        cycle-group = [];
+        cycle-group-backward = [];
         switch-applications = [];
         switch-applications-backward = [];
-        switch-group = [];
-        switch-group-backward = [];
+        switch-group = ["<Super>Tab"];
+        switch-group-backward = ["<Super>grave"];
         switch-windows = ["<Alt>Tab"];
         switch-windows-backward = ["<Alt>grave"];
       };
