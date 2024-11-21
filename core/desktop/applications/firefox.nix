@@ -3,17 +3,24 @@
     programs.firefox = {
       enable = true;
       policies = {
+        AutofillAddressEnabled = false;
+        AutofillCreditCardEnabled = false;
         DisableFirefoxStudies = true;
         DisableFormHistory = true;
         DisablePocket = true;
+        DisableProfileImport = true;
+        DisableProfileRefresh = true;
+        DisableSetDesktopBackground = true;
         DisableTelemetry = true;
         DisplayBookmarksToolbar = "never";
+        DisplayMenuBar = "never";
+        DontCheckDefaultBrowser = true;
         EnableTrackingProtection = {
           Value = true;
-          Locked = true;
           Cryptomining = true;
           Fingerprinting = true;
           EmailTracking = true;
+          Locked = true;
         };
         Extensions = {
           Install = [
@@ -37,11 +44,30 @@
           ImproveSuggest = false;
           Locked = true;
         };
+        HardwareAcceleration = true;
+        Homepage = {
+          StartPage = "previous-session";
+          Locked = true;
+        };
+        NewTabPage = false;
+        NoDefaultBookmarks = true;
         OfferToSaveLogins = false;
         OverrideFirstRunPage = "";
         PasswordManagerEnabled = false;
         PictureInPicture = {
           Enabled = false;
+          Locked = true;
+        };
+        PrimaryPassword = false;
+        SanitizeOnShutdown = {
+          Cache = true;
+          Cookies = true;
+          Downloads = true;
+          FormData = true;
+          History = false;
+          Sessions = true;
+          SiteSettings = false;
+          Locked = true;
         };
       };
       profiles.default = {
@@ -49,16 +75,14 @@
         name = "default";
         isDefault = true;
         settings = {
-          "accessibility.force_disabled" = 1;
+          "accessibility.force_disabled" = 0;
           "browser.aboutConfig.showWarning" = false;
           "browser.bookmarks.editDialog.showForNewBookmarks" = false;
           "browser.download.alwaysOpenPanel" = false;
           "browser.download.autohideButton" = false;
           "browser.formfill.enable" = false;
-          "browser.newtabpage.pinned" = [];
           "browser.search.suggest.enabled.private" = true;
           "browser.sessionstore.restore_pinned_tabs_on_demand" = true;
-          "browser.startup.page" = 3;
           "browser.tabs.firefox-view" = false;
           "browser.tabs.tabClipWidth" = 0;
           "browser.tabs.tabmanager.enabled" = false;
@@ -72,9 +96,6 @@
           "browser.urlbar.suggest.topsites" = false;
           "browser.warnOnQuitShortcut" = false;
           "datareporting.healthreport.uploadEnabled" = false;
-          "dom.battery.enabled" = true;
-          "extensions.formautofill.addresses.enabled" = false;
-          "extensions.formautofill.creditCards.enabled" = false;
           "font.default.x-western" = "sans-serif";
           "font.name.sans-serif.x-western" = "FreeSans";
           "media.ffmpeg.vaapi.enabled" = true;
@@ -84,18 +105,6 @@
           "permissions.default.desktop-notification" = 2;
           "permissions.default.geo" = 2;
           "places.history.enabled" = false;
-          "privacy.clearOnShutdown.cache" = true;
-          "privacy.clearOnShutdown.cookies" = true;
-          "privacy.clearOnShutdown.downloads" = true;
-          "privacy.clearOnShutdown.formData" = true;
-          "privacy.clearOnShutdown.history" = false;
-          "privacy.clearOnShutdown.offlineApps" = true;
-          "privacy.clearOnShutdown.openWindows" = true;
-          "privacy.clearOnShutdown.sessions" = true;
-          "privacy.clearOnShutdown.siteSettings" = false;
-          "privacy.sanitize.sanitizeOnShutdown" = true;
-          "privacy.userContext.enabled" = false;
-          "ui.key.menuAccessKeyFocuses" = false;
         };
       };
     };
