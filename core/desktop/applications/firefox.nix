@@ -83,6 +83,7 @@
           "browser.formfill.enable" = false;
           "browser.search.suggest.enabled.private" = true;
           "browser.sessionstore.restore_pinned_tabs_on_demand" = true;
+          "browser.startup.homepage" = "chrome://browser/content/blanktab.html";
           "browser.tabs.firefox-view" = false;
           "browser.tabs.tabClipWidth" = 0;
           "browser.tabs.tabmanager.enabled" = false;
