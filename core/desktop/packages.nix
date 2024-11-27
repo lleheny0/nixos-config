@@ -3,14 +3,12 @@
 {
   users.users.luke.packages = with pkgs; [
     adwaita-qt
-    amberol
     beeper
     chromium
     exiftool
     ffmpeg
     firefox
     fragments
-    g4music
     dconf-editor
     gnome-tweaks
     gnomeExtensions.appindicator
