@@ -202,6 +202,7 @@
       "telemetry.telemetryLevel" = "off";
       "terminal.integrated.fontSize" = 15;
       "terminal.integrated.fontWeight" = "bold";
+      "update.mode" = "none";
       "vim.useSystemClipboard" = true;
       "workbench.colorTheme" = "Monokai One Dark Vivid";
       "window.titleBarStyle" = "custom";
