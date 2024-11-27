@@ -16,7 +16,6 @@
     gnomeExtensions.appindicator
     gnomeExtensions.dash-to-dock
     helvum
-    mullvad-vpn
     obs-studio
     obs-studio-plugins.obs-vaapi
     openzone-cursors
