@@ -15,7 +15,6 @@
     gnome-tweaks
     gnomeExtensions.appindicator
     gnomeExtensions.dash-to-dock
-    gnomeExtensions.vitals
     helvum
     mullvad-vpn
     obs-studio

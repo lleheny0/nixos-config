@@ -165,16 +165,6 @@
         show-trash = false;
         transparency-mode = "DEFAULT";
       };
-      "org/gnome/shell/extensions/vitals" = {
-        hide-icons = true;
-        hot-sensors = [
-          "__temperature_avg__"
-          "_processor_usage_"
-          "_memory_usage_"
-          "_storage_free_"
-        ];
-        menu-centered = true;
-      };
       "org/gnome/TextEditor" = {
         highlight-current-line = true;
         keybindings = "vim";
