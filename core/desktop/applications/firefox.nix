@@ -101,8 +101,8 @@
           "font.name.sans-serif.x-western" = "FreeSans";
           "media.ffmpeg.vaapi.enabled" = true;
           "media.hardware-video-decoding.force-enabled" = true;
-          "mousewheel.default.delta_multiplier_x" = lib.mkDefault 250;
-          "mousewheel.default.delta_multiplier_y" = lib.mkDefault 250;
+          "mousewheel.default.delta_multiplier_x" = lib.mkDefault 400;
+          "mousewheel.default.delta_multiplier_y" = lib.mkDefault 400;
           "permissions.default.desktop-notification" = 2;
           "permissions.default.geo" = 2;
           "places.history.enabled" = false;
