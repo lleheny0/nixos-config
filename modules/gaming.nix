@@ -1,11 +1,11 @@
 { config, pkgs, ... }:
 
 # Uncomment the commented lines to switch to stable cemu
-# let
-#   stable = import
-#     (builtins.fetchTarball https://github.com/nixos/nixpkgs/tarball/24.05)
-#     { config = config.nixpkgs.config; };
-# in
+let
+  stable = import
+    (builtins.fetchTarball https://github.com/nixos/nixpkgs/tarball/24.05)
+    { config = config.nixpkgs.config; };
+in
 {
   boot.kernelModules = [
     "hid-nintendo"
@@ -18,8 +18,8 @@
   programs.steam.enable = true;
 
   users.users.luke.packages = with pkgs; [
-    # stable.cemu
-    cemu
+    stable.cemu
+    # cemu
     glfw3-minecraft
     joycond-cemuhook
     mcaselector
