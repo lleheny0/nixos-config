@@ -6,6 +6,7 @@
     audacity
     beeper
     chromium
+    discord
     exiftool
     ffmpeg
     firefox
