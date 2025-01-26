@@ -121,7 +121,7 @@
           "org.gnome.Nautilus.desktop"
           "org.gnome.Console.desktop"
           "signal-desktop.desktop"
-          "webcord.desktop"
+          "discord.desktop"
           "spotify.desktop"
           "code.desktop"
           "steam.desktop"
