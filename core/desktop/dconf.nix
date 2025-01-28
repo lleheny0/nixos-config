@@ -165,6 +165,9 @@
         show-trash = false;
         transparency-mode = "DEFAULT";
       };
+      "org/gnome/system/location" = {
+        enabled = true;
+      };
       "org/gnome/TextEditor" = {
         highlight-current-line = true;
         keybindings = "vim";
