@@ -127,6 +127,7 @@
           "steam.desktop"
           "org.prismlauncher.PrismLauncher.desktop"
           "info.cemu.Cemu.desktop"
+          "org.pipewire.Helvum.desktop"
           "com.obsproject.Studio.desktop"
         ];
       };
