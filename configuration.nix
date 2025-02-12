@@ -8,5 +8,5 @@
 
   nixpkgs.config.allowUnfree = true;
 
-  system.stateVersion = "unstable";
+  system.stateVersion = "23.11";
 }
