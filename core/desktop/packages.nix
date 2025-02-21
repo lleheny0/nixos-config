@@ -26,6 +26,5 @@
     texliveFull
     vlc
     vscode
-    webcord
   ];
 }
