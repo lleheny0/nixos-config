@@ -50,7 +50,7 @@ sudo ln -s /home/luke/Projects/nixos-config/configuration.nix /etc/nixos/configu
 ## 7. Import system
 
 ```sh
-vim configuration.nix
+vim /home/luke/Projects/nixos-config/configuration.nix
 ```
 
 Replace the line
