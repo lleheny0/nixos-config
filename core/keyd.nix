@@ -22,8 +22,8 @@
             a = "previoussong";
             s = "playpause";
             d = "nextsong";
-            f = "brightnessup";
-            g = "brightnessdown";
+            f = "brightnessdown";
+            g = "brightnessup";
             z = "back";
             x = "forward";
             c = "home";
