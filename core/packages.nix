@@ -9,5 +9,6 @@
     lm_sensors
     unzip
     vim
+    wget
   ];
 }
