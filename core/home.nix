@@ -20,13 +20,5 @@
       userName  = "Luke Leheny";
       userEmail = "luke.leheny@pm.me";
     };
-
-    qt = {
-      enable = true;
-      platformTheme = {
-        name = "gnome";
-      };
-      style.name = "adwaita-dark";
-    };
   };
 }
