@@ -1,7 +1,8 @@
 {
   imports = [
-    ../modules/large-text.nix
-    ../modules/logitech-k400-plus.nix
+    ./ignore-lid.nix
+    ./large-text.nix
+    ./logitech-k400-plus.nix
   ];
 
   services.logind.lidSwitch = "ignore";
