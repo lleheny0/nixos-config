@@ -2,6 +2,7 @@
   imports = [
     ./boot.nix
     ./environment.nix
+    ./git.nix
     ./home.nix
     ./keyd.nix
     ./locale.nix

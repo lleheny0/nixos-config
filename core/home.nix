@@ -14,11 +14,5 @@
     };
 
     programs.home-manager.enable = true;
-
-    programs.git = {
-      enable = true;
-      userName  = "Luke Leheny";
-      userEmail = "luke.leheny@pm.me";
-    };
   };
 }
