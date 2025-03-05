@@ -3,6 +3,7 @@
     ../default.nix
     # ./caddy.nix
     ./environment.nix
+    ./home.nix
     ./httpd.nix
     ./icecast.nix
     ./mpd.nix
