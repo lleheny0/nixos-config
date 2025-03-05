@@ -1,10 +1,11 @@
 { pkgs, ... }:
 
 {
+  systemd.services.httpd.path = with pkgs; [ mpc ];
+
   services.httpd = {
     enable = true;
     enablePHP = true;
-    user = "luke";
     phpPackage = pkgs.php;
     virtualHosts."localhost" = {
       documentRoot = "/home/luke/Projects/vgm-radio";
