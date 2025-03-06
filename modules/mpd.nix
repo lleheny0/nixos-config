@@ -36,6 +36,7 @@
 
   services.mpd = {
     enable = true;
+    user = "luke";
     musicDirectory = "/home/luke/Music/VGM";
     extraConfig = ''
       audio_output {

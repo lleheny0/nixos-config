@@ -5,6 +5,7 @@
 
   services.httpd = {
     enable = true;
+    user = "luke";
     enablePHP = true;
     phpPackage = pkgs.php;
     virtualHosts."localhost" = {
