@@ -171,7 +171,6 @@
       };
       "org/gnome/TextEditor" = {
         highlight-current-line = true;
-        keybindings = "vim";
         restore-session = false;
         show-grid = false;
         style-scheme = "classic-dark";
