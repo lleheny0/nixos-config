@@ -81,6 +81,7 @@
           "browser.download.alwaysOpenPanel" = false;
           "browser.download.autohideButton" = false;
           "browser.formfill.enable" = false;
+          "browser.ml.chat.enabled" = false;
           "browser.search.suggest.enabled.private" = true;
           "browser.sessionstore.restore_pinned_tabs_on_demand" = true;
           "browser.startup.homepage" = "chrome://browser/content/blanktab.html";
@@ -107,6 +108,8 @@
           "permissions.default.desktop-notification" = 2;
           "permissions.default.geo" = 2;
           "places.history.enabled" = false;
+          "sidebar.revamp" = false;
+          "sidebar.visibility" = "hide-sidebar";
         };
       };
     };
