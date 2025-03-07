@@ -7,6 +7,7 @@
     git
     home-manager
     lm_sensors
+    tmux
     unzip
     vim
     wget
