@@ -5,6 +5,7 @@
     ./httpd.nix
     ./icecast.nix
     ./mpd.nix
+    ./vgm-backup.nix
     ./vgm-scripts.nix
   ];
 
