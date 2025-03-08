@@ -7,10 +7,12 @@
 
   systemd.services.minecraft-backup = {
     description = "Backup the Minecraft folder";
+    path = with pkgs; [
+      gnutar
+      gzip
+    ];
     script = ''
-      #!/bin/bash
-      timestamp=$(date +%Y-%m-%d)
-      tar -czvf "/home/luke/Backups/Minecraft/$timestamp.tar.gz" -C /home/luke/Minecraft .
+      tar -czf "/home/luke/Backups/Minecraft/$(date +%Y-%m-%d).tar.gz" -C /home/luke/Minecraft .
       ls -F /home/luke/Backups/Minecraft/*.tar.gz | head -n -7 | xargs -r rm
       # Set this up after figuring out the secondary drive
       # cp -rv /home/luke/Backups/Minecraft /mnt/hdd/backups
