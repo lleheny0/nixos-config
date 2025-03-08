@@ -28,6 +28,7 @@
     piper
     (prismlauncher.override { jdks = [ jdk21 jdk8 ]; })
     protonup-ng
+    radeontop
   ];
 
   services.ratbagd.enable = true;
