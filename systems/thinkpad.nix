@@ -9,9 +9,7 @@
   services.thinkfan = {
     enable = true;
     levels = [
-      [0 0 45]
-      [2 45 100]
-      [7 100 255]
+      [2 0 255]
     ];
   };
 }
