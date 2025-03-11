@@ -1,8 +1,8 @@
 {
   imports = [
     ../core/desktop
-    ../modules/no-audio-powersave.nix
-    ../modules/tv.nix
+    ../modules/hardware/no-audio-powersave.nix
+    ../modules/hardware/tv.nix
   ];
 
   networking.hostName = "chromebox";

@@ -3,9 +3,9 @@
 {
   imports = [
     ../core/desktop
-    ../modules/large-text.nix
-    ../modules/no-audio-powersave.nix
-    ../modules/slow-scroll.nix
+    ../modules/hardware/large-text.nix
+    ../modules/hardware/no-audio-powersave.nix
+    ../modules/hardware/slow-scroll.nix
   ];
 
   networking.hostName = "ideapad";

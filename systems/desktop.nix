@@ -1,8 +1,8 @@
 {
   imports = [
     ../core/desktop
-    ../modules/gaming.nix
-    ../modules/multi-monitor.nix
+    ../modules/desktop/gaming.nix
+    ../modules/hardware/multi-monitor.nix
   ];
 
   networking.hostName = "desktop";

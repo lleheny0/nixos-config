@@ -13,7 +13,7 @@
         host "localhost"
         port "8000"
         mount "/vgmradio"
-        password set_password_here
+        password " "
         bitrate "128"
         format "44100:16:1"
         protocol "icecast2"

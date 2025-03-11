@@ -6,13 +6,13 @@
       address = "localhost";
       port = 8000;
     };
-    admin.password = set_password_here;
+    admin.password = " ";
     extraConf = ''
       <authentication>
-        <source-password>set_password_here</source-password>
-        <relay-password>set_password_here</relay-password>
-        <admin-user>set_password_here</admin-user>
-        <admin-password>set_password_here</admin-password>
+        <source-password> </source-password>
+        <relay-password> </relay-password>
+        <admin-user> </admin-user>
+        <admin-password> </admin-password>
       </authentication>
       <hostname>localhost</hostname>
       <listen-socket>

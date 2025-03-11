@@ -1,7 +1,7 @@
 {
   imports = [
     ../core/desktop
-    ../modules/tv.nix
+    ../modules/hardware/tv.nix
   ];
 
   networking.hostName = "thinkpad";
