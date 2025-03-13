@@ -1,8 +1,7 @@
 {
   imports = [
     ../core/desktop
-    ../modules/hardware/no-audio-powersave.nix
-    ../modules/hardware/tv.nix
+    ../modules/hardware/logitech-k400-plus.nix
   ];
 
   networking.hostName = "chromebox";
