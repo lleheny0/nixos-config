@@ -13,6 +13,8 @@
     "hid-nintendo"
   ];
 
+  boot.kernelParams = [ "bluetooth.disable_ertm=1" ];
+
   environment.shellAliases = {
     jc = "sudo joycond-cemuhook";
   };
