@@ -23,7 +23,7 @@
     pavucontrol
     signal-desktop
     spotify
-    texliveFull
+    # texliveFull
     vlc
     vscode
   ];
