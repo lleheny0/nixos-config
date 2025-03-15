@@ -25,7 +25,9 @@
     # stable.cemu
     cemu
     glfw3-minecraft
+    goverlay
     joycond-cemuhook
+    mangohud
     mcaselector
     piper
     (prismlauncher.override { jdks = [ jdk21 jdk8 ]; })
@@ -34,4 +36,6 @@
   ];
 
   services.ratbagd.enable = true;
+
+  home-manager.users.luke.home.file.".config/MangoHud/MangoHud.conf".source = ./dotfiles/MangoHud.conf;
 }
