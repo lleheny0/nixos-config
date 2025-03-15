@@ -200,6 +200,7 @@
         "files.trimFinalNewlines" = true;
         "files.trimTrailingWhitespace" = true;
         "security.workspace.trust.untrustedFiles" = "open";
+        "svelte.enable-ts-plugin" = true;
         "telemetry.telemetryLevel" = "off";
         "terminal.integrated.fontSize" = 15;
         "terminal.integrated.fontWeight" = "bold";
