@@ -2,7 +2,7 @@
 
 {
   systemd.services.vgm-backup = {
-    description = "Backup the VGM folder";
+    description = "Backup the Music folder";
     script = ''
       # TODO: Set this up after figuring out the secondary drive
       # mv /mnt/hdd/backups/music /mnt/hdd/backups/music.old

@@ -9,7 +9,7 @@
         mpc stop -q
         mpc clear -q
         mpc update --wait -q
-        cd /home/luke/Music/VGM
+        cd /home/luke/Music
         find -- * -mindepth 1 | grep mp3 | mpc --wait add
         mpc play
         sudo systemctl restart mpd
