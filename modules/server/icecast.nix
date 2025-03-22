@@ -11,7 +11,7 @@
       <authentication>
         <source-password> </source-password>
         <relay-password> </relay-password>
-        <admin-user> </admin-user>
+        <admin-user>admin</admin-user>
         <admin-password> </admin-password>
       </authentication>
       <hostname>localhost</hostname>
