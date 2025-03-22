@@ -12,10 +12,10 @@
       documentRoot = "/home/luke/Projects/vgm-radio";
       listen = [{
         ip = "*";
-        port = 8080;
+        port = 80;
       }];
     };
   };
 
-  networking.firewall.allowedTCPPorts = [ 8080 ];
+  networking.firewall.allowedTCPPorts = [ 80 ];
 }
