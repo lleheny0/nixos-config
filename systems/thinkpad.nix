@@ -1,7 +1,9 @@
 {
   imports = [
-    ../core/desktop
-    ../modules/hardware/tv.nix
+    ../core/server
+    ../modules/hardware/ignore-lid.nix
+    ../modules/server/minecraft-server.nix
+    ../modules/server/vgm-radio.nix
   ];
 
   networking.hostName = "thinkpad";
@@ -9,7 +11,7 @@
   services.thinkfan = {
     enable = true;
     levels = [
-      [2 0 255]
+      [1 0 255]
     ];
   };
 }
