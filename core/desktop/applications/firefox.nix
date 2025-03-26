@@ -1,4 +1,8 @@
 {
+  imports = [
+    ./ublock-origin.nix
+  ];
+
   home-manager.users.luke = { lib, ... }: {
     programs.firefox = {
       enable = true;
