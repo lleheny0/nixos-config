@@ -4,7 +4,8 @@
   systemd.services.vgm-backup = {
     description = "Backup the Music folder";
     script = ''
-      cp -rnv /home/luke/Music /backup
+      rm -r /backup/Music
+      cp -r /home/luke/Music /backup
     '';
     serviceConfig = {
       Type = "oneshot";
