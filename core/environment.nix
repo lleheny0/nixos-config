@@ -5,7 +5,7 @@
     shellAliases = {
       ll = "ls -alF";
       nb = "sudo nixos-rebuild boot";
-      nr = "sudo nixos-rebuild switch";
+      ns = "sudo nixos-rebuild switch";
       nu = "sudo nix-channel --update";
     };
 
