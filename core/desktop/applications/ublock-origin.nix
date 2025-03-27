@@ -22,7 +22,7 @@
           ! Youtube ambient mode
           www.youtube.com###cinematics
           www.youtube.com###shorts-cinematic-container
-          youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_cinematics, false)
+          www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_cinematics, false)
 
           ! Youtube shorts
           www.youtube.com##[is-shorts]
