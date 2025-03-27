@@ -18,12 +18,11 @@
   programs.appimage = {
     enable = true;
     binfmt = true;
-  };
-
-  programs.appimage.package = pkgs.appimage-run.override {
-    extraPkgs = with pkgs; pkgs: [
-      curl
-    ];
+    package = pkgs.appimage-run.override {
+      extraPkgs = pkgs: [
+        pkgs.curl
+      ];
+    };
   };
 
   environment.shellAliases = {
