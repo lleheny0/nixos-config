@@ -3,7 +3,7 @@
 {
   users.users.luke.packages = with pkgs; [
     alsa-utils
-    btop
+    btop-rocm
     git
     home-manager
     lm_sensors
