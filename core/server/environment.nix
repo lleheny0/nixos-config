@@ -1,7 +1,7 @@
 {
   environment.shellAliases = {
-    nub = "nu && nb";
-    nus = "nu && ns";
+    npub = "np && nu && nb";
+    npus = "np && nu && ns";
     ta = "tmux attach";
   };
 }
