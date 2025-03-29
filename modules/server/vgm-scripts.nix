@@ -3,13 +3,13 @@
 {
   users.users.luke.packages = with pkgs; [
     (writeShellApplication {
-      name = "vgmupdate";
+      name = "vu";
       runtimeInputs = [ mpc ];
       text = ''
+        cd /home/luke/Music
         mpc stop -q
         mpc clear -q
         mpc update --wait -q
-        cd /home/luke/Music
         find -- * -mindepth 1 | grep mp3 | mpc --wait add
         mpc play
         sudo systemctl restart mpd
@@ -19,15 +19,15 @@
         echo "File count:     $FILE_COUNT"
         echo "Playlist count: $MPC_COUNT"
         echo "Done!"
+        cd ~-
       '';
     })
     (writeShellApplication {
-      name = "vgmgain";
+      name = "vg";
       runtimeInputs = [ mp3gain ];
       text = ''
         mpc stop
         find "$(pwd)" -type f -iname '*.mp3' -exec mp3gain -r -c -s i {} +
-        mpc play
       '';
     })
   ];
