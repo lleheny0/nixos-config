@@ -36,8 +36,8 @@ def get_meta(_, response) =
     game = "#{game}",
     track = "#{track}",
     cover = "#{cover()}",
-    remaining = "#{radio.remaining()}",
-    duration = "#{radio.duration()}",
+    remaining = radio.remaining(),
+    duration = radio.duration()
   }
 
   response.json(data)
