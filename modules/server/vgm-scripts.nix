@@ -6,19 +6,11 @@
       name = "vu";
       runtimeInputs = [ mpc ];
       text = ''
-        cd /home/luke/Music
-        mpc stop -q
-        mpc clear -q
-        mpc update --wait -q
-        find -- * -mindepth 1 | grep mp3 | mpc --wait add
-        mpc play
-        sudo systemctl restart mpd
-
-        FILE_COUNT=$(find -- * -mindepth 1 | grep -c mp3)
-        MPC_COUNT=$(mpc playlist | wc -l)
-        echo "File count:     $FILE_COUNT"
-        echo "Playlist count: $MPC_COUNT"
-        echo "Done!"
+        cd /vgm
+        sudo systemctl stop vgm-stream
+        rm ./playlist.txt
+        find ~+ -mindepth 2 | grep mp3 >> ./playlist.txt
+        sudo systemctl start vgm-stream
         cd ~-
       '';
     })

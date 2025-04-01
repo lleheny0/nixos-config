@@ -5,7 +5,7 @@
     description = "Backup the Music folder";
     script = ''
       rm -r /backup/Music
-      cp -r /home/luke/Music /backup
+      cp -r /vgm/Music /backup
     '';
     serviceConfig = {
       Type = "oneshot";

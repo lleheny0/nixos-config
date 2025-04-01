@@ -4,7 +4,7 @@
   imports = [
     ./httpd.nix
     ./icecast.nix
-    ./mpd.nix
+    ./liquidsoap.nix
     ./vgm-backup.nix
     ./vgm-scripts.nix
   ];

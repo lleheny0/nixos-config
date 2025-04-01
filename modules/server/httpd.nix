@@ -5,11 +5,10 @@
 
   services.httpd = {
     enable = true;
-    user = "luke";
     enablePHP = true;
     phpPackage = pkgs.php;
     virtualHosts."localhost" = {
-      documentRoot = "/home/luke/Projects/vgm-radio";
+      documentRoot = "/vgm/vgm-radio";
       listen = [{
         ip = "*";
         port = 80;

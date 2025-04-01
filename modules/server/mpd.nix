@@ -3,8 +3,7 @@
 {
   services.mpd = {
     enable = true;
-    user = "luke";
-    musicDirectory = "/home/luke/Music";
+    musicDirectory = "/vgm/Music";
     extraConfig = ''
       audio_output {
         type "shout"
