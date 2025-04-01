@@ -4,7 +4,6 @@
   users.users.luke.packages = with pkgs; [
     (writeShellApplication {
       name = "vu";
-      runtimeInputs = [ mpc ];
       text = ''
         cd /vgm
         sudo systemctl stop vgm-stream

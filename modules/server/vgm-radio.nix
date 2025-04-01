@@ -10,7 +10,6 @@
   ];
 
   users.users.luke.packages = with pkgs; [
-    mpc
     mp3gain
   ];
 }
