@@ -3,6 +3,8 @@ radio = playlist(
   "/vgm/playlist.txt"
 )
 radio = mksafe(radio)
+enable_replaygain_metadata()
+radio = replaygain(radio)
 
 meta = ref([])
 
