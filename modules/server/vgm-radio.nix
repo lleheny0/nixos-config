@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./httpd.nix
+    ./caddy.nix
     ./icecast.nix
     ./liquidsoap.nix
     ./vgm-backup.nix
