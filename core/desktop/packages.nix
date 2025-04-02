@@ -25,6 +25,7 @@
     signal-desktop
     spotify
     # texliveFull
+    vgmplay-libvgm
     vlc
     vscode
   ];
