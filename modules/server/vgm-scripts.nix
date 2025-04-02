@@ -5,11 +5,7 @@
     (writeShellApplication {
       name = "vu";
       text = ''
-        cd /vgm
-        sudo systemctl stop vgm-stream
-        find ~+ -mindepth 2 | grep mp3 > ./playlist.txt
-        sudo systemctl start vgm-stream
-        cd ~-
+        find /vgm/Music -type f -name "*.mp3" > /vgm/playlist.txt
       '';
     })
     (writeShellApplication {

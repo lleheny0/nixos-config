@@ -1,6 +1,7 @@
 radio = playlist(
+  "/vgm/playlist.txt",
   mode = "randomize",
-  "/vgm/playlist.txt"
+  reload_mode = "watch"
 )
 radio = mksafe(radio)
 enable_replaygain_metadata()
