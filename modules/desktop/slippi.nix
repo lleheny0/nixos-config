@@ -29,12 +29,10 @@
     sl = "appimage-run /home/luke/Programs/Slippi-Launcher-2.11.8-x86_64.AppImage";
   };
 
-  home-manager.users.luke.xdg.desktopEntries = {
-    slippi = {
-      name = "Slippi";
-      exec = "appimage-run /home/luke/Programs/Slippi-Launcher-2.11.8-x86_64.AppImage";
-      icon = ./images/slippi.png;
-      categories = [ "Game" ];
-    };
+  home-manager.users.luke.xdg.desktopEntries.slippi = {
+    name = "Slippi";
+    exec = "appimage-run /home/luke/Programs/Slippi-Launcher-2.11.8-x86_64.AppImage";
+    icon = ./images/slippi.png;
+    categories = [ "Game" ];
   };
 }

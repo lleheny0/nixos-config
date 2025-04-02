@@ -3,7 +3,6 @@
 {
   users.users.luke.packages = with pkgs; [
     adwaita-qt
-    audacity
     beeper
     chromium
     discord
