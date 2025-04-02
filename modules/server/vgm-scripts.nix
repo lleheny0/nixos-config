@@ -12,7 +12,7 @@
       name = "vg";
       runtimeInputs = [ mp3gain ];
       text = ''
-        find "$(pwd)" -type f -iname '*.mp3' -exec mp3gain -r -c -s i {} +
+        find ~+ -type f -name "*.mp3" -exec mp3gain -r -c -s i {} +
       '';
     })
   ];
