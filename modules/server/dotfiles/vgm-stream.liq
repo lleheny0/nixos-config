@@ -33,12 +33,22 @@ def get_meta(_, response) =
 
   cover = file.read("/vgm/Music/#{game}/cover.txt")
 
+  remaining = radio.remaining()
+  duration = radio.duration()
+
+  minutes = int(duration / 60.)
+  seconds = int(duration mod 60.)
+
+  formatted_seconds = if seconds < 10 then "0#{seconds}" else "#{seconds}" end
+
+  track_with_duration = "#{track} (#{minutes}:#{formatted_seconds})"
+
   data = {
-    game = "#{game}",
-    track = "#{track}",
-    cover = "#{cover()}",
-    remaining = radio.remaining(),
-    duration = radio.duration()
+    game = game,
+    track = track_with_duration,
+    cover = cover(),
+    remaining = remaining,
+    duration = duration
   }
 
   response.json(data)
