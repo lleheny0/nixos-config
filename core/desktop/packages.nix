@@ -7,24 +7,18 @@
     chromium
     discord
     exiftool
-    ffmpeg
     firefox
     fragments
     dconf-editor
     gnome-tweaks
     gnomeExtensions.appindicator
     gnomeExtensions.dash-to-dock
-    helvum
     libva-utils
-    obs-studio
-    obs-studio-plugins.obs-vaapi
     openzone-cursors
-    pavucontrol
     radeontop
     signal-desktop
     spotify
     # texliveFull
-    vgmplay-libvgm
     vlc
     vscode
   ];
