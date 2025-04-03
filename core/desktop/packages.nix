@@ -16,7 +16,6 @@
     gnomeExtensions.dash-to-dock
     helvum
     libva-utils
-    mullvad-vpn
     obs-studio
     obs-studio-plugins.obs-vaapi
     openzone-cursors
