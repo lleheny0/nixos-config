@@ -9,7 +9,7 @@ radio = replaygain(radio)
 
 meta = ref([])
 
-def filter_meta(m) =
+def update_meta(m) =
   meta := m
 end
 
@@ -54,7 +54,7 @@ def get_meta(_, response) =
   response.json(data)
 end
 
-radio.on_metadata(filter_meta)
+radio.on_metadata(update_meta)
 
 harbor.http.register(port=8080, method="GET", "/metadata", get_meta)
 
