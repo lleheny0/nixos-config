@@ -6,6 +6,7 @@
       name = "vu";
       text = ''
         find /vgm/Music -type f -name "*.mp3" > /vgm/playlist.txt
+        cat /vgm/playlist.txt | wc -l
       '';
     })
     (writeShellApplication {
