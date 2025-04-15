@@ -15,7 +15,7 @@
     libva-utils
     openzone-cursors
     radeontop
-    signal-desktop
+    signal-desktop-bin
     spotify
     vlc
     vscode
