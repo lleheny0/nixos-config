@@ -10,7 +10,6 @@
     neofetch
     tmux
     unzip
-    vim
     wget
   ];
 }

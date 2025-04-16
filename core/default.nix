@@ -10,5 +10,6 @@
     ./networking.nix
     ./nix.nix
     ./packages.nix
+    ./vim.nix
   ];
 }
