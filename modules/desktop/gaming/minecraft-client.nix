@@ -6,4 +6,8 @@
     mcaselector
     (prismlauncher.override { jdks = [ jdk21 jdk8 ]; })
   ];
+
+  home-manager.users.luke.home.file.".alsoftrc".text = ''
+    drivers=pulse
+  '';
 }
