@@ -3,10 +3,7 @@
 {
   systemd.services.minecraft-backup = {
     description = "Backup the Minecraft folder";
-    path = with pkgs; [
-      gnutar
-      gzip
-    ];
+    path = with pkgs; [ gnutar gzip ];
     script = ''
       tar -czf "/home/luke/Backups/Minecraft/$(date +%Y-%m-%d).tar.gz" -C /home/luke/Minecraft .
       ls -F /home/luke/Backups/Minecraft/*.tar.gz | head -n -10 | xargs -r rm
