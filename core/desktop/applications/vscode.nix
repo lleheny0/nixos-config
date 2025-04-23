@@ -143,13 +143,8 @@
           "command" = "workbench.action.toggleMaximizedPanel";
         }
         {
-          "key" = "ctrl+k ctrl+alt+s";
+          "key" = "ctrl+k ctrl+v";
           "command" = "git.stageSelectedRanges";
-        }
-        {
-          "key" = "ctrl+k ctrl+alt+s";
-          "command" = "-git.stageSelectedRanges";
-          "when" = "isInDiffEditor && !operationInProgress";
         }
         {
           "key" = "ctrl+k ctrl+n";
