@@ -1,3 +1,5 @@
+{ pkgs, ... }:
+
 {
   services = {
     xserver = {
@@ -18,5 +20,13 @@
       name = "gnome";
     };
     style.name = "adwaita-dark";
+  };
+
+  home-manager.users.luke.home.pointerCursor = {
+    name = "Adwaita";
+    package = pkgs.adwaita-icon-theme;
+    size = 24;
+    gtk.enable = true;
+    x11.enable = true;
   };
 }

@@ -13,7 +13,6 @@
     gnomeExtensions.appindicator
     gnomeExtensions.dash-to-dock
     libva-utils
-    openzone-cursors
     radeontop
     signal-desktop-bin
     spotify
