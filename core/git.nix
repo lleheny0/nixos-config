@@ -14,7 +14,7 @@
     glg = "git log --oneline --graph --all --decorate";
     gpf = "git push --force-with-lease";
     gpl = "git pull";
-    gps = "git push";
+    gpu = "git push";
     gst = "git status";
   };
 }
