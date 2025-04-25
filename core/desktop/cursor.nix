@@ -1,8 +1,11 @@
 { pkgs, lib, ... }:
 
 let
-  kde-classic-cursors = pkgs.stdenv.mkDerivation {
-    name = "kde-classic-cursors";
+  themeName = "KDE_Classic";
+  packageName = "kde-classic-cursors";
+
+  package = pkgs.stdenv.mkDerivation {
+    name = packageName;
     src = pkgs.fetchFromGitHub {
       owner = "KDE";
       repo = "oxygen";
@@ -18,8 +21,8 @@ let
 in {
   home-manager.users.luke = {
     home.pointerCursor = {
-      name = "KDE_Classic";
-      package = kde-classic-cursors;
+      name = themeName;
+      package = package;
       size = 24;
       gtk.enable = true;
       x11.enable = true;
@@ -27,7 +30,7 @@ in {
 
     dconf.settings = {
       "org/gnome/desktop/interface" = {
-        cursor-theme = lib.mkDefault "KDE_Classic";
+        cursor-theme = lib.mkDefault themeName;
       };
     };
   };
