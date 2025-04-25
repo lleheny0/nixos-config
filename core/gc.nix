@@ -16,7 +16,7 @@
   systemd.timers.nix-gc-system = {
     wantedBy = [ "timers.target" ];
     timerConfig = {
-      OnCalendar = "daily";
+      OnCalendar = "weekly";
       Persistent = true;
       Unit = "nix-gc-system.service";
     };
@@ -34,7 +34,7 @@
   systemd.timers.nix-gc-user = {
     wantedBy = [ "timers.target" ];
     timerConfig = {
-      OnCalendar = "daily";
+      OnCalendar = "weekly";
       Persistent = true;
       Unit = "nix-gc-user.service";
     };
