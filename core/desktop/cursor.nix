@@ -5,7 +5,7 @@ let
   packageName = "kde-classic-cursors";
 
   package = pkgs.stdenv.mkDerivation {
-    name = packageName;
+    name = "cursor";
     src = pkgs.fetchFromGitHub {
       owner = "KDE";
       repo = "oxygen";
