@@ -18,7 +18,16 @@ let
       cp -r $src/cursors/KDE_Classic/* $out/share/icons/KDE_Classic/
       cd $out/share/icons/KDE_Classic/cursors
       chmod +w .
-      ln -sf e-resize ew-resize
+      ln -sf top_side n-resize
+      ln -sf right_side e-resize
+      ln -sf bottom_side s-resize
+      ln -sf left_side w-resize
+      ln -sf top_right_corner ne-resize
+      ln -sf top_left_corner nw-resize
+      ln -sf bottom_right_corner se-resize
+      ln -sf bottom_left_corner sw-resize
+      ln -sf size_hor ew-resize
+      ln -sf size_ver ns-resize
       ln -sf pointer zoom-in
       ln -sf pointer zoom-out
       ln -sf not-allowed no-drop
