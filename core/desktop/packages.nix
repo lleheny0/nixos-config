@@ -3,6 +3,7 @@
 {
   users.users.luke.packages = with pkgs; [
     adwaita-qt
+    beeper
     chromium
     discord
     exiftool
