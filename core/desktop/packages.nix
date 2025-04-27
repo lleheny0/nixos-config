@@ -10,6 +10,7 @@
     firefox
     fragments
     dconf-editor
+    gimp
     gnome-tweaks
     gnomeExtensions.appindicator
     gnomeExtensions.dash-to-dock
