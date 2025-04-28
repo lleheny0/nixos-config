@@ -5,11 +5,11 @@
     adwaita-qt
     beeper
     chromium
+    dconf-editor
     discord
     exiftool
     firefox
     fragments
-    dconf-editor
     gimp
     gnome-tweaks
     gnomeExtensions.appindicator
