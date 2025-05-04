@@ -4,7 +4,6 @@
   users.users.luke.packages = with pkgs; [
     adwaita-qt
     beeper
-    chromium
     dconf-editor
     discord
     exiftool
