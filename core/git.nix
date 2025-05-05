@@ -9,6 +9,7 @@
 
   environment.shellAliases = {
     gco = "git checkout";
+    gca = "git commit --amend";
     gci = "git commit";
     gfe = "git fetch";
     glg = "git log --oneline --graph --all --decorate";
