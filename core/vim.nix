@@ -4,7 +4,7 @@
   programs.vim = {
     enable = true;
     defaultEditor = true;
-    package = (pkgs.vim_configurable.override {  }).customize{
+    package = (pkgs.vim_configurable.override {}).customize{
       name = "vim";
       vimrcConfig.customRC = ''
         set number
