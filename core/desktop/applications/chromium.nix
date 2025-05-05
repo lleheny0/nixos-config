@@ -17,19 +17,10 @@
     extraOpts = {
       "AutofillAddressEnabled" = false;
       "AutofillCreditCardEnabled" = false;
-      "ClearBrowsingDataOnExitList" = [
-        "browsing_history"
-        "download_history"
-        "cookies_and_other_site_data"
-        "cached_images_and_files"
-        "password_signin"
-        "autofill"
-        "site_settings"
-        "hosted_app_data"
-      ];
       "ForceMaximizeOnFirstRun" = true;
       "PasswordManagerEnabled" = false;
       "RestoreOnStartup" = 1;
+      "SafeBrowsingProtectionLevel" = 0;
       "SavingBrowserHistoryDisabled" = true;
     };
     extensions = [
