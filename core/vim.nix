@@ -20,6 +20,8 @@
       set nobackup
       set nowb
       set noswapfile
+      set notermguicolors
+      colorscheme vim
     '';
   };
 }
