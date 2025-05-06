@@ -64,6 +64,12 @@ with something like
 ./systems/desktop.nix
 ```
 
+## 8. Tell git to ignore changes to configuration.nix
+
+```
+git update-index --assume-unchanged configuration.nix
+```
+
 ## 8. Rebuild
 
 ```sh
