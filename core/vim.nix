@@ -1,27 +1,25 @@
-{ pkgs, ... }:
-
 {
-  programs.vim = {
+  programs.neovim = {
     enable = true;
+    viAlias = true;
+    vimAlias = true;
     defaultEditor = true;
-    package = (pkgs.vim_configurable.override {}).customize{
-      name = "vim";
-      vimrcConfig.customRC = ''
-        set number
-        set expandtab
-        set smarttab
-        set shiftwidth=2
-        set tabstop=2
-        set ai
-        set si
-        set wrap
-        syntax on
-        set mouse=a
-        set clipboard=unnamedplus
-        set nobackup
-        set nowb
-        set noswapfile
-      '';
-    };
+    configure.customRC = ''
+      set number
+      set expandtab
+      set smarttab
+      set shiftwidth=2
+      set tabstop=2
+      set ai
+      set si
+      set wrap
+      syntax on
+      set laststatus=2
+      set mouse=a
+      set clipboard=unnamedplus
+      set nobackup
+      set nowb
+      set noswapfile
+    '';
   };
 }
