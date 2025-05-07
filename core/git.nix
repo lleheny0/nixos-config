@@ -8,6 +8,7 @@
   };
 
   environment.shellAliases = {
+    gaa = "git add --all";
     gco = "git checkout";
     gca = "git commit --amend";
     gci = "git commit";
