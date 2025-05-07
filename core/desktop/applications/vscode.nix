@@ -202,6 +202,7 @@
         "update.mode" = "none";
         "vim.useSystemClipboard" = true;
         "workbench.colorTheme" = "Monokai One Dark Vivid";
+        "window.customMenuBarAltFocus" = false;
         "window.titleBarStyle" = "custom";
         "workbench.startupEditor" = "none";
       };
