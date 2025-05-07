@@ -173,7 +173,7 @@
           "command" = "workbench.action.quickOpen";
         }
         {
-          "key" = "ctrl+alt+t";
+          "key" = "ctrl+alt+e";
           "command" = "workbench.action.openRecent";
         }
         {
