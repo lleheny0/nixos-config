@@ -15,13 +15,14 @@
       set wrap
       syntax on
       set laststatus=2
+      colorscheme vim
+      set wildoptions-=pum
       set mouse=a
       set clipboard=unnamedplus
       set nobackup
       set nowb
       set noswapfile
       set notermguicolors
-      colorscheme vim
     '';
   };
 }
