@@ -1,17 +1,6 @@
 { pkgs, ... }:
 
 {
-  users.users.luke.packages = with pkgs; [
-    (chromium.override {
-      commandLineArgs = [
-        "--enable-features=AcceleratedVideoEncoder"
-        "--ignore-gpu-blocklist"
-        "--enable-zero-copy"
-      ];
-      enableWideVine = true;
-    })
-  ];
-
   programs.chromium = {
     enable = true;
     extraOpts = {
@@ -26,6 +15,15 @@
     extensions = [
       "aeblfdkhhhdcdjpifhhbdiojplfjncoa" # 1password
       "cjpalhdlnbpafiamejdnhcphjbkeiagm" # uBlock Origin
+    ];
+  };
+
+  home-manager.users.luke.programs.chromium = {
+    enable = true;
+    commandLineArgs = [
+      "--enable-features=AcceleratedVideoEncoder"
+      "--ignore-gpu-blocklist"
+      "--enable-zero-copy"
     ];
   };
 }
