@@ -22,6 +22,7 @@
     enable = true;
     commandLineArgs = [
       "--enable-features=AcceleratedVideoEncoder"
+      "--enable-features=FluentOverlayScrollbars,FluentOverlayScrollbar"
       "--ignore-gpu-blocklist"
       "--enable-zero-copy"
     ];
