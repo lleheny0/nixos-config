@@ -7,7 +7,6 @@
     dconf-editor
     discord
     exiftool
-    firefox
     fragments
     gimp
     gnome-tweaks
