@@ -27,7 +27,7 @@
     };
     extensions = [
       "aeblfdkhhhdcdjpifhhbdiojplfjncoa" # 1password
-      "cjpalhdlnbpafiamejdnhcphjbkeiagm" # uBlock Origin
+      "ddkjiahejlhfcafbddmgiahcphecmpfh" # uBlock Origin Lite
     ];
   };
 
@@ -36,7 +36,6 @@
     commandLineArgs = [
       "--enable-features=AcceleratedVideoEncoder"
       "--enable-features=FluentOverlayScrollbars,FluentOverlayScrollbar"
-      "--disable-background-networking"
       "--ignore-gpu-blocklist"
       "--enable-zero-copy"
     ];
