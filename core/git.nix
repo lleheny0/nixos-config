@@ -17,6 +17,8 @@
     gpf = "git push --force-with-lease";
     gpl = "git pull";
     gpu = "git push";
+    gsa = "git stash";
+    gsp = "git stash pop";
     gst = "git status";
   };
 }
