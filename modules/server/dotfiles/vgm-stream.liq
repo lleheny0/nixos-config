@@ -14,33 +14,15 @@ def update_meta(m) =
 end
 
 def get_meta(_, response) =
-  let [_, _, _, game, track] =
-    string.split(
-      separator="/",
-      list.hd(
-        string.split(
-          separator=".mp3",
-          snd(
-            list.hd(
-              list.filter(
-                fun(e) -> fst(e) == "filename", meta()
-              )
-            )
-          )
-        )
-      )
-    )
-
+  filename = metadata.filename(meta())
+  track = path.remove_extension(path.basename(filename))
+  game = path.basename(path.dirname(filename))
   cover = file.contents("/vgm/Music/#{game}/cover.txt")
-
   remaining = radio.remaining()
   duration = radio.duration()
-
   minutes = int(duration / 60.)
   seconds = int(duration mod 60.)
-
   formatted_seconds = if seconds < 10 then "0#{seconds}" else "#{seconds}" end
-
   track_with_duration = "#{track} (#{minutes}:#{formatted_seconds})"
 
   data = {
