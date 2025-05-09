@@ -31,7 +31,7 @@ def get_meta(_, response) =
       )
     )
 
-  cover = file.read("/vgm/Music/#{game}/cover.txt")
+  cover = file.contents("/vgm/Music/#{game}/cover.txt")
 
   remaining = radio.remaining()
   duration = radio.duration()
@@ -46,7 +46,7 @@ def get_meta(_, response) =
   data = {
     game = game,
     track = track_with_duration,
-    cover = cover(),
+    cover = cover,
     remaining = remaining,
     duration = duration
   }
