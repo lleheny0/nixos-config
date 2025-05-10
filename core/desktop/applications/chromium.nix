@@ -1,3 +1,5 @@
+{ pkgs, ... }:
+
 # Settings that need to be manually set:
 # 1. chrome://settings/performance > Preload pages
 # 2. chrome://settings/appearance > Theme
@@ -6,7 +8,6 @@
 
 {
   programs.chromium = {
-    enable = true;
     extraOpts = {
       "AutofillAddressEnabled" = false;
       "AutofillCreditCardEnabled" = false;
@@ -33,6 +34,7 @@
 
   home-manager.users.luke.programs.chromium = {
     enable = true;
+    package = pkgs.ungoogled-chromium;
     commandLineArgs = [
       "--enable-features=AcceleratedVideoEncoder"
       "--enable-features=FluentOverlayScrollbars,FluentOverlayScrollbar"
