@@ -19,6 +19,7 @@
         "autofill"
         "hosted_app_data"
       ];
+      "DefaultBrowserSettingEnabled" = false;
       "ForceMaximizeOnFirstRun" = true;
       "PasswordManagerEnabled" = false;
       "RestoreOnStartup" = 1;
