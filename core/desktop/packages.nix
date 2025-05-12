@@ -12,6 +12,7 @@
     gnome-tweaks
     gnomeExtensions.appindicator
     gnomeExtensions.dash-to-dock
+    gnomeExtensions.hide-top-bar
     libva-utils
     radeontop
     signal-desktop-bin
