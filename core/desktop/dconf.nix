@@ -153,7 +153,8 @@
         dock-fixed = false;
         hide-delay = 0.0001;
         hotkeys-show-dock = false;
-        intellihide = false;
+        intellihide = true;
+        intellihide-mode = "ALL_WINDOWS";
         multi-monitor = true;
         require-pressure-to-show = false;
         running-indicator-style = "DOTS";
