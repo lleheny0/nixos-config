@@ -174,7 +174,7 @@
         animation-time-overview = 0.01;
         enable-active-window = false;
         enable-intellihide = true;
-        mouse-sensitive = true;
+        mouse-sensitive = false;
         pressure-threshold = 0;
       };
       "org/gnome/system/location" = {
