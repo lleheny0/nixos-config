@@ -146,6 +146,7 @@
       "org/gnome/shell/extensions/dash-to-dock" = {
         animation-time = 0.1;
         apply-custom-theme = true;
+        autohide-in-fullscreen = false;
         background-color = "rgb(0,0,0)";
         click-action = "focus-minimize-or-previews";
         custom-background-color = false;
