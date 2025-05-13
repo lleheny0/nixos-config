@@ -3,6 +3,8 @@
 # 2. chrome://settings/appearance > Theme
 # 3. chrome://settings/security > Warn you if a password was compromised
 # 4. chrome://settings/content/siteData > Delete data when exiting
+# 5. New tab > Customize Chromium > Uncheck Show shortcuts
+# 6. New tab > Customize Chromium > Toolbar > Check Downloads
 
 {
   programs.chromium = {
