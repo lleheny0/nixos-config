@@ -8,6 +8,7 @@
       np = "cd /home/luke/Projects/nixos-config && git pull && cd ~-";
       ns = "sudo nixos-rebuild switch";
       nu = "sudo nix-channel --update";
+      sv = "ssh leheny.ddns.net";
     };
 
     variables = {
