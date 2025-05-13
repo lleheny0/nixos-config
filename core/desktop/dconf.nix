@@ -113,7 +113,6 @@
           "apps-menu@gnome-shell-extensions.gcampax.github.com"
           "dash-to-dock@micxgx.gmail.com"
           "drive-menu@gnome-shell-extensions.gcampax.github.com"
-          "hidetopbar@mathieu.bidon.ca"
           "places-menu@gnome-shell-extensions.gcampax.github.com"
         ];
         favorite-apps = [
@@ -168,14 +167,6 @@
         show-show-apps-button = false;
         show-trash = false;
         transparency-mode = "DEFAULT";
-      };
-      "org/gnome/shell/extensions/hidetopbar" = {
-        animation-time-autohide = 0.1;
-        animation-time-overview = 0.01;
-        enable-active-window = false;
-        enable-intellihide = true;
-        mouse-sensitive = false;
-        pressure-threshold = 0;
       };
       "org/gnome/system/location" = {
         enabled = true;
