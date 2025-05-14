@@ -4,5 +4,6 @@
     ./firefox.nix
     ./mullvad.nix
     ./vscode.nix
+    ./wireshark.nix
   ];
 }

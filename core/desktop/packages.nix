@@ -13,6 +13,5 @@
     spotify
     vlc
     vscode
-    wireshark
   ];
 }
