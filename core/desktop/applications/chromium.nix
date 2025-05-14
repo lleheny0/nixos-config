@@ -22,6 +22,7 @@
         "hosted_app_data"
       ];
       "DefaultBrowserSettingEnabled" = false;
+      "DefaultNotificationsSetting" = 2;
       "ForceMaximizeOnFirstRun" = true;
       "PasswordManagerEnabled" = false;
       "RestoreOnStartup" = 1;
