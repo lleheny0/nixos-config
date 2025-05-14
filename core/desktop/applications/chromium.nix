@@ -1,3 +1,5 @@
+{ pkgs, ... }:
+
 # Settings that need to be manually set:
 # 1. chrome://settings/performance > Preload pages
 # 2. chrome://settings/appearance > Theme
@@ -37,6 +39,7 @@
 
   home-manager.users.luke.programs.chromium = {
     enable = true;
+    package = (pkgs.chromium.override { enableWideVine = true; });
     commandLineArgs = [
       "--use-gl=angle"
       "--use-angle=vulkan"
