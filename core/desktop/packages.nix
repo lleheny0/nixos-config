@@ -9,7 +9,7 @@
     gimp
     libva-utils
     radeontop
-    signal-desktop-bin
+    signal-desktop
     spotify
     vlc
     vscode

@@ -119,7 +119,7 @@
           "firefox.desktop"
           "org.gnome.Nautilus.desktop"
           "org.gnome.Console.desktop"
-          "signal-desktop.desktop"
+          "signal.desktop"
           "discord.desktop"
           "spotify.desktop"
           "code.desktop"
