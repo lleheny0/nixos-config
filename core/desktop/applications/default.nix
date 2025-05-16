@@ -1,7 +1,7 @@
 {
   imports = [
     ./chromium.nix
-    ./firefox.nix
+    ./firefox
     ./mullvad.nix
     ./vscode.nix
     ./wireshark.nix
