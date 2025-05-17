@@ -8,7 +8,7 @@ let
       owner = "KDE";
       repo = "oxygen";
       rev = "master";
-      hash = "sha256-jNAQ+QTA0mIuXWbE8QRsFagfJcCbJH/c2rJG3nTAeP0=";
+      hash = "sha256-HN3d/VQKDAnSbqMCuhoJZrumvDOrvvGufyKVqQITm90=";
     };
 
     installPhase = ''
