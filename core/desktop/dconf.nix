@@ -105,6 +105,10 @@
         night-light-schedule-automatic = true;
         night-light-temperature = lib.mkDefault (lib.hm.gvariant.mkUint32 3000);
       };
+      "org/gnome/settings-daemon/plugins/media-keys" = {
+        logout = [];
+        shutdown = ["<Control><Alt>Delete"];
+      };
       "org/gnome/settings-daemon/plugins/power" = {
         power-button-action = "interactive";
         sleep-inactive-ac-type = "nothing";
