@@ -48,6 +48,10 @@
           "org.gnome.Epiphany.desktop"
         ];
       };
+      "org/gnome/desktop/screen-time-limits" = {
+        daily-limit-enabled = false;
+        history-enabled = false;
+      };
       "org/gnome/desktop/screensaver" = {
         color-shading-type = "solid";
         picture-options = "zoom";
