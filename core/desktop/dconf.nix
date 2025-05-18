@@ -183,7 +183,7 @@
         highlight-current-line = true;
         restore-session = false;
         show-grid = false;
-        style-scheme = "classic-dark";
+        style-scheme = "Adwaita-dark";
       };
       "org/gtk/settings/file-chooser" = {
         clock-format = "12h";
