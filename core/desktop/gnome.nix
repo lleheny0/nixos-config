@@ -25,6 +25,7 @@
   users.users.luke.packages = with pkgs; [
     adwaita-qt
     dconf-editor
+    gnome-shell-extensions
     gnome-tweaks
     gnomeExtensions.appindicator
     gnomeExtensions.dash-to-dock
