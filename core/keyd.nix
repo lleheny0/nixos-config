@@ -43,13 +43,13 @@
             "]" = "C-pagedown";
             j = "C-S-j";
           };
-          "aux+shift" = {
-            f1 = "C-S-f1";
-            "2" = "C-S-2";
-            x = "C-S-x";
-            s = "C-S-s";
-            w = "C-S-w";
-          };
+          # "aux+shift" = {
+            # f1 = "C-S-f1";
+            # "2" = "C-S-2";
+            # x = "C-S-x";
+            # s = "C-S-s";
+            # w = "C-S-w";
+          # };
           "meta+shift" = {
             s = "sysrq";
           };
