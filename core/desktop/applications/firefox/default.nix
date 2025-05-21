@@ -85,6 +85,7 @@
           "browser.download.alwaysOpenPanel" = false;
           "browser.download.autohideButton" = false;
           "browser.formfill.enable" = false;
+          "browser.link.open_newwindow" = 3;
           "browser.ml.chat.enabled" = false;
           "browser.search.suggest.enabled.private" = true;
           "browser.sessionstore.restore_pinned_tabs_on_demand" = true;
