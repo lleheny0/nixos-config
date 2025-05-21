@@ -54,7 +54,7 @@
           Locked = true;
         };
         NewTabPage = false;
-        NoDefaultBookmarks = true;
+        # NoDefaultBookmarks = true;
         OfferToSaveLogins = false;
         OverrideFirstRunPage = "";
         PasswordManagerEnabled = false;
@@ -78,6 +78,7 @@
         id = 0;
         name = "default";
         isDefault = true;
+        bookmarks = import ./bookmarks.nix;
         settings = {
           "accessibility.force_disabled" = 0;
           "browser.aboutConfig.showWarning" = false;
