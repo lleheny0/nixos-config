@@ -9,6 +9,9 @@
       policies = {
         AutofillAddressEnabled = false;
         AutofillCreditCardEnabled = false;
+        DisableAccounts = true;
+        DisableFirefoxAccounts = true;
+        DisableFirefoxScreenshots = true;
         DisableFirefoxStudies = true;
         DisableFormHistory = true;
         DisablePocket = true;
