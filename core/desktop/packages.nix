@@ -10,7 +10,6 @@
     libva-utils
     radeontop
     signal-desktop
-    spotify
     vlc
     vscode
   ];
