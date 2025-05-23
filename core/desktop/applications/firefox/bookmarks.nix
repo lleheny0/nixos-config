@@ -48,10 +48,6 @@
       url = "https://www.facebook.com/";
     }
     {
-      name = "Font smoothing, anti-aliasing, and sub-pixel rendering";
-      url = "https://www.joelonsoftware.com/2007/06/12/font-smoothing-anti-aliasing-and-sub-pixel-rendering/";
-    }
-    {
       name = "Freesound.org";
       url = "http://www.freesound.org/";
     }
@@ -222,7 +218,7 @@
     }
     {
       name = "Photo Editor : Pixlr X - free image editing online";
-      url = "https://pixlr.com/x/";
+      url = "https://pixlr.com/express/";
       keyword = "px";
     }
     {
@@ -829,7 +825,7 @@
     {
       name = "VGM Radio";
       url = "https://leheny.ddns.net/";
-      keyword = "gm";
+      keyword = "vgm";
     }
     {
       name = "Music and Podcasts, Free and On-Demand | Pandora";
@@ -1288,6 +1284,11 @@
     {
       name = "Stream LP Leheny music | Listen to songs, albums, playlists for free on SoundCloud";
       url = "https://soundcloud.com/lpleheny";
+    }
+    {
+      name = "Reddit - Audio Engineering";
+      url = "https://www.reddit.com/r/audioengineering/";
+      keyword = "rae";
     }
   ];
 }
