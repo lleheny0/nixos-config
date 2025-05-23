@@ -9,6 +9,7 @@
     ./locale.nix
     ./luke.nix
     ./networking.nix
+    ./nix-ld.nix
     ./packages.nix
     ./vim.nix
   ];
