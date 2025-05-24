@@ -1,7 +1,6 @@
 {
   imports = [
     ./ignore-lid.nix
-    ./large-cursor.nix
     ./large-text.nix
     ./logitech-k400-plus.nix
   ];
