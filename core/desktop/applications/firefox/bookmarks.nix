@@ -1290,5 +1290,18 @@
       url = "https://www.reddit.com/r/audioengineering/";
       keyword = "rae";
     }
+    {
+      name = "Outlier AI";
+      url = "https://outlier.ai/";
+    }
+    {
+      name = "Freedesktop cursor spec";
+      url = "https://www.freedesktop.org/wiki/Specifications/cursor-spec/";
+    }
+    {
+      name = "GitHub subscriptions";
+      url = "https://github.com/notifications/subscriptions";
+      keyword = "ghs";
+    }
   ];
 }
