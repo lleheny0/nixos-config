@@ -20,6 +20,9 @@
       spotify = {
         type = "pipe";
         location = "/run/spotify";
+        query = {
+          sampleformat = "44100:16:2";
+        };
       };
     };
   };
