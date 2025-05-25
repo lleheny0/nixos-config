@@ -28,7 +28,10 @@
   };
 
   systemd.services.librespot = {
+    enable = true;
     description = "Librespot";
+    after = [ "network.target" ];
+    wantedBy = [ "default.target" ];
     serviceConfig = {
       ExecStart = "${pkgs.librespot}/bin/librespot --backend pipe --device /run/spotify --name Home --zeroconf-port 15353";
       Restart = "on-failure";
