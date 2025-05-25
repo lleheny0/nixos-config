@@ -7,6 +7,7 @@
     after = [ "network.target" ];
     wantedBy = [ "default.target" ];
     serviceConfig = {
+      ExecStartPre = "${pkgs.coreutils}/bin/sleep 30";
       ExecStart = "${pkgs.snapcast}/bin/snapclient --host 192.168.1.128";
       Restart = "on-failure";
     };
