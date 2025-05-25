@@ -5,24 +5,26 @@
     vimAlias = true;
     defaultEditor = true;
     configure.customRC = ''
-      set number
-      set expandtab
-      set smarttab
-      set shiftwidth=2
-      set tabstop=2
-      set ai
-      set si
-      set wrap
-      syntax on
-      set laststatus=2
       colorscheme vim
-      set wildoptions-=pum
-      set mouse=a
+      set ai
       set clipboard=unnamedplus
+      set expandtab
+      set ignorecase
+      set laststatus=2
+      set mouse=a
       set nobackup
-      set nowb
       set noswapfile
       set notermguicolors
+      set nowb
+      set number
+      set shiftwidth=2
+      set si
+      set smartcase
+      set smarttab
+      set tabstop=2
+      set wildoptions-=pum
+      set wrap
+      syntax on
     '';
   };
 }
