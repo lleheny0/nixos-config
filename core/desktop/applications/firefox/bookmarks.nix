@@ -1292,7 +1292,7 @@
     }
     {
       name = "Outlier AI";
-      url = "https://outlier.ai/";
+      url = "https://app.outlier.ai/en/expert";
     }
     {
       name = "Freedesktop cursor spec";
@@ -1302,6 +1302,10 @@
       name = "GitHub subscriptions";
       url = "https://github.com/notifications/subscriptions";
       keyword = "ghs";
+    }
+    {
+      name = "Data Annotation";
+      url = "https://app.dataannotation.tech";
     }
   ];
 }
