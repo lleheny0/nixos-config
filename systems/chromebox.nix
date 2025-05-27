@@ -1,8 +1,8 @@
 {
   imports = [
-    ../core/desktop
+    ../core/server
     ../modules/hardware/no-audio-powersave.nix
-    ../modules/hardware/tv.nix
+    ../modules/server/snapclient.nix
   ];
 
   networking.hostName = "chromebox";
