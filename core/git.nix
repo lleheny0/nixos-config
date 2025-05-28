@@ -4,6 +4,9 @@
       enable = true;
       userName  = "Luke Leheny";
       userEmail = "luke.leheny@pm.me";
+      extraConfig = {
+        pull.rebase = true;
+      };
     };
   };
 
