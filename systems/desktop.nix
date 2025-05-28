@@ -8,5 +8,7 @@
     ../modules/server/snapclient.nix
   ];
 
+  snapclient.params = "--latency 25";
+
   networking.hostName = "desktop";
 }
