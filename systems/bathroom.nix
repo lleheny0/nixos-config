@@ -2,13 +2,13 @@
   imports = [
     ../core/server
     ../modules/hardware/no-audio-powersave.nix
-    (
-      import ../modules/server/snapclient.nix {
-        asUser = false;
-        params = "--soundcard 9";
-      }
-    )
+    ../modules/server/snapclient.nix
   ];
+
+  snapclient = {
+    asUser = false;
+    params = "--soundcard 9 --latency 10";
+  };
 
   networking.hostName = "kitchen";
 }

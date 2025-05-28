@@ -5,7 +5,7 @@
     ../modules/desktop/gaming
     ../modules/development/javascript.nix
     ../modules/hardware/multi-monitor.nix
-    (import ../modules/server/snapclient.nix { asUser = true; })
+    ../modules/server/snapclient.nix
   ];
 
   networking.hostName = "desktop";
