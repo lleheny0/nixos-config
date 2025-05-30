@@ -115,13 +115,11 @@
       };
       "org/gnome/shell" = {
         disable-user-extensions = false;
-        disabled-extensions = [];
+        disabled-extensions = [
+        ];
         enabled-extensions = [
           "appindicatorsupport@rgcjonas.gmail.com"
-          "apps-menu@gnome-shell-extensions.gcampax.github.com"
           "dash-to-dock@micxgx.gmail.com"
-          "drive-menu@gnome-shell-extensions.gcampax.github.com"
-          "places-menu@gnome-shell-extensions.gcampax.github.com"
         ];
         favorite-apps = [
           "firefox.desktop"
