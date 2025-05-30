@@ -30,12 +30,27 @@
   systemd.services.librespot = {
     enable = true;
     description = "Librespot";
-    after = [ "network.target" ];
+    after = [ "network-online.target" ];
     wantedBy = [ "default.target" ];
     serviceConfig = {
-      ExecStartPre = "${pkgs.coreutils}/bin/sleep 30";
       ExecStart = "${pkgs.librespot}/bin/librespot --backend pipe --device /run/spotify --name Home --zeroconf-port 15353 --enable-volume-normalisation --normalisation-method basic";
       Restart = "on-failure";
+      User = "luke";
+    };
+  };
+
+  systemd.services.librespot-restarter = {
+    script = "${pkgs.systemd}/bin/systemctl restart librespot";
+    serviceConfig = {
+      Type = "oneshot";
+      User = "root";
+    };
+  };
+  systemd.timers.librespot-restarter = {
+    wantedBy = [ "timers.target" ];
+    timerConfig = {
+      OnBootSec = "60";
+      Unit = "librespot-restarter.service";
     };
   };
 
