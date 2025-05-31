@@ -1307,5 +1307,10 @@
       name = "Data Annotation";
       url = "https://app.dataannotation.tech";
     }
+    {
+      name = "Snapcast web";
+      url = "http://192.168.1.128:1780";
+      keyword = "sw";
+    }
   ];
 }
