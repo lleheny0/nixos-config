@@ -911,6 +911,7 @@
     {
       name = "Perplexity AI";
       url = "https://www.perplexity.ai/";
+      keyword = "pr";
     }
     {
       name = "JavaScript | MDN";
