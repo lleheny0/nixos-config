@@ -1,6 +1,8 @@
 { config, pkgs, lib, ... }:
 
 let
+  soundcard = if config.snapclient.asUser then "--soundcard pipewire" else "";
+
   service = {
     enable = true;
     description = "Snapcast client";
@@ -8,7 +10,7 @@ let
     wantedBy = [ "default.target" ];
     serviceConfig = {
       ExecStartPre = "${pkgs.coreutils}/bin/sleep ${toString config.snapclient.predelay}";
-      ExecStart = "${pkgs.snapcast}/bin/snapclient --host 192.168.1.128 ${config.snapclient.params}";
+      ExecStart = "${pkgs.snapcast}/bin/snapclient --host 192.168.1.128 ${soundcard} ${config.snapclient.params}";
       Restart = "on-failure";
     };
   };
