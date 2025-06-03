@@ -3,6 +3,7 @@
 {
   imports = [
     ../core/desktop
+    ../modules/desktop/social.nix
     ../modules/hardware/large-text.nix
     ../modules/hardware/no-audio-powersave.nix
     ../modules/hardware/slow-scroll.nix
