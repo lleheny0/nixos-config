@@ -7,5 +7,6 @@
       freefont_ttf
       noto-fonts-emoji
     ];
+    fontconfig.useEmbeddedBitmaps = true;
   };
 }
