@@ -8,6 +8,5 @@
     libva-utils
     radeontop
     vlc
-    vscode
   ];
 }
