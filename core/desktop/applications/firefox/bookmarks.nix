@@ -1249,7 +1249,7 @@
     {
       name = "Inbox • Chats";
       url = "https://www.instagram.com/direct/inbox/";
-      keyword = "ind";
+      keyword = "id";
     }
     {
       name = "Olivia Dolphin";
