@@ -123,8 +123,8 @@
         ];
         favorite-apps = [
           "firefox.desktop"
+          "Alacritty.desktop"
           "org.gnome.Nautilus.desktop"
-          "org.gnome.Console.desktop"
           "signal.desktop"
           "discord.desktop"
           "spotify.desktop"
