@@ -108,8 +108,6 @@
           "browser.urlbar.suggest.topsites" = false;
           "browser.warnOnQuitShortcut" = false;
           "datareporting.healthreport.uploadEnabled" = false;
-          "font.default.x-western" = "sans-serif";
-          "font.name.sans-serif.x-western" = "FreeSans";
           "media.ffmpeg.vaapi.enabled" = true;
           "media.hardware-video-decoding.force-enabled" = true;
           "mousewheel.default.delta_multiplier_x" = lib.mkDefault 400;
