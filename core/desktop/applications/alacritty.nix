@@ -23,8 +23,8 @@
         decorations = "None";
         startup_mode = "Maximized";
         dimensions = {
-          columns = 120;
-          lines = 40;
+          columns = 150;
+          lines = 50;
         };
       };
       mouse = {
