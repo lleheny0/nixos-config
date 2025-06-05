@@ -4,19 +4,16 @@
   fonts = {
     packages = with pkgs; [
       fantasque-sans-mono
-      fira-code
-      fixedsys-excelsior
       freefont_ttf
+      jetbrains-mono
       noto-fonts-emoji
-      terminus_font_ttf
-      uni-vga
     ];
 
     fontconfig = {
       enable = true;
       useEmbeddedBitmaps = true;
       defaultFonts = {
-        monospace = [ "Fira Code" ];
+        monospace = [ "JetBrains Mono" ];
         sansSerif = [ "FreeSans" ];
         serif = [ "FreeSerif" ];
         emoji = [ "Noto Color Emoji" ];

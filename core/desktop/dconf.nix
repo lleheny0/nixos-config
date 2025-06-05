@@ -21,7 +21,7 @@
         font-name = "FreeSans 11";
         # "gtk-theme" = "Adwaita-dark";
         enable-hot-corners = false;
-        monospace-font-name = "Unifont Bold 12";
+        monospace-font-name = "JetBrains Mono Bold 10";
         show-battery-percentage = true;
         text-scaling-factor = lib.mkDefault 1.0;
       };
