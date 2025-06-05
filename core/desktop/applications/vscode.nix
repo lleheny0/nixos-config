@@ -197,7 +197,8 @@
         "security.workspace.trust.untrustedFiles" = "open";
         "svelte.enable-ts-plugin" = true;
         "telemetry.telemetryLevel" = "off";
-        "terminal.integrated.fontSize" = 14;
+        "terminal.integrated.fontFamily" = "Unifont";
+        "terminal.integrated.fontSize" = 16;
         "terminal.integrated.fontWeight" = "bold";
         "terminal.integrated.lineHeight" = 1;
         "update.mode" = "none";
