@@ -1313,5 +1313,9 @@
       url = "http://192.168.1.128:1780";
       keyword = "sw";
     }
+    {
+      name = "Programming Fonts";
+      url = "https://www.programmingfonts.org/";
+    }
   ];
 }
