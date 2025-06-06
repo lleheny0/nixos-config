@@ -6,10 +6,7 @@
     ../modules/desktop/social.nix
     ../modules/hardware/large-text.nix
     ../modules/hardware/no-audio-powersave.nix
-    ../modules/hardware/slow-scroll.nix
   ];
-
-  networking.hostName = "ideapad";
 
   home-manager.users.luke = { lib, ... }: {
     dconf.settings = {
@@ -18,4 +15,11 @@
       };
     };
   };
+
+  home-manager.users.luke.programs.firefox.profiles.default.settings = {
+    "mousewheel.default.delta_multiplier_x" = 50;
+    "mousewheel.default.delta_multiplier_y" = 50;
+  };
+
+  networking.hostName = "ideapad";
 }
