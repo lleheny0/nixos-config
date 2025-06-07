@@ -3,6 +3,17 @@
     enable = true;
     theme = "hyper";
     settings = {
+      env = {
+        TERM = "xterm-256color";
+      };
+      window = {
+        decorations = "None";
+        startup_mode = "Maximized";
+        dimensions = {
+          columns = 150;
+          lines = 50;
+        };
+      };
       font = {
         size = 12.0;
         normal = {
@@ -19,22 +30,14 @@
           style = "Regular";
         };
       };
-      window = {
-        decorations = "None";
-        startup_mode = "Maximized";
-        dimensions = {
-          columns = 150;
-          lines = 50;
-        };
-      };
-      mouse = {
-        hide_when_typing = true;
-      };
       colors = {
         primary = {
           background = "#000000";
           foreground = "#ffffff";
         };
+      };
+      mouse = {
+        hide_when_typing = true;
       };
     };
   };
