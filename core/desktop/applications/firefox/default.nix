@@ -1,5 +1,6 @@
 {
   imports = [
+    ./scroll-speed.nix
     ./ublock-origin.nix
   ];
 

@@ -14,12 +14,9 @@
         night-light-temperature = lib.hm.gvariant.mkUint32 2700;
       };
     };
-
-    programs.firefox.profiles.default.settings = {
-      "mousewheel.default.delta_multiplier_x" = 50;
-      "mousewheel.default.delta_multiplier_y" = 50;
-    };
   };
+
+  firefox.scrollSpeed = 50;
 
   networking.hostName = "ideapad";
 }
