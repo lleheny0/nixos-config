@@ -5,14 +5,6 @@
     "p /run/spotify 0666 luke users -"
   ];
 
-  nixpkgs.overlays = [
-    (final: prev: {
-      librespot = prev.librespot.overrideAttrs (old: {
-        cargoBuildFlags = (old.cargoBuildFlags or []) ++ [ "--features=with-libmdns" ];
-      });
-    })
-  ];
-
   services.snapserver = {
     enable = true;
     openFirewall = true;
