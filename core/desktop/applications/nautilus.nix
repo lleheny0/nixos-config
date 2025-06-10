@@ -20,6 +20,11 @@
   ];
 
   home-manager.users.luke.dconf.settings = {
+    "org/gnome/desktop/privacy" = {
+      remember-recent-files = false;
+      remove-old-temp-files = true;
+      remove-old-trash-files = true;
+    };
     "org/gnome/nautilus/icon-view" = {
       default-zoom-level = "small-plus";
     };

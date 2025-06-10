@@ -59,11 +59,6 @@
       "org/gnome/desktop/peripherals/touchpad" = {
         tap-to-click = false;
       };
-      "org/gnome/desktop/privacy" = {
-        remember-recent-files = false;
-        remove-old-temp-files = true;
-        remove-old-trash-files = true;
-      };
       "org/gnome/desktop/search-providers" = {
         disabled = [
           "org.gnome.Characters.desktop"
