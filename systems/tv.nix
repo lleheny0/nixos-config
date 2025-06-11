@@ -9,5 +9,7 @@
     ../modules/server/snapclient.nix
   ];
 
+  snapclient.predelay = 120;
+
   networking.hostName = "tv";
 }
