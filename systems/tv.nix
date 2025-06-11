@@ -9,5 +9,5 @@
     ../modules/server/snapclient.nix
   ];
 
-  networking.hostName = "optiplex";
+  networking.hostName = "tv";
 }
