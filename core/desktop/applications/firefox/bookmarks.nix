@@ -1184,7 +1184,7 @@
     }
     {
       name = "WeatherStar 4000+";
-      url = "https://weatherstar.netbymatt.com/?hazards-checkbox=true&current-weather-checkbox=true&latest-observations-checkbox=false&hourly-checkbox=false&hourly-graph-checkbox=true&travel-checkbox=false&regional-forecast-checkbox=false&local-forecast-checkbox=false&extended-forecast-checkbox=true&almanac-checkbox=false&radar-checkbox=false&settings-wide-checkbox=false&settings-kiosk-checkbox=false&settings-speed-select=1.50&settings-units-select=us&latLonQuery=02906%2C+Providence%2C+RI%2C+USA&latLon=%7B%22lat%22%3A41.8356%2C%22lon%22%3A-71.3923%7D";
+      url = "https://weatherstar.netbymatt.com/?hazards-checkbox=true&current-weather-checkbox=true&latest-observations-checkbox=false&hourly-checkbox=false&hourly-graph-checkbox=true&travel-checkbox=false&regional-forecast-checkbox=false&local-forecast-checkbox=false&extended-forecast-checkbox=false&almanac-checkbox=false&spc-outlook-checkbox=false&radar-checkbox=false&settings-wide-checkbox=false&settings-kiosk-checkbox=false&settings-scanLines-checkbox=false&settings-speed-select=1.50&settings-units-select=us&latLonQuery=02906%2C+Providence%2C+RI%2C+USA&latLon=%7B%22lat%22%3A41.8356%2C%22lon%22%3A-71.3923%7D";
       keyword = "ws";
     }
     {
