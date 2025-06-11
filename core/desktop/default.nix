@@ -7,7 +7,6 @@
     ./environment.nix
     ./fonts.nix
     ./gnome.nix
-    ./packages.nix
-    ./pipewire.nix
+    ./sound.nix
   ];
 }
