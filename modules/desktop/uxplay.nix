@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ config, pkgs, ... }:
 
 {
   services.avahi = {
@@ -16,7 +16,7 @@
     after = [ "network.target" "avahi-daemon.service" ];
     wantedBy = [ "multi-user.target" ];
     serviceConfig = {
-      ExecStart = "${pkgs.uxplay}/bin/uxplay -p";
+      ExecStart = "${pkgs.uxplay}/bin/uxplay -p -n \"${config.networking.hostName}\" -nh -fs";
       Restart = "on-failure";
     };
   };
