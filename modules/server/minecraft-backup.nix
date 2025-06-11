@@ -2,7 +2,7 @@
 
 {
   systemd.services.minecraft-backup = {
-    description = "Backup the Minecraft folder";
+    description = "Minecraft World Backup";
     path = with pkgs; [ gnutar gzip ];
     script = ''
       tar -czf "/home/luke/Backups/Minecraft/$(date +%Y-%m-%d).tar.gz" -C /home/luke/Minecraft .
