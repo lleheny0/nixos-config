@@ -7,7 +7,7 @@
     ../modules/development/javascript.nix
     ../modules/hardware/ecotank.nix
     ../modules/hardware/multi-monitor.nix
-    ../modules/server/snapclient.nix
+    ../modules/server/snapcast/client.nix
   ];
 
   networking.hostName = "desktop";

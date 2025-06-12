@@ -2,6 +2,7 @@
 
 {
   users.users.luke.packages = with pkgs; [
+    mp3gain
     (writeShellApplication {
       name = "vu";
       text = ''

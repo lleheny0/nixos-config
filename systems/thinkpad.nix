@@ -2,7 +2,7 @@
   imports = [
     ../core/server
     ../modules/hardware/ignore-lid.nix
-    ../modules/server/snapserver.nix
+    ../modules/server/snapcast/server.nix
   ];
 
   networking.hostName = "thinkpad";

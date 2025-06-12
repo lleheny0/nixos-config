@@ -1,6 +1,6 @@
 {
   services.liquidsoap.streams = {
-    vgm-stream = ./dotfiles/vgm-stream.liq;
+    vgm-radio = ./vgm-radio.liq;
   };
 
   networking.firewall.allowedTCPPorts = [ 8080 ];
