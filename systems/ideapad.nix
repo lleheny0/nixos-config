@@ -16,7 +16,10 @@
     };
   };
 
-  firefox.scrollSpeed = 50;
+  firefox = {
+    scrollSpeed = 50;
+    textScaling = 1.25;
+  };
 
   networking.hostName = "ideapad";
 }
