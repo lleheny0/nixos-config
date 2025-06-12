@@ -2,7 +2,7 @@
 
 {
   systemd.services.vgm-backup = {
-    description = "VGM Backup";
+    description = "VGM backup";
     script = ''
       rm -r /backup/Music
       cp -r /vgm/Music /backup

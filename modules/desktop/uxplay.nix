@@ -12,7 +12,7 @@
 
   systemd.user.services.uxplay = {
     enable = true;
-    description = "AirPlay Mirroring Server";
+    description = "AirPlay mirroring server";
     after = [ "network.target" "avahi-daemon.service" ];
     wantedBy = [ "multi-user.target" ];
     serviceConfig = {

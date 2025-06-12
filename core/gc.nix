@@ -6,7 +6,7 @@
   };
 
   systemd.services.nix-gc-system = {
-    description = "Garbage collection for system profiles";
+    description = "System garbage collection";
     path = with pkgs; [ nix ];
     script = "nix-collect-garbage --delete-older-than 30d";
     serviceConfig = {
@@ -23,7 +23,7 @@
   };
 
   systemd.services.nix-gc-user = {
-    description = "Garbage collection for user profiles";
+    description = "User garbage collection";
     path = with pkgs; [ nix ];
     script = "nix-collect-garbage --delete-older-than 30d";
     serviceConfig = {
