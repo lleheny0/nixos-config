@@ -41,7 +41,7 @@
   systemd.timers.librespot-restarter = {
     wantedBy = [ "timers.target" ];
     timerConfig = {
-      OnBootSec = "60";
+      OnBootSec = "120";
       Unit = "librespot-restarter.service";
     };
   };
