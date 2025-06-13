@@ -25,7 +25,7 @@
     after = [ "network-online.target" ];
     wantedBy = [ "default.target" ];
     serviceConfig = {
-      ExecStart = "${pkgs.librespot}/bin/librespot --backend pipe --device /run/spotify --name Home --zeroconf-port 15353 --enable-volume-normalisation --normalisation-method basic";
+      ExecStart = "${pkgs.librespot}/bin/librespot --backend pipe --device /run/spotify --name Home --zeroconf-port 15353 --enable-volume-normalisation --normalisation-method basic --volume-ctrl cubic";
       Restart = "on-failure";
       User = "luke";
     };
