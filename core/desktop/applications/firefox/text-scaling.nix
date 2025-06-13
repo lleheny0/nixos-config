@@ -4,7 +4,7 @@
   options.firefox = {
     textScaling = lib.mkOption {
       type = lib.types.float;
-      default = -1;
+      default = -1.0;
       description = "Firefox text scaling factor";
     };
   };
