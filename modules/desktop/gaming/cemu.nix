@@ -10,6 +10,10 @@
 # in
 
 {
+  imports = [
+    ./botw-backup.nix
+  ];
+
   boot.kernelModules = [
     "hid-nintendo"
   ];
