@@ -3,7 +3,6 @@
 {
   fonts = {
     packages = with pkgs; [
-      fantasque-sans-mono
       fixedsys-excelsior
       freefont_ttf
       jetbrains-mono
