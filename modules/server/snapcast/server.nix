@@ -3,6 +3,7 @@
 {
   imports = [
     ./librespot.nix
+    ./mpg123.nix
   ];
 
   systemd.tmpfiles.rules = [
