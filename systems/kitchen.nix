@@ -1,7 +1,6 @@
 {
   imports = [
     ../core/server
-    ../modules/hardware/no-audio-powersave.nix
     ../modules/server/snapcast/client.nix
   ];
 

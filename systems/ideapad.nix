@@ -5,7 +5,6 @@
     ../core/desktop
     ../modules/desktop/social.nix
     ../modules/hardware/ecotank.nix
-    ../modules/hardware/no-audio-powersave.nix
   ];
 
   home-manager.users.luke = { lib, ... }: {
