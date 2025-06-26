@@ -1,8 +1,7 @@
 {
   imports = [
-    ./scroll-speed.nix
+    ./options.nix
     ./settings.nix
-    ./text-scaling.nix
     ./ublock-origin.nix
   ];
 }
