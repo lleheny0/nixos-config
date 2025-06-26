@@ -6,7 +6,7 @@
     ./cursor.nix
     ./environment.nix
     ./fonts.nix
-    ./gnome.nix
+    ./gnome
     ./sound.nix
   ];
 }

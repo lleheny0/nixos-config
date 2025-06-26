@@ -1,27 +1,6 @@
 { pkgs, ... }:
 
 {
-  services = {
-    displayManager.gdm.enable = true;
-    desktopManager.gnome.enable = true;
-    xserver = {
-      enable = true;
-      xkb = {
-        layout = "us";
-        variant = "";
-      };
-    };
-    printing.enable = true;
-  };
-
-  users.users.luke.packages = with pkgs; [
-    adwaita-qt
-    dconf-editor
-    gnome-tweaks
-    gnomeExtensions.appindicator
-    gnomeExtensions.dash-to-dock
-  ];
-
   home-manager.users.luke = { lib, ... }: {
     dconf.settings = {
       "org/gnome/Console" = {
@@ -196,14 +175,6 @@
       };
     };
 
-    home.file."Pictures/wallpaper.jpg".source = ./images/wallpaper.jpg;
-
-    qt = {
-      enable = true;
-      platformTheme = {
-        name = "gnome";
-      };
-      style.name = "adwaita-dark";
-    };
+    home.file."Pictures/wallpaper.jpg".source = ./wallpaper.jpg;
   };
 }
