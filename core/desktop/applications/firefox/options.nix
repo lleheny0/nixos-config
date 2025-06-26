@@ -5,12 +5,12 @@
     scrollSpeed = lib.mkOption {
       type = lib.types.int;
       default = 400;
-      description = "Firefox scroll speed multiplier";
+      description = "Scroll speed multiplier";
     };
     textScaling = lib.mkOption {
       type = lib.types.float;
       default = -1.0;
-      description = "Firefox text scaling factor";
+      description = "Text scaling factor";
     };
   };
 

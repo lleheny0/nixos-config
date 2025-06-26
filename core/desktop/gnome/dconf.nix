@@ -25,15 +25,10 @@
         enable-hot-corners = false;
         monospace-font-name = "JetBrains Mono Bold 10";
         show-battery-percentage = true;
-        text-scaling-factor = lib.mkDefault 1.0;
       };
       "org/gnome/desktop/notifications" = {
         show-banners = false;
         show-in-lock-screen = false;
-      };
-      "org/gnome/desktop/peripherals/mouse" = {
-        accel-profile = lib.mkDefault "flat";
-        natural-scroll = lib.mkDefault false;
       };
       "org/gnome/desktop/peripherals/touchpad" = {
         tap-to-click = false;
@@ -54,9 +49,6 @@
         picture-options = "zoom";
         picture-uri = "/home/luke/Pictures/wallpaper.jpg";
         picture-uri-dark = "/home/luke/Pictures/wallpaper.jpg";
-      };
-      "org/gnome/desktop/session" = {
-        idle-delay = lib.mkDefault (lib.hm.gvariant.mkUint32 900);
       };
       "org/gnome/desktop/sound" = {
         allow-volume-above-100-percent = true;
@@ -90,7 +82,6 @@
           (-71.4128)
         ]);
         night-light-schedule-automatic = true;
-        night-light-temperature = lib.mkDefault (lib.hm.gvariant.mkUint32 3000);
       };
       "org/gnome/settings-daemon/plugins/media-keys" = {
         logout = [];
