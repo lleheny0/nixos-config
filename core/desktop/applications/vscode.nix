@@ -9,6 +9,7 @@
         bbenoist.nix
         dbaeumer.vscode-eslint
         esbenp.prettier-vscode
+        # gerane.Theme-Brogrammer
         # ms-vscode.remote-explorer
         # ms-vscode-remote.remote-ssh
         # ms-vscode-remote.remote-ssh-edit
@@ -203,7 +204,7 @@
         "terminal.integrated.lineHeight" = 1;
         "update.mode" = "none";
         "vim.useSystemClipboard" = true;
-        "workbench.colorTheme" = "Monokai One Dark Vivid";
+        "workbench.colorTheme" = "Brogrammer";
         "window.customMenuBarAltFocus" = false;
         "window.titleBarStyle" = "custom";
         "workbench.startupEditor" = "none";
