@@ -87,6 +87,9 @@
           "browser.formfill.enable" = false;
           "browser.link.open_newwindow" = 3;
           "browser.ml.chat.enabled" = false;
+          "browser.newtabpage.activity-stream.feeds.section.topstories" = false;
+          "browser.newtabpage.activity-stream.showSponsored" = false;
+          "browser.newtabpage.activity-stream.showWeather" = false;
           "browser.search.suggest.enabled.private" = true;
           "browser.sessionstore.restore_pinned_tabs_on_demand" = true;
           "browser.startup.homepage" = "chrome://browser/content/blanktab.html";
@@ -102,6 +105,7 @@
           "browser.urlbar.suggest.engines" = false;
           "browser.urlbar.suggest.history" = false;
           "browser.urlbar.suggest.openpage" = false;
+          "browser.urlbar.suggest.quickactions" = false;
           "browser.urlbar.suggest.topsites" = false;
           "browser.warnOnQuitShortcut" = false;
           "datareporting.healthreport.uploadEnabled" = false;
