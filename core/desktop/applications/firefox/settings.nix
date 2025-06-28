@@ -1,5 +1,20 @@
+{ config, lib, ... }:
+
 {
-  home-manager.users.luke = { lib, ... }: {
+  options.firefox = {
+    scrollSpeed = lib.mkOption {
+      type = lib.types.int;
+      default = 400;
+      description = "Scroll speed multiplier";
+    };
+    textScaling = lib.mkOption {
+      type = lib.types.float;
+      default = -1.0;
+      description = "Text scaling factor";
+    };
+  };
+
+  config.home-manager.users.luke = { lib, ... }: {
     programs.firefox = {
       enable = true;
       policies = {
@@ -109,10 +124,11 @@
           "browser.urlbar.suggest.topsites" = false;
           "browser.warnOnQuitShortcut" = false;
           "datareporting.healthreport.uploadEnabled" = false;
+          "layout.css.devPixelsPerPx" = config.firefox.textScaling;
           "media.ffmpeg.vaapi.enabled" = true;
           "media.hardware-video-decoding.force-enabled" = true;
-          "mousewheel.default.delta_multiplier_x" = lib.mkDefault 400;
-          "mousewheel.default.delta_multiplier_y" = lib.mkDefault 400;
+          "mousewheel.default.delta_multiplier_x" = config.firefox.scrollSpeed;
+          "mousewheel.default.delta_multiplier_y" = config.firefox.scrollSpeed;
           "permissions.default.desktop-notification" = 2;
           "permissions.default.geo" = 2;
           "places.history.enabled" = false;

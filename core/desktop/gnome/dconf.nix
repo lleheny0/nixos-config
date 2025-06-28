@@ -1,7 +1,30 @@
-{ pkgs, ... }:
+{ config, lib, pkgs, ... }:
 
 {
-  home-manager.users.luke = { lib, ... }: {
+  options.dconf = {
+    idleDelay = lib.mkOption {
+      type = lib.types.int;
+      default = 900;
+      description = "Idle delay before screen lock";
+    };
+    mouseAccelProfile = lib.mkOption {
+      type = lib.types.str;
+      default = "flat";
+      description = "Mouse acceleration profile";
+    };
+    mouseNaturalScroll = lib.mkOption {
+      type = lib.types.bool;
+      default = false;
+      description = "Natural scrolling";
+    };
+    nightLightTemperature = lib.mkOption {
+      type = lib.types.int;
+      default = 3000;
+      description = "Color temperature for night light";
+    };
+  };
+
+  config.home-manager.users.luke = { lib, ... }: {
     dconf.settings = {
       "org/gnome/Console" = {
         audible-bell = false;
@@ -30,6 +53,10 @@
         show-banners = false;
         show-in-lock-screen = false;
       };
+      "org/gnome/desktop/peripherals/mouse" = {
+        accel-profile = config.dconf.mouseAccelProfile;
+        natural-scroll = config.dconf.mouseNaturalScroll;
+      };
       "org/gnome/desktop/peripherals/touchpad" = {
         tap-to-click = false;
       };
@@ -39,6 +66,9 @@
           "org.gnome.clocks.desktop"
           "org.gnome.Epiphany.desktop"
         ];
+      };
+      "org/gnome/desktop/session" = {
+        idle-delay = lib.hm.gvariant.mkUint32 config.dconf.idleDelay;
       };
       "org/gnome/desktop/screen-time-limits" = {
         daily-limit-enabled = false;
@@ -82,6 +112,7 @@
           (-71.4128)
         ]);
         night-light-schedule-automatic = true;
+        night-light-temperature = lib.hm.gvariant.mkUint32 config.dconf.nightLightTemperature;
       };
       "org/gnome/settings-daemon/plugins/media-keys" = {
         logout = [];
