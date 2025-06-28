@@ -236,11 +236,6 @@
       url = "https://inspirobot.me/";
     }
     {
-      name = "Random Subreddit";
-      url = "https://www.reddit.com/r/random/";
-      keyword = "rr";
-    }
-    {
       name = "Advanced Preferences";
       url = "about:config";
       keyword = "ac";
