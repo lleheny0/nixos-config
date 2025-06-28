@@ -44,6 +44,11 @@
       keyword = "ddg";
     }
     {
+      name = "DuckDuckGo Search";
+      url = "https://duckduckgo.com/?q=%s";
+      keyword = "d";
+    }
+    {
       name = "Facebook";
       url = "https://www.facebook.com/";
     }
@@ -150,6 +155,11 @@
     {
       name = "YouTube";
       url = "https://www.youtube.com/";
+    }
+    {
+      name = "YouTube Search";
+      url = "https://www.youtube.com/results?search_query=%s";
+      keyword = "y";
     }
     {
       name = "Xbox Official Site";
@@ -909,9 +919,9 @@
       url = "https://nixos.org/";
     }
     {
-      name = "Perplexity AI";
-      url = "https://www.perplexity.ai/";
-      keyword = "pr";
+      name = "Perplexity Search";
+      url = "https://www.perplexity.ai/?q=%s";
+      keyword = "p";
     }
     {
       name = "JavaScript | MDN";
@@ -1316,6 +1326,11 @@
     {
       name = "Programming Fonts";
       url = "https://www.programmingfonts.org/";
+    }
+    {
+      name = "Google Search";
+      url = "https://www.google.com/search?q=%s";
+      keyword = "g";
     }
   ];
 }
