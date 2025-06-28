@@ -6,7 +6,7 @@
 
   snapclient = {
     asUser = false;
-    params = "--soundcard 9 --latency 20";
+    params = "--soundcard 2";
     predelay = 60;
   };
 
