@@ -5,7 +5,6 @@
     ../modules/desktop/uxplay.nix
     ../modules/hardware/ignore-lid.nix
     ../modules/hardware/multi-monitor.nix
-    ../modules/hardware/tv.nix
     ../modules/server/snapcast/client.nix
   ];
 
