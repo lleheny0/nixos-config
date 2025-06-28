@@ -87,6 +87,17 @@
           SiteSettings = false;
           Locked = true;
         };
+        SearchEngines = {
+          Default = "Google";
+          Remove = [
+            "DuckDuckGo"
+            "Bing"
+            "Yahoo"
+            "Amazon.com"
+            "eBay"
+            "Wikipedia (en)"
+          ];
+        };
       };
       profiles.default = {
         id = 0;
