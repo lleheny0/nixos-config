@@ -591,8 +591,8 @@
     }
     {
       name = "Google Maps";
-      url = "https://www.google.com/maps";
-      keyword = "maps";
+      url = "https://www.google.com/maps/search/%s";
+      keyword = "gm";
     }
     {
       name = "Venmo - Share Payments";
