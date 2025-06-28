@@ -123,6 +123,7 @@
           "browser.tabs.firefox-view" = false;
           "browser.tabs.insertAfterCurrent" = true;
           "browser.tabs.tabmanager.enabled" = false;
+          "browser.urlbar.scotchBonnet.enableOverride" = false;
           "browser.urlbar.shortcuts.bookmarks" = false;
           "browser.urlbar.shortcuts.history" = false;
           "browser.urlbar.shortcuts.quickactions" = false;
