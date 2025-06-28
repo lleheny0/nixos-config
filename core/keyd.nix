@@ -9,7 +9,7 @@
         settings = {
           main = {
             capslock = "layer(control)";
-            leftcontrol = lib.mkDefault "layer(aux)";
+            leftcontrol = "layer(aux)";
           };
           aux = {
             j = "down";

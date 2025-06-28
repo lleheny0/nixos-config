@@ -1,4 +1,4 @@
-{ pkgs, lib, ... }:
+{ pkgs, ... }:
 
 let
   name = "Adwaita";
@@ -15,7 +15,7 @@ in {
 
     dconf.settings = {
       "org/gnome/desktop/interface" = {
-        cursor-theme = lib.mkDefault name;
+        cursor-theme = name;
       };
     };
   };
