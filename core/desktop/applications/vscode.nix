@@ -15,6 +15,7 @@
         ms-vscode.remote-explorer
         ms-vscode-remote.remote-ssh
         ms-vscode-remote.remote-ssh-edit
+        # vittee.liquidsoap
         vscodevim.vim
       ];
       keybindings = [
