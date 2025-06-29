@@ -3,6 +3,7 @@
 {
   fonts = {
     packages = with pkgs; [
+      cascadia-code
       fixedsys-excelsior
       freefont_ttf
       jetbrains-mono
@@ -14,7 +15,7 @@
       enable = true;
       useEmbeddedBitmaps = true;
       defaultFonts = {
-        monospace = [ "JetBrains Mono" ];
+        monospace = [ "Cascadia Code" ];
         sansSerif = [ "FreeSans" ];
         serif = [ "FreeSerif" ];
         emoji = [ "Noto Color Emoji" ];
