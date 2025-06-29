@@ -1203,7 +1203,7 @@
     }
     {
       name = "NixOS Search";
-      url = "https://search.nixos.org/";
+      url = "https://search.nixos.org/?channel=unstable&query=%s";
       keyword = "ns";
     }
     {
