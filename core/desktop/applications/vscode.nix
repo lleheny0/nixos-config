@@ -189,7 +189,7 @@
         "editor.colorDecorators" = false;
         "editor.defaultFormatter" = "esbenp.prettier-vscode";
         "editor.fontFamily" = "Cascadia Code";
-        "editor.fontLigatures" = true;
+        "editor.fontLigatures" = "'ss01', 'ss19'";
         "editor.fontSize" = 14;
         "editor.fontWeight" = "bold";
         "editor.formatOnSave" = true;
