@@ -3,7 +3,7 @@
 let
   monospace = "Cascadia Code";
   monospacePx = 14;
-  monospacePt = 12;
+  monospacePt = 11;
   sansSerif = "FreeSans";
   sansSerifPt = 11;
   serif = "FreeSerif";
