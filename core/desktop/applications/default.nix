@@ -7,7 +7,7 @@
     ./nautilus.nix
     ./packages.nix
     ./spotify.nix
-    ./vscode.nix
+    ./vscode
     ./wireshark.nix
   ];
 }
