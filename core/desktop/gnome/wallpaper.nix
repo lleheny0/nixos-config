@@ -2,7 +2,7 @@ let
   wallpaper = "file://" + ./wallpaper.jpg;
 in
 {
-  config.home-manager.users.luke = {
+  home-manager.users.luke = {
     dconf.settings = {
       "org/gnome/desktop/background" = {
         color-shading-type = "solid";
