@@ -36,6 +36,9 @@
         picture-uri = "/home/luke/Pictures/wallpaper.jpg";
         picture-uri-dark = "/home/luke/Pictures/wallpaper.jpg";
       };
+      "org/gnome/desktop/input-sources" = {
+        xkb-options = [];
+      };
       "org/gnome/desktop/interface" = {
         clock-format = "12h";
         clock-show-date = true;
