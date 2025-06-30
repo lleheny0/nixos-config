@@ -188,10 +188,6 @@
       userSettings = {
         "editor.colorDecorators" = false;
         "editor.defaultFormatter" = "esbenp.prettier-vscode";
-        "editor.fontFamily" = "Cascadia Code";
-        "editor.fontLigatures" = "'ss01', 'ss19'";
-        "editor.fontSize" = 14;
-        "editor.fontWeight" = "bold";
         "editor.formatOnSave" = true;
         "editor.tabSize" = 2;
         "explorer.confirmDragAndDrop" = false;
@@ -201,9 +197,6 @@
         "security.workspace.trust.untrustedFiles" = "open";
         "svelte.enable-ts-plugin" = true;
         "telemetry.telemetryLevel" = "off";
-        "terminal.integrated.fontFamily" = "Cascadia Code";
-        "terminal.integrated.fontSize" = 14;
-        "terminal.integrated.fontWeight" = "bold";
         "update.mode" = "none";
         "vim.useSystemClipboard" = true;
         "workbench.colorTheme" = "Brogrammer";

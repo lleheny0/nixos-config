@@ -42,11 +42,8 @@
         clock-show-seconds = false;
         clock-show-weekday = true;
         color-scheme = "prefer-dark";
-        document-font-name = "FreeSans 11";
-        font-name = "FreeSans 11";
         # "gtk-theme" = "Adwaita-dark";
         enable-hot-corners = false;
-        monospace-font-name = "JetBrains Mono Bold 10";
         show-battery-percentage = true;
       };
       "org/gnome/desktop/notifications" = {
