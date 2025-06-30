@@ -60,13 +60,6 @@
       "org/gnome/desktop/peripherals/touchpad" = {
         tap-to-click = false;
       };
-      "org/gnome/desktop/search-providers" = {
-        disabled = [
-          "org.gnome.Characters.desktop"
-          "org.gnome.clocks.desktop"
-          "org.gnome.Epiphany.desktop"
-        ];
-      };
       "org/gnome/desktop/session" = {
         idle-delay = lib.hm.gvariant.mkUint32 config.dconf.idleDelay;
       };
