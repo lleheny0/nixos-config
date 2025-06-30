@@ -42,7 +42,7 @@ in
 
   home-manager.users.luke.programs.vscode.profiles.default.userSettings = {
     "editor.fontFamily" = monospace;
-    "editor.fontLigatures" = "'ss01', 'ss19'";
+    "editor.fontLigatures" = true;
     "editor.fontSize" = monospacePx;
     "editor.fontWeight" = "bold";
     "terminal.integrated.fontFamily" = monospace;
