@@ -4,5 +4,6 @@
     ./packages.nix
     ./qt.nix
     ./services.nix
+    ./wallpaper.nix
   ];
 }

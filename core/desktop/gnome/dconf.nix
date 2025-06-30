@@ -30,12 +30,6 @@
         audible-bell = false;
         visual-bell = false;
       };
-      "org/gnome/desktop/background" = {
-        color-shading-type = "solid";
-        picture-options = "zoom";
-        picture-uri = "/home/luke/Pictures/wallpaper.jpg";
-        picture-uri-dark = "/home/luke/Pictures/wallpaper.jpg";
-      };
       "org/gnome/desktop/input-sources" = {
         xkb-options = [];
       };
@@ -66,12 +60,6 @@
       "org/gnome/desktop/screen-time-limits" = {
         daily-limit-enabled = false;
         history-enabled = false;
-      };
-      "org/gnome/desktop/screensaver" = {
-        color-shading-type = "solid";
-        picture-options = "zoom";
-        picture-uri = "/home/luke/Pictures/wallpaper.jpg";
-        picture-uri-dark = "/home/luke/Pictures/wallpaper.jpg";
       };
       "org/gnome/desktop/sound" = {
         allow-volume-above-100-percent = true;
@@ -189,7 +177,5 @@
         clock-format = "12h";
       };
     };
-
-    home.file."Pictures/wallpaper.jpg".source = ./wallpaper.jpg;
   };
 }
