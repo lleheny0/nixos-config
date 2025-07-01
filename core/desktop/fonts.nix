@@ -13,9 +13,7 @@ in
   fonts = {
     packages = with pkgs; [
       cascadia-code
-      fixedsys-excelsior
       freefont_ttf
-      jetbrains-mono
       noto-fonts-emoji
       uni-vga
     ];
