@@ -11,6 +11,7 @@
     ./networking.nix
     ./nix-ld.nix
     ./packages.nix
+    ./ssh-commands.nix
     ./vim.nix
   ];
 }
