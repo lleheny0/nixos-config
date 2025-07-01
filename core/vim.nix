@@ -27,4 +27,8 @@
       syntax on
     '';
   };
+
+  environment.variables = {
+    EDITOR = "vim";
+  };
 }
