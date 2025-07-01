@@ -1,7 +1,7 @@
 { pkgs, ... }:
 
 let
-  monospace = "Cascadia Code";
+  monospace = "Fragment Mono";
   monospacePx = 14;
   monospacePt = 11;
   sansSerif = "FreeSans";
@@ -13,7 +13,10 @@ in
   fonts = {
     packages = with pkgs; [
       cascadia-code
+      fantasque-sans-mono
+      fragment-mono
       freefont_ttf
+      jetbrains-mono
       noto-fonts-emoji
       uni-vga
     ];
