@@ -106,12 +106,12 @@
       "org/gnome/shell" = {
         favorite-apps = [
           "firefox.desktop"
-          "Alacritty.desktop"
           "org.gnome.Nautilus.desktop"
+          "Alacritty.desktop"
+          "code.desktop"
           "signal.desktop"
           "discord.desktop"
           "spotify.desktop"
-          "code.desktop"
           "steam.desktop"
           "org.prismlauncher.PrismLauncher.desktop"
           "slippi.desktop"
