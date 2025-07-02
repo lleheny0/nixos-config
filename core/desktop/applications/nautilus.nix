@@ -27,7 +27,7 @@
     };
     "org/gnome/nautilus/preferences" = {
       date-time-format = "detailed";
-      default-folder-viewer = "icon-view";
+      default-folder-viewer = "list-view";
     };
   };
 }
