@@ -5,8 +5,6 @@
     adwaita-qt
     dconf-editor
     gnome-tweaks
-    gnomeExtensions.appindicator
-    gnomeExtensions.dash-to-dock
   ];
 
   environment.gnome.excludePackages = with pkgs; [
