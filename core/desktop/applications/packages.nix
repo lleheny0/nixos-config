@@ -7,6 +7,7 @@
     gimp
     libva-utils
     radeontop
+    texlive.combined.scheme-small
     vlc
   ];
 }
