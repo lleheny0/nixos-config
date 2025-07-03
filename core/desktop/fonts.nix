@@ -6,7 +6,7 @@ let
   monospacePt = 11;
   sansSerif = "FreeSans";
   sansSerifPt = 11;
-  serif = "FreeSerif";
+  serif = "Latin Modern Roman";
   emoji = "Noto Color Emoji";
 in
 {
@@ -17,6 +17,7 @@ in
       fragment-mono
       freefont_ttf
       jetbrains-mono
+      lmodern
       noto-fonts-emoji
       uni-vga
     ];
