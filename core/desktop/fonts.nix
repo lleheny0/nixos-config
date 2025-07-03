@@ -4,9 +4,9 @@ let
   monospace = "Fragment Mono";
   monospacePx = 14;
   monospacePt = 11;
-  sansSerif = "FreeSans";
+  sansSerif = "Tex Gyre Heros";
   sansSerifPt = 11;
-  serif = "Latin Modern Roman";
+  serif = "Tex Gyre Termes";
   emoji = "Noto Color Emoji";
 in
 {
@@ -16,6 +16,7 @@ in
       fantasque-sans-mono
       fragment-mono
       freefont_ttf
+      gyre-fonts
       jetbrains-mono
       lmodern
       noto-fonts-emoji
