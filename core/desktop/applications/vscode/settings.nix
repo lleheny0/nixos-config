@@ -17,5 +17,8 @@
     "window.customMenuBarAltFocus" = false;
     "window.titleBarStyle" = "custom";
     "workbench.startupEditor" = "none";
+    "[latex]" = {
+      "editor.rulers" = [ 80 ];
+    };
   };
 }
