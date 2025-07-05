@@ -18,7 +18,6 @@ in
       freefont_ttf
       gyre-fonts
       jetbrains-mono
-      lmodern
       noto-fonts-emoji
       uni-vga
     ];
