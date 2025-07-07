@@ -1,14 +1,5 @@
 { pkgs, ... }:
 
-let
-  monospace = "Fragment Mono";
-  monospacePx = 14;
-  monospacePt = 11;
-  sansSerif = "Tex Gyre Heros";
-  sansSerifPt = 11;
-  serif = "Tex Gyre Termes";
-  emoji = "Noto Color Emoji";
-in
 {
   fonts = {
     packages = with pkgs; [
@@ -26,29 +17,44 @@ in
       enable = true;
       useEmbeddedBitmaps = true;
       defaultFonts = {
-        monospace = [ monospace ];
-        sansSerif = [ sansSerif ];
-        serif = [ serif ];
-        emoji = [ emoji ];
+        sansSerif = [ "Tex Gyre Heros" ];
+        serif = [ "Tex Gyre Termes" ];
+        monospace = [ "Fragment Mono" ];
+        emoji = [ "Noto Color Emoji" ];
       };
     };
   };
 
   home-manager.users.luke.dconf.settings = {
     "org/gnome/desktop/interface" = {
-      document-font-name = "${sansSerif} ${toString sansSerifPt}";
-      font-name = "${sansSerif} ${toString sansSerifPt}";
-      monospace-font-name = "${monospace} Bold ${toString monospacePt}";
+      document-font-name = "Tex Gyre Heros 11";
+      font-name = "Tex Gyre Heros 11";
+      monospace-font-name = "Fragment Mono Bold 11";
     };
   };
 
   home-manager.users.luke.programs.vscode.profiles.default.userSettings = {
-    "editor.fontFamily" = monospace;
+    "editor.fontFamily" = "Fragment Mono";
     "editor.fontLigatures" = true;
-    "editor.fontSize" = monospacePx;
+    "editor.fontSize" = 14;
     "editor.fontWeight" = "bold";
-    "terminal.integrated.fontFamily" = monospace;
-    "terminal.integrated.fontSize" = monospacePx;
     "terminal.integrated.fontWeight" = "bold";
+  };
+
+  home-manager.users.luke.programs.alacritty.settings.font = {
+    size = 12.0;
+    normal = {
+      family = "VGA";
+      style = "Regular";
+    };
+    bold = {
+      style = "Regular";
+    };
+    italic = {
+      style = "Regular";
+    };
+    bold_italic = {
+      style = "Regular";
+    };
   };
 }

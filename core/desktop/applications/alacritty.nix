@@ -14,22 +14,6 @@
           lines = 50;
         };
       };
-      font = {
-        size = 12.0;
-        normal = {
-          family = "VGA";
-          style = "Regular";
-        };
-        bold = {
-          style = "Regular";
-        };
-        italic = {
-          style = "Regular";
-        };
-        bold_italic = {
-          style = "Regular";
-        };
-      };
       colors = {
         primary = {
           background = "#000000";
