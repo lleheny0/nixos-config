@@ -3,13 +3,19 @@
 {
   fonts = {
     packages = with pkgs; [
+      anonymousPro
       cascadia-code
       fantasque-sans-mono
+      fira-code
       fragment-mono
       freefont_ttf
       gyre-fonts
+      ibm-plex
+      inconsolata
       jetbrains-mono
       noto-fonts-emoji
+      roboto-mono
+      source-code-pro
       uni-vga
     ];
 
