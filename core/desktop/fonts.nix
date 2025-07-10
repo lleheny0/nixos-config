@@ -23,7 +23,7 @@
       enable = true;
       useEmbeddedBitmaps = true;
       defaultFonts = {
-        sansSerif = [ "Tex Gyre Heros" ];
+        sansSerif = [ "FreeSans" ];
         serif = [ "Tex Gyre Termes" ];
         monospace = [ "Fragment Mono" ];
         emoji = [ "Noto Color Emoji" ];
@@ -33,8 +33,8 @@
 
   home-manager.users.luke.dconf.settings = {
     "org/gnome/desktop/interface" = {
-      document-font-name = "Tex Gyre Heros 11";
-      font-name = "Tex Gyre Heros 11";
+      document-font-name = "FreeSans 11";
+      font-name = "FreeSans 11";
       monospace-font-name = "Fragment Mono Bold 11";
     };
   };
