@@ -41,6 +41,7 @@
         color-scheme = "prefer-dark";
         # "gtk-theme" = "Adwaita-dark";
         enable-hot-corners = false;
+        font-hinting = "none";
         show-battery-percentage = true;
       };
       "org/gnome/desktop/notifications" = {
