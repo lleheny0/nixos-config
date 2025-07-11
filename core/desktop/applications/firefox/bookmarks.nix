@@ -1328,6 +1328,18 @@
         url = "https://www.google.com/search?q=%s";
         keyword = "g";
       }
+      {
+        name = "DPI Calculator";
+        url = "https://www.sven.de/dpi/";
+      }
+      {
+        name = "Time to upgrade your monitor";
+        url = "https://tonsky.me/blog/monitors/";
+      }
+      {
+        name = "No more blurry fonts in linux";
+        url = "https://blog.aktsbot.in/no-more-blurry-fonts.html";
+      }
     ];
   };
 }
