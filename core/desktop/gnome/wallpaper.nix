@@ -1,5 +1,5 @@
 let
-  wallpaper = "file://" + ./wallpaper.jpg;
+  wallpaper = "file://" + ./wallpaper.png;
 in
 {
   home-manager.users.luke.dconf.settings = {
