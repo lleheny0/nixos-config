@@ -1340,6 +1340,10 @@
         name = "No more blurry fonts in linux";
         url = "https://blog.aktsbot.in/no-more-blurry-fonts.html";
       }
+      {
+        name = "Nix.dev";
+        url = "https://nix.dev/";
+      }
     ];
   };
 }
