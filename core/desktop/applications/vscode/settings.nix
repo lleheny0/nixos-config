@@ -1,6 +1,7 @@
 {
   home-manager.users.luke.programs.vscode.profiles.default.userSettings = {
     "editor.colorDecorators" = false;
+    "explorer.confirmDelete" = false;
     "editor.defaultFormatter" = "esbenp.prettier-vscode";
     "editor.formatOnSave" = true;
     "editor.tabSize" = 2;
