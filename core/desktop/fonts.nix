@@ -13,7 +13,6 @@
       ibm-plex
       inconsolata
       jetbrains-mono
-      monaspace
       noto-fonts-emoji
       recursive
       roboto-mono
