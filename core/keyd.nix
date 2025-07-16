@@ -10,6 +10,7 @@
           main = {
             capslock = "layer(control)";
             leftcontrol = "layer(aux)";
+            rightalt = "rightmeta";
           };
           aux = {
             j = "down";

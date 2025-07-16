@@ -6,6 +6,7 @@
     ../modules/desktop/social.nix
     ../modules/development/javascript.nix
     ../modules/hardware/ecotank.nix
+    ../modules/hardware/marble.nix
     ../modules/hardware/multi-monitor.nix
     ../modules/server/snapcast/client.nix
   ];
