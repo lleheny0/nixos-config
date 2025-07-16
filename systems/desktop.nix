@@ -1,7 +1,7 @@
 {
   imports = [
     ../core/desktop
-    ../modules/desktop/audio-video.nix
+    ../modules/desktop/multimedia.nix
     ../modules/desktop/gaming
     ../modules/desktop/social.nix
     ../modules/development/javascript.nix
