@@ -16,5 +16,9 @@
     };
   };
 
+  environment.shellAliases = {
+    rl = "sudo systemctl restart librespot.service";
+  };
+
   networking.firewall.allowedTCPPorts = [ 5353 15353 ];
 }
