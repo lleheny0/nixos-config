@@ -36,6 +36,13 @@ def get_meta(_, response) =
   response.json(data)
 end
 
+def get_icy_meta(m) =
+  filename = metadata.filename(meta())
+  track = path.remove_extension(path.basename(filename))
+  game = path.basename(path.dirname(filename))
+  "#{game} - #{track}"
+end
+
 radio.on_metadata(update_meta)
 
 harbor.http.register(port=8080, method="GET", "/metadata", get_meta)
@@ -46,5 +53,6 @@ output.icecast(
   port = 8000,
   password = " ",
   mount = "/vgmradio",
+  icy_song = get_icy_meta,
   radio
 )
