@@ -36,5 +36,5 @@
     };
   };
 
-  firefox.scrollSpeed = 100;
+  firefox.scrollSpeed = 200;
 }
