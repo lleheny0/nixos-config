@@ -40,7 +40,13 @@ def get_icy_meta(m) =
   filename = metadata.filename(meta())
   track = path.remove_extension(path.basename(filename))
   game = path.basename(path.dirname(filename))
-  "#{game} - #{track}"
+  duration = radio.duration()
+  minutes = int(duration / 60.)
+  seconds = int(duration mod 60.)
+  formatted_seconds = if seconds < 10 then "0#{seconds}" else "#{seconds}" end
+  track_with_duration = "#{track} (#{minutes}:#{formatted_seconds})"
+
+  "#{game} - #{track_with_duration}"
 end
 
 radio.on_metadata(update_meta)
