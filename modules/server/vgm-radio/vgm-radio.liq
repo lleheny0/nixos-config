@@ -46,7 +46,7 @@ def get_icy_meta(m) =
   formatted_seconds = if seconds < 10 then "0#{seconds}" else "#{seconds}" end
   track_with_duration = "#{track} (#{minutes}:#{formatted_seconds})"
 
-  "#{game} - #{track_with_duration}"
+  "#{game} --- #{track_with_duration}"
 end
 
 radio.on_metadata(update_meta)
