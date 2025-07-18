@@ -6,6 +6,7 @@
       userEmail = "luke.leheny@pm.me";
       extraConfig = {
         pull.rebase = true;
+        rebase.autostash = true;
       };
     };
   };
