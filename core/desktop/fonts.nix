@@ -4,6 +4,7 @@
   fonts = {
     packages = with pkgs; [
       anonymousPro
+      borg-sans-mono
       cascadia-code
       fantasque-sans-mono
       fira-code
@@ -12,6 +13,7 @@
       gyre-fonts
       ibm-plex
       inconsolata
+      input-fonts
       jetbrains-mono
       noto-fonts-emoji
       recursive
@@ -66,4 +68,6 @@
   };
 
   environment.variables.FREETYPE_PROPERTIES = "cff:no-stem-darkening=0 autofitter:no-stem-darkening=0";
+
+  nixpkgs.config.input-fonts.acceptLicense = true;
 }
