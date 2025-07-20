@@ -1344,6 +1344,10 @@
         name = "Nix.dev";
         url = "https://nix.dev/";
       }
+      {
+        name = "Bugzilla";
+        url = "https://bugzilla.mozilla.org/home";
+      }
     ];
   };
 }
