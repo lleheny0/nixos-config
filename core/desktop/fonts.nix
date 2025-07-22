@@ -44,7 +44,7 @@
 
   home-manager.users.luke.programs.vscode.profiles.default.userSettings = {
     "editor.fontFamily" = "Fragment Mono";
-    "editor.fontLigatures" = true;
+    "editor.fontLigatures" = "'ss05', 'ss06'";
     "editor.fontSize" = 14;
     "editor.fontWeight" = "bold";
     "terminal.integrated.fontWeight" = "bold";
