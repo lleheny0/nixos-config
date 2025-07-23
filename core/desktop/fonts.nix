@@ -69,7 +69,7 @@ in
     "org/gnome/desktop/interface" = {
       document-font-name = "FreeSans 11";
       font-name = "FreeSans 11";
-      monospace-font-name = "Monaco Fira Code Bold 11";
+      monospace-font-name = "Monaco Fira Code Bold 10";
     };
   };
 
