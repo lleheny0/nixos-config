@@ -1,5 +1,34 @@
 { pkgs, ... }:
 
+let
+  monaco = pkgs.stdenv.mkDerivation {
+    name = "monaco";
+    src = pkgs.fetchFromGitHub {
+      owner = "taodongl";
+      repo = "monaco.ttf";
+      rev = "master";
+      hash = "sha256-aUkI8BUJ1wXj9mPyK8WvpzpUfT8UbVsbAxKB9QKwtk0=";
+    };
+    installPhase = ''
+      mkdir -p $out/share/fonts
+      cp $src/monaco.ttf $out/share/fonts
+    '';
+  };
+
+  monaco-fira-code = pkgs.stdenv.mkDerivation {
+    name = "monaco-fira-code";
+    src = pkgs.fetchFromGitHub {
+      owner = "muhac";
+      repo = "monaco-fira-code-ligatures";
+      rev = "main";
+      hash = "sha256-pwII63MuDiFkpfBGeslfiFFMlcO4Uc8tJ6+DXOzb3gE=";
+    };
+    installPhase = ''
+      mkdir -p $out/share/fonts
+      cp -r $src/MonacoFiraCode/* $out/share/fonts
+    '';
+  };
+in
 {
   fonts = {
     packages = with pkgs; [
@@ -15,6 +44,8 @@
       inconsolata
       input-fonts
       jetbrains-mono
+      monaco
+      monaco-fira-code
       noto-fonts-emoji
       recursive
       roboto-mono
@@ -28,7 +59,7 @@
       defaultFonts = {
         sansSerif = [ "FreeSans" ];
         serif = [ "Tex Gyre Termes" ];
-        monospace = [ "Fragment Mono" ];
+        monospace = [ "Monaco Fira Code" ];
         emoji = [ "Noto Color Emoji" ];
       };
     };
@@ -38,13 +69,13 @@
     "org/gnome/desktop/interface" = {
       document-font-name = "FreeSans 11";
       font-name = "FreeSans 11";
-      monospace-font-name = "Fragment Mono Bold 11";
+      monospace-font-name = "Monaco Fira Code Bold 11";
     };
   };
 
   home-manager.users.luke.programs.vscode.profiles.default.userSettings = {
-    "editor.fontFamily" = "Fragment Mono";
-    "editor.fontLigatures" = "'ss05', 'ss06'";
+    "editor.fontFamily" = "Monaco Fira Code";
+    "editor.fontLigatures" = true;
     "editor.fontSize" = 14;
     "editor.fontWeight" = "bold";
     "terminal.integrated.fontWeight" = "bold";
