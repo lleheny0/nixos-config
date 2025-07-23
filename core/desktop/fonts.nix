@@ -42,7 +42,6 @@ in
       gyre-fonts
       ibm-plex
       inconsolata
-      input-fonts
       jetbrains-mono
       monaco
       monaco-fira-code
@@ -99,6 +98,4 @@ in
   };
 
   environment.variables.FREETYPE_PROPERTIES = "cff:no-stem-darkening=0 autofitter:no-stem-darkening=0";
-
-  nixpkgs.config.input-fonts.acceptLicense = true;
 }
