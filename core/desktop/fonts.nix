@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ config, lib, pkgs, ... }:
 
 let
   monaco = pkgs.stdenv.mkDerivation {
@@ -30,73 +30,84 @@ let
   };
 in
 {
-  fonts = {
-    packages = with pkgs; [
-      anonymousPro
-      borg-sans-mono
-      cascadia-code
-      fantasque-sans-mono
-      fira-code
-      fragment-mono
-      freefont_ttf
-      gyre-fonts
-      ibm-plex
-      inconsolata
-      jetbrains-mono
-      monaco
-      monaco-fira-code
-      noto-fonts-emoji
-      recursive
-      roboto-mono
-      source-code-pro
-      uni-vga
-    ];
+  options.vscode = {
+    fontSize = lib.mkOption {
+      type = lib.types.float;
+      default = 14.0;
+      description = "VS Code font size";
+    };
+  };
 
-    fontconfig = {
-      enable = true;
-      useEmbeddedBitmaps = true;
-      defaultFonts = {
-        sansSerif = [ "FreeSans" ];
-        serif = [ "Tex Gyre Termes" ];
-        monospace = [ "Monaco Fira Code" ];
-        emoji = [ "Noto Color Emoji" ];
+  config = {
+    fonts = {
+      packages = with pkgs; [
+        anonymousPro
+        borg-sans-mono
+        cascadia-code
+        fantasque-sans-mono
+        fira-code
+        fragment-mono
+        freefont_ttf
+        gyre-fonts
+        ibm-plex
+        inconsolata
+        jetbrains-mono
+        monaco
+        monaco-fira-code
+        noto-fonts-emoji
+        recursive
+        roboto-mono
+        source-code-pro
+        uni-vga
+      ];
+
+      fontconfig = {
+        enable = true;
+        useEmbeddedBitmaps = true;
+        defaultFonts = {
+          sansSerif = [ "FreeSans" ];
+          serif = [ "Tex Gyre Termes" ];
+          monospace = [ "Monaco Fira Code" ];
+          emoji = [ "Noto Color Emoji" ];
+        };
       };
     };
-  };
 
-  home-manager.users.luke.dconf.settings = {
-    "org/gnome/desktop/interface" = {
-      document-font-name = "FreeSans 11";
-      font-name = "FreeSans 11";
-      monospace-font-name = "Monaco Fira Code Bold 10";
+    home-manager.users.luke.dconf.settings = {
+      "org/gnome/desktop/interface" = {
+        document-font-name = "FreeSans 11";
+        font-name = "FreeSans 11";
+        monospace-font-name = "Monaco Fira Code Bold 10";
+      };
     };
-  };
 
-  home-manager.users.luke.programs.vscode.profiles.default.userSettings = {
-    "editor.fontFamily" = "Monaco Fira Code";
-    "editor.fontLigatures" = true;
-    "editor.fontSize" = 14;
-    "editor.fontWeight" = "bold";
-    "terminal.integrated.fontWeight" = "bold";
-    "terminal.integrated.lineHeight" = 1;
-  };
+    home-manager.users.luke.programs.vscode.profiles.default.userSettings = {
+      "editor.fontFamily" = "Monaco Fira Code";
+      "editor.fontLigatures" = true;
+      "editor.fontSize" = config.vscode.fontSize;
+      "editor.fontWeight" = "bold";
+      "terminal.integrated.fontSize" = config.vscode.fontSize;
+      "terminal.integrated.fontWeight" = "bold";
+      "terminal.integrated.lineHeight" = 1;
+    };
 
-  home-manager.users.luke.programs.alacritty.settings.font = {
-    size = 12.0;
-    normal = {
-      family = "VGA";
-      style = "Regular";
+    home-manager.users.luke.programs.alacritty.settings.font = {
+      size = 12.0;
+      normal = {
+        family = "VGA";
+        style = "Regular";
+      };
+      bold = {
+        style = "Regular";
+      };
+      italic = {
+        style = "Regular";
+      };
+      bold_italic = {
+        style = "Regular";
+      };
     };
-    bold = {
-      style = "Regular";
-    };
-    italic = {
-      style = "Regular";
-    };
-    bold_italic = {
-      style = "Regular";
-    };
-  };
 
-  environment.variables.FREETYPE_PROPERTIES = "cff:no-stem-darkening=0 autofitter:no-stem-darkening=0";
+    environment.variables.FREETYPE_PROPERTIES = "cff:no-stem-darkening=0 autofitter:no-stem-darkening=0";
+  };
 }

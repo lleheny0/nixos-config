@@ -15,5 +15,7 @@
     textScaling = 1.25;
   };
 
+  vscode.fontSize = 17.0;
+
   networking.hostName = "ideapad";
 }
