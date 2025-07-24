@@ -78,6 +78,7 @@ in
     "editor.fontSize" = 14;
     "editor.fontWeight" = "bold";
     "terminal.integrated.fontWeight" = "bold";
+    "terminal.integrated.lineHeight" = 1;
   };
 
   home-manager.users.luke.programs.alacritty.settings.font = {
