@@ -28,6 +28,34 @@ let
       cp -r $src/MonacoFiraCode/* $out/share/fonts
     '';
   };
+
+  sf-mono = pkgs.stdenv.mkDerivation {
+    name = "sf-mono";
+    src = pkgs.fetchFromGitHub {
+      owner = "supercomputra";
+      repo = "SF-Mono-Font";
+      rev = "master";
+      hash = "sha256-3wG3M4Qep7MYjktzX9u8d0iDWa17FSXYnObSoTG2I/o=";
+    };
+    installPhase = ''
+      mkdir -p $out/share/fonts
+      cp -r $src/*.otf $out/share/fonts
+    '';
+  };
+
+  consolas = pkgs.stdenv.mkDerivation {
+    name = "consolas";
+    src = pkgs.fetchFromGitHub {
+      owner = "pensnarik";
+      repo = "consolas-font";
+      rev = "master";
+      hash = "sha256-a0lx1X0SrLhNeBDl+NGWcrVHehd4UDaFUEl86hvj98E=";
+    };
+    installPhase = ''
+      mkdir -p $out/share/fonts
+      cp -r $src/*.ttf $out/share/fonts
+    '';
+  };
 in
 {
   options.vscode = {
@@ -44,11 +72,13 @@ in
         anonymousPro
         borg-sans-mono
         cascadia-code
+        consolas
         fantasque-sans-mono
         fira-code
         fragment-mono
         freefont_ttf
         gyre-fonts
+        hack-font
         ibm-plex
         inconsolata
         jetbrains-mono
@@ -57,6 +87,7 @@ in
         noto-fonts-emoji
         recursive
         roboto-mono
+        sf-mono
         source-code-pro
         uni-vga
       ];
