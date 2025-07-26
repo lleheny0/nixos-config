@@ -1,6 +1,20 @@
 { config, lib, pkgs, ... }:
 
 let
+  consolas = pkgs.stdenv.mkDerivation {
+    name = "consolas";
+    src = pkgs.fetchFromGitHub {
+      owner = "pensnarik";
+      repo = "consolas-font";
+      rev = "master";
+      hash = "sha256-a0lx1X0SrLhNeBDl+NGWcrVHehd4UDaFUEl86hvj98E=";
+    };
+    installPhase = ''
+      mkdir -p $out/share/fonts
+      cp -r $src/*.ttf $out/share/fonts
+    '';
+  };
+
   monaco = pkgs.stdenv.mkDerivation {
     name = "monaco";
     src = pkgs.fetchFromGitHub {
@@ -42,20 +56,6 @@ let
       cp -r $src/*.otf $out/share/fonts
     '';
   };
-
-  consolas = pkgs.stdenv.mkDerivation {
-    name = "consolas";
-    src = pkgs.fetchFromGitHub {
-      owner = "pensnarik";
-      repo = "consolas-font";
-      rev = "master";
-      hash = "sha256-a0lx1X0SrLhNeBDl+NGWcrVHehd4UDaFUEl86hvj98E=";
-    };
-    installPhase = ''
-      mkdir -p $out/share/fonts
-      cp -r $src/*.ttf $out/share/fonts
-    '';
-  };
 in
 {
   options.vscode = {
@@ -69,7 +69,6 @@ in
   config = {
     fonts = {
       packages = with pkgs; [
-        anonymousPro
         borg-sans-mono
         cascadia-code
         consolas
@@ -79,16 +78,13 @@ in
         freefont_ttf
         gyre-fonts
         hack-font
-        ibm-plex
         inconsolata
         jetbrains-mono
         monaco
         monaco-fira-code
         noto-fonts-emoji
-        recursive
         roboto-mono
         sf-mono
-        source-code-pro
         uni-vga
       ];
 
