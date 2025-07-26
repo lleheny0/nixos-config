@@ -7,6 +7,7 @@
     # ashpowell.monokai-one-dark-vivid
     bbenoist.nix
     dbaeumer.vscode-eslint
+    # EliverLara.andromeda
     esbenp.prettier-vscode
     # gerane.Theme-Brogrammer
     ms-vscode.remote-explorer
