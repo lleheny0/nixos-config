@@ -1,5 +1,15 @@
+{ config, lib, ... }:
+
 {
-  home-manager.users.luke.programs.vscode.profiles.default.userSettings = {
+  options.vscode = {
+    zoomLevel = lib.mkOption {
+      type = lib.types.int;
+      default = 0;
+      description = "VS Code window zoom level";
+    };
+  };
+
+  config.home-manager.users.luke.programs.vscode.profiles.default.userSettings = {
     "editor.colorDecorators" = false;
     "explorer.confirmDelete" = false;
     "editor.acceptSuggestionOnCommitCharacter" = false;
@@ -18,6 +28,7 @@
     "workbench.colorTheme" = "Andromeda Colorizer";
     "window.customMenuBarAltFocus" = false;
     "window.titleBarStyle" = "custom";
+    "window.zoomLevel" = config.vscode.zoomLevel;
     "workbench.startupEditor" = "none";
     "[latex]" = {
       "editor.rulers" = [ 80 ];
