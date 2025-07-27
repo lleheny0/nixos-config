@@ -1348,6 +1348,14 @@
         name = "Bugzilla";
         url = "https://bugzilla.mozilla.org/home";
       }
+      {
+        name = "Modern Font Stacks";
+        url = "https://modernfontstacks.com/";
+      }
+      {
+        name = "Gentle Intro to System Default Monospace Fonts (Part 2/2)";
+        url = "https://ianyepan.github.io/posts/system-default-monospace-fonts-pt2/";
+      }
     ];
   };
 }
