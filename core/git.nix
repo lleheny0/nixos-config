@@ -22,6 +22,7 @@
     gpl = "git pull";
     gpu = "git push";
     gsa = "git stash";
+    gsh = "git show";
     gsp = "git stash pop";
     gst = "git status";
   };
