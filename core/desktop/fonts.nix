@@ -103,10 +103,10 @@ in
   home-manager.users.luke.programs.vscode.profiles.default.userSettings = {
     "editor.fontFamily" = "Monaco Fira Code";
     "editor.fontLigatures" = true;
-    # "editor.fontSize" = 16;
+    "editor.fontSize" = 14;
     "editor.fontWeight" = "bold";
     # "editor.lineHeight" = 1.2;
-    # "terminal.integrated.fontSize" = 16;
+    "terminal.integrated.fontSize" = 14;
     "terminal.integrated.fontWeight" = "bold";
     "terminal.integrated.lineHeight" = 1;
   };
