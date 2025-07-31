@@ -25,7 +25,7 @@
     "telemetry.telemetryLevel" = "off";
     "update.mode" = "none";
     "vim.useSystemClipboard" = true;
-    "workbench.colorTheme" = "Andromeda Colorizer";
+    "workbench.colorTheme" = "Brogrammer";
     "window.customMenuBarAltFocus" = false;
     "window.titleBarStyle" = "custom";
     "window.zoomLevel" = config.vscode.zoomLevel;

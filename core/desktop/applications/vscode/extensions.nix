@@ -4,10 +4,8 @@
 
 {
   home-manager.users.luke.programs.vscode.profiles.default.extensions = with pkgs.vscode-extensions; [
-    # ashpowell.monokai-one-dark-vivid
     bbenoist.nix
     dbaeumer.vscode-eslint
-    # EliverLara.andromeda
     esbenp.prettier-vscode
     # gerane.Theme-Brogrammer
     ms-vscode.remote-explorer
