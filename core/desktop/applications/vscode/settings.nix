@@ -15,6 +15,7 @@
     "editor.acceptSuggestionOnCommitCharacter" = false;
     "editor.defaultFormatter" = "esbenp.prettier-vscode";
     "editor.formatOnSave" = true;
+    "editor.semanticHighlighting.enabled" = false;
     "editor.tabSize" = 2;
     "explorer.confirmDragAndDrop" = false;
     "files.insertFinalNewline" = true;
