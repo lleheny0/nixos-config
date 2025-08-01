@@ -1356,6 +1356,10 @@
         name = "Gentle Intro to System Default Monospace Fonts (Part 2/2)";
         url = "https://ianyepan.github.io/posts/system-default-monospace-fonts-pt2/";
       }
+      {
+        name = "The Oldschool PC Font Resource";
+        url = "https://int10h.org/oldschool-pc-fonts/";
+      }
     ];
   };
 }
