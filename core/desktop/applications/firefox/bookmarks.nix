@@ -1360,6 +1360,10 @@
         name = "The Oldschool PC Font Resource";
         url = "https://int10h.org/oldschool-pc-fonts/";
       }
+      {
+        name = "Iosevka";
+        url = "https://typeof.net/Iosevka/";
+      }
     ];
   };
 }
