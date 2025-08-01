@@ -86,7 +86,7 @@ in
       defaultFonts = {
         sansSerif = [ "FreeSans" ];
         serif = [ "Tex Gyre Termes" ];
-        monospace = [ "Monaco Fira Code" ];
+        monospace = [ "Iosevka" ];
         emoji = [ "Noto Color Emoji" ];
       };
     };
@@ -96,17 +96,18 @@ in
     "org/gnome/desktop/interface" = {
       document-font-name = "FreeSans 11";
       font-name = "FreeSans 11";
-      monospace-font-name = "Monaco Fira Code Bold 12";
+      monospace-font-name = "Iosevka Bold 12";
     };
   };
 
   home-manager.users.luke.programs.vscode.profiles.default.userSettings = {
-    "editor.fontFamily" = "Monaco Fira Code";
+    "editor.fontFamily" = "Iosevka";
     "editor.fontLigatures" = true;
-    "editor.fontSize" = 14;
+    "editor.fontSize" = 16;
     "editor.fontWeight" = "bold";
-    # "editor.lineHeight" = 1.2;
-    "terminal.integrated.fontSize" = 14;
+    "editor.lineHeight" = 1.2;
+    "terminal.integrated.fontFamily" = "Unifont";
+    "terminal.integrated.fontSize" = 16;
     "terminal.integrated.fontWeight" = "bold";
     "terminal.integrated.lineHeight" = 1;
   };
