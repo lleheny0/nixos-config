@@ -102,7 +102,7 @@ in
 
   home-manager.users.luke.programs.vscode.profiles.default.userSettings = {
     "editor.fontFamily" = "Iosevka";
-    "editor.fontLigatures" = true;
+    "editor.fontLigatures" = "'calt' 0, 'JSPT' 1";
     "editor.fontSize" = 16;
     "editor.fontWeight" = "bold";
     "editor.lineHeight" = 1.2;
