@@ -59,6 +59,7 @@ let
 in
 {
   fonts = {
+    enableDefaultPackages = true;
     packages = with pkgs; [
       borg-sans-mono
       cascadia-code
@@ -66,15 +67,12 @@ in
       fantasque-sans-mono
       fira-code
       fragment-mono
-      freefont_ttf
-      gyre-fonts
       hack-font
       inconsolata
       iosevka
       jetbrains-mono
       monaco
       monaco-fira-code
-      noto-fonts-emoji
       roboto-mono
       sf-mono
       uni-vga
