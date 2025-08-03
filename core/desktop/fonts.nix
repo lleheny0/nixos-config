@@ -104,8 +104,7 @@ in
     "editor.fontSize" = 16;
     "editor.fontWeight" = "bold";
     "editor.lineHeight" = 1.2;
-    "terminal.integrated.fontFamily" = "Unifont";
-    "terminal.integrated.fontSize" = 16;
+    "terminal.integrated.fontSize" = 15;
     "terminal.integrated.fontWeight" = "bold";
     "terminal.integrated.lineHeight" = 1;
   };
