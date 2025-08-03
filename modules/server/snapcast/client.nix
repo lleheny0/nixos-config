@@ -9,7 +9,6 @@ let
     after = [ "network.target" ];
     wantedBy = [ "default.target" ];
     serviceConfig = {
-      ExecStartPre = "${pkgs.coreutils}/bin/sleep ${toString config.snapclient.predelay}";
       ExecStart = "${pkgs.snapcast}/bin/snapclient --host 192.168.1.128 ${soundcard} ${config.snapclient.params}";
       Restart = "on-failure";
     };
@@ -26,11 +25,6 @@ in
       type = lib.types.str;
       default = "";
       description = "Additional command line flags for snapclient";
-    };
-    predelay = lib.mkOption {
-      type = lib.types.int;
-      default = 30;
-      description = "Delay before starting service";
     };
   };
 

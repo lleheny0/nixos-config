@@ -17,7 +17,5 @@
 
   firefox.scrollSpeed = 200;
 
-  snapclient.predelay = 60;
-
   networking.hostName = "tv";
 }
