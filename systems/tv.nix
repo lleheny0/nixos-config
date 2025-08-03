@@ -17,5 +17,7 @@
 
   firefox.scrollSpeed = 200;
 
+  gc.deleteOlderThan = "7d";
+
   networking.hostName = "tv";
 }
