@@ -23,11 +23,17 @@
       default-zoom-level = "small-plus";
     };
     "org/gnome/nautilus/list-view" = {
-      default-visible-columns = [
+      default-column-order = [
         "name"
-        "size"
         "date_modified"
         "detailed_type"
+        "size"
+      ];
+      default-visible-columns = [
+        "name"
+        "date_modified"
+        "detailed_type"
+        "size"
       ];
       default-zoom-level = "small";
     };
