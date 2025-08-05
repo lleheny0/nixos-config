@@ -34,6 +34,11 @@ in
     systemd.services = lib.mkIf (!config.snapclient.asUser) { snapclient = service; };
     systemd.user.services = lib.mkIf config.snapclient.asUser { snapclient = service; };
 
+    environment.shellAliases.rs =
+      if config.snapclient.asUser
+      then "systemctl --user restart snapclient.service"
+      else "sudo systemctl restart snapclient.service";
+
     environment.systemPackages = with pkgs; [
       snapcast
     ];
