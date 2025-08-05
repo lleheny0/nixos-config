@@ -93,7 +93,6 @@ in
   home-manager.users.luke.dconf.settings = {
     "org/gnome/desktop/interface" = {
       document-font-name = "FreeSans 11";
-      font-hinting = "none";
       font-name = "FreeSans 11";
       monospace-font-name = "Iosevka Bold 11";
     };
