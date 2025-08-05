@@ -83,7 +83,7 @@ in
       useEmbeddedBitmaps = true;
       defaultFonts = {
         sansSerif = [ "FreeSans" ];
-        serif = [ "Tex Gyre Termes" ];
+        serif = [ "FreeSerif" ];
         monospace = [ "Iosevka" ];
         emoji = [ "Noto Color Emoji" ];
       };
