@@ -4,6 +4,7 @@
   imports = [
     ./librespot.nix
     ./mpg123.nix
+    ./shairport.nix
   ];
 
   systemd.tmpfiles.rules = [
