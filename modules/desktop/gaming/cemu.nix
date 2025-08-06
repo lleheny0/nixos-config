@@ -24,7 +24,5 @@
     joycond-cemuhook
   ];
 
-  environment.shellAliases = {
-    jc = "sudo joycond-cemuhook";
-  };
+  environment.shellAliases.jc = "sudo joycond-cemuhook";
 }
