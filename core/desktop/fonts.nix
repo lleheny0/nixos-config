@@ -71,6 +71,7 @@ in
       inconsolata
       iosevka
       jetbrains-mono
+      meslo-lg
       monaco
       monaco-fira-code
       roboto-mono
