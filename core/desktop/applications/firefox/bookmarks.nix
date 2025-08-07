@@ -1364,6 +1364,10 @@
         name = "Iosevka";
         url = "https://typeof.net/Iosevka/";
       }
+      {
+        name = "Just Enough Systemd";
+        url = "https://carpenoctem.dev/blog/just-enough-systemd-for-developers/";
+      }
     ];
   };
 }
