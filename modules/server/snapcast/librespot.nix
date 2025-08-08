@@ -32,7 +32,7 @@
     wants = [ "network-online.target" ];
     wantedBy = [ "default.target" ];
     serviceConfig = {
-      ExecStart = "${pkgs.librespot}/bin/librespot --backend pipe --device /run/snapcast --name \"Home - Librespot\" --zeroconf-port 15353 --enable-volume-normalisation --normalisation-method basic --volume-ctrl cubic";
+      ExecStart = "${pkgs.librespot}/bin/librespot --backend pipe --device /run/snapcast --name Home --zeroconf-port 15353 --enable-volume-normalisation --normalisation-method basic --volume-ctrl cubic";
       Restart = "on-failure";
       User = "luke";
     };

@@ -16,7 +16,7 @@
     openFirewall = true;
     settings = {
       general = {
-        name = "Home - Airplay";
+        name = "Home";
         output_backend = "pipe";
       };
       pipe = {
