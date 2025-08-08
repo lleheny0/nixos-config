@@ -22,6 +22,9 @@
       pipe = {
         name = "/run/snapcast";
       };
+      sessioncontrol = {
+        allow_session_interruption = "yes";
+      };
     };
   };
 }
