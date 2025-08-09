@@ -1,7 +1,7 @@
 {
   imports = [
     ./alacritty.nix
-    ./chromium.nix
+    # ./chromium.nix
     ./firefox
     ./mullvad.nix
     ./nautilus.nix
