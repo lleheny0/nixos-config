@@ -5,6 +5,8 @@
     ../modules/server/snapcast/server.nix
   ];
 
+  boot.kernelParams = [ "usbcore.autosuspend=-1" ];
+
   services.thinkfan = {
     enable = true;
     levels = [
