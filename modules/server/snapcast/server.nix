@@ -15,7 +15,7 @@
     enable = true;
     openFirewall = true;
     streams = {
-      spotify = {
+      default = {
         type = "pipe";
         location = "/run/snapcast";
         query = {
