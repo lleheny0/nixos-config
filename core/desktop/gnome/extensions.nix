@@ -1,9 +1,9 @@
 { pkgs, ... }:
 
 {
-  users.users.luke.packages = with pkgs; [
-    gnomeExtensions.appindicator
-    gnomeExtensions.dash-to-dock
+  users.users.luke.packages = with pkgs.gnomeExtensions; [
+    appindicator
+    dash-to-dock
   ];
 
   home-manager.users.luke.dconf.settings = {
