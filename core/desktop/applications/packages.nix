@@ -3,6 +3,7 @@
 {
   users.users.luke.packages = with pkgs; [
     exiftool
+    eyedropper
     fragments
     libva-utils
     radeontop
