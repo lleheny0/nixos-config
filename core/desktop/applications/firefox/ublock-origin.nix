@@ -28,6 +28,7 @@
           www.youtube.com##[is-shorts]
           www.youtube.com##ytd-reel-shelf-renderer
           www.youtube.com##ytd-search ytd-video-renderer:has([overlay-style="SHORTS"])
+          www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost
         '';
       };
       toOverwrite = {
