@@ -62,6 +62,7 @@
           "adguard-popup-overlays"
           "adguard-widgets"
           "ublock-annoyances"
+          # Add filter list urls here
         ];
       };
     };
