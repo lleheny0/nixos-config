@@ -23,12 +23,6 @@
           www.youtube.com###cinematics
           www.youtube.com###shorts-cinematic-container
           www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_cinematics, false)
-
-          ! Youtube shorts
-          www.youtube.com##[is-shorts]
-          www.youtube.com##ytd-reel-shelf-renderer
-          www.youtube.com##ytd-search ytd-video-renderer:has([overlay-style="SHORTS"])
-          www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost
         '';
       };
       toOverwrite = {
@@ -62,7 +56,7 @@
           "adguard-popup-overlays"
           "adguard-widgets"
           "ublock-annoyances"
-          # Add filter list urls here
+          "https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt"
         ];
       };
     };
