@@ -1,9 +1,10 @@
 {
   environment.shellAliases = {
-    sb = "ssh 192.168.1.131";
-    sk = "ssh 192.168.1.130";
-    sl = "ssh 192.168.1.128";
-    sr = "ssh leheny.ddns.net";
-    st = "ssh 192.168.1.129";
+    sba = "ssh 192.168.1.131";
+    sbe = "ssh 192.168.1.132";
+    ski = "ssh 192.168.1.130";
+    sls = "ssh 192.168.1.128";
+    srs = "ssh leheny.ddns.net";
+    stv = "ssh 192.168.1.129";
   };
 }
