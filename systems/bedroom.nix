@@ -1,7 +1,6 @@
 {
   imports = [
     ../core/server
-    ../modules/hardware/ignore-lid.nix
     ../modules/server/snapcast/client.nix
   ];
 

@@ -2,7 +2,6 @@
   imports = [
     ../core/desktop
     ../core/server/ssh.nix
-    ../modules/hardware/ignore-lid.nix
     ../modules/hardware/multi-monitor.nix
     ../modules/server/snapcast/client.nix
   ];
