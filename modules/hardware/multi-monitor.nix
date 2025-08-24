@@ -6,6 +6,6 @@ let
 in
 {
   systemd.tmpfiles.rules = [
-    "L+ /run/gdm/.config/monitors.xml - - - - ${monitorsConfig}"
+    "L+ /run/gdm/.config/monitors.xml - gdm gdm - ${monitorsConfig}"
   ];
 }
