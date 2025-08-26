@@ -504,8 +504,8 @@
         keyword = "ups";
       }
       {
-        name = "My 2000's TV!";
-        url = "https://my00stv.com/";
+        name = "MyRetroTVs";
+        url = "https://www.myretrotvs.com/";
       }
       {
         name = "Moto G Power | XDA Forums";
