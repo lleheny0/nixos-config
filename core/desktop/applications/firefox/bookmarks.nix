@@ -1368,6 +1368,10 @@
         name = "Just Enough Systemd";
         url = "https://carpenoctem.dev/blog/just-enough-systemd-for-developers/";
       }
+      {
+        name = "Duck AI";
+        url = "https://duck.ai";
+      }
     ];
   };
 }
