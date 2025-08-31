@@ -17,7 +17,7 @@
   systemd.timers.botw-backup = {
     wantedBy = [ "timers.target" ];
     timerConfig = {
-      OnCalendar = "weekly";
+      OnCalendar = "*-*-* 04:00:00";
       Persistent = true;
       Unit = "botw-backup.service";
     };
