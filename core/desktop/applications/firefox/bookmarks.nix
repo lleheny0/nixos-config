@@ -586,9 +586,9 @@
         url = "https://www.zophar.net/music";
       }
       {
-        name = "Google Maps";
+        name = "Google Maps Search";
         url = "https://www.google.com/maps/search/%s";
-        keyword = "gm";
+        keyword = "gms";
       }
       {
         name = "Venmo - Share Payments";
