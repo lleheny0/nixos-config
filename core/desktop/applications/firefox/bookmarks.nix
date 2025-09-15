@@ -1372,6 +1372,10 @@
         name = "Duck AI";
         url = "https://duck.ai";
       }
+      {
+        name = "TimeGuessr";
+        url = "https://timeguessr.com/";
+      }
     ];
   };
 }
