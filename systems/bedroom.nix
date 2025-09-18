@@ -6,7 +6,7 @@
 
   snapclient = {
     asUser = false;
-    params = "--soundcard 2 --latency 25";
+    params = "--Soundcard 2 --Latency 25";
   };
 
   services.thinkfan = {
