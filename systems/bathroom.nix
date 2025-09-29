@@ -8,7 +8,7 @@
 
   snapclient = {
     asUser = false;
-    params = "--Soundcard 2";
+    params = "--soundcard 2";
   };
 
   networking.hostName = "bathroom";

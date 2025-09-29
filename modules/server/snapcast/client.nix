@@ -1,7 +1,7 @@
 { config, pkgs, lib, ... }:
 
 let
-  soundcard = if config.snapclient.asUser then "--Soundcard pipewire" else "";
+  soundcard = if config.snapclient.asUser then "--soundcard pipewire" else "";
 
   service = {
     enable = true;
