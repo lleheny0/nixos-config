@@ -70,14 +70,15 @@
       Locked = true;
     };
     SearchEngines = {
-      Default = "Google";
+      Default = "DuckDuckGo";
       Remove = [
-        "DuckDuckGo"
+        "Google"
         "Bing"
         "Yahoo"
         "Amazon.com"
         "eBay"
         "Wikipedia (en)"
+        "Perplexity"
       ];
     };
   };
