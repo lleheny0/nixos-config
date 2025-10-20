@@ -2,9 +2,11 @@
   home-manager.users.luke = {
     programs.git = {
       enable = true;
-      userName  = "Luke Leheny";
-      userEmail = "luke.leheny@pm.me";
-      extraConfig = {
+      settings = {
+        user = {
+          name  = "Luke Leheny";
+          email = "luke.leheny@pm.me";
+        };
         pull.rebase = true;
         rebase.autostash = true;
       };
