@@ -81,7 +81,6 @@ in
 
     fontconfig = {
       enable = true;
-      allowBitmaps = true;
       useEmbeddedBitmaps = true;
       defaultFonts = {
         sansSerif = [ "FreeSans" ];
@@ -114,7 +113,7 @@ in
   home-manager.users.luke.programs.alacritty.settings.font = {
     size = 12.0;
     normal = {
-      family = "Unifont";
+      family = "VGA";
       style = "Regular";
     };
     bold = {
