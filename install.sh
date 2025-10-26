@@ -13,11 +13,6 @@ while true; do
   esac
 done
 
-# Setup wireless if server
-if [[ $isServer == [Yy]* ]]; then
-  nmtui
-fi
-
 # Add channels and update
 sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
 sudo nix-channel --add https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
@@ -33,9 +28,6 @@ cat /home/luke/.ssh/id_ed25519.pub
 echo "Add SSH key to GitHub: https://github.com/settings/ssh/new"
 read -n 1 -r -s -p "Press any key to continue..."
 echo
-
-# Install vim and git in temp shell
-nix-shell -p vim git
 
 # Clone repo
 cd /home/luke
@@ -57,7 +49,7 @@ vim /home/luke/Projects/nixos-config/configuration.nix
 cd /home/luke/Projects/nixos-config
 git update-index --assume-unchanged configuration.nix
 
-# Add authorized key if server
+# Add desktop's publickey to authorized keys if server
 if [[ $isServer == [Yy]* ]]; then
   vim /home/luke/.ssh/authorized_keys
 fi
