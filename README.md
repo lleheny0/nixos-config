@@ -5,7 +5,6 @@
 ```sh
 nmtui
 nano /home/luke/Projects/nixos-config/configuration.nix
-sudo nixos-rebuild switch
 ```
 
 Add the line
@@ -25,5 +24,5 @@ sudo nixos-rebuild switch
 ```sh
 cd
 curl -O https://raw.githubusercontent.com/lleheny0/nixos-config/main/install.sh
-nix-shell -p vim git --run './install.sh'
+nix-shell -p vim git --run 'bash install.sh'
 ```
