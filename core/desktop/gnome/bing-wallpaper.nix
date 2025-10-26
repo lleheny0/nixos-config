@@ -18,7 +18,7 @@
   systemd.user.timers.bing-wallpaper = {
     wantedBy = [ "timers.target" ];
     timerConfig = {
-      OnCalendar = "daily";
+      OnCalendar = "*-*-* 04:00:00";
       Persistent = true;
       Unit = "bing-wallpaper.service";
     };
