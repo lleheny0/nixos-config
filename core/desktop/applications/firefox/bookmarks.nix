@@ -1388,6 +1388,10 @@
         name = "Slack";
         url = "https://app.slack.com/client/";
       }
+      {
+        name = "Explained: QGnomePlatform and Adwaita-Qt";
+        url = "https://jgrulich.cz/2023/03/08/explained-qgnomeplatform-and-adwaita-qt/";
+      }
     ];
   };
 }
