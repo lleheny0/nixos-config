@@ -1392,6 +1392,10 @@
         name = "Explained: QGnomePlatform and Adwaita-Qt";
         url = "https://jgrulich.cz/2023/03/08/explained-qgnomeplatform-and-adwaita-qt/";
       }
+      {
+        name = "Bing";
+        url = "https://www.bing.com/";
+      }
     ];
   };
 }
