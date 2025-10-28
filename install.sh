@@ -1,18 +1,5 @@
 #!/bin/bash
 
-# Check if server
-while true; do
-  read -p "Server? (y/n) " isServer
-  case $isServer in
-    [YyNn]* )
-      break
-      ;;
-    * )
-      echo "Please answer y/n."
-      ;;
-  esac
-done
-
 # Add channels and update
 sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos
 sudo nix-channel --add https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
@@ -49,15 +36,11 @@ vim /home/luke/Projects/nixos-config/configuration.nix
 cd /home/luke/Projects/nixos-config
 git update-index --assume-unchanged configuration.nix
 
-# Add desktop's publickey to authorized keys if server
-if [[ $isServer == [Yy]* ]]; then
-  vim /home/luke/.ssh/authorized_keys
-fi
+# Add desktop's publickey to authorized keys
+vim /home/luke/.ssh/authorized_keys
 
-# Remove .mozilla folder if desktop
-if [[ $isServer == [Nn]* ]]; then
-  rm /home/luke/.mozilla -rf
-fi
+# Remove .mozilla folder
+rm /home/luke/.mozilla -rf
 
 # Rebuild
 sudo nixos-rebuild boot
