@@ -14,15 +14,7 @@
   services.snapserver = {
     enable = true;
     openFirewall = true;
-    streams = {
-      default = {
-        type = "pipe";
-        location = "/run/snapcast";
-        query = {
-          sampleformat = "44100:16:2";
-        };
-      };
-    };
+    settings.stream.source = "pipe:///run/snapcast?name=Snapcast&sampleformat=44100:16:2";
   };
 
   networking.firewall.allowedTCPPorts = [ 1704 1705 1780 ];
