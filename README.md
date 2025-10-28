@@ -4,7 +4,7 @@
 
 ```sh
 nmtui
-nano /home/luke/Projects/nixos-config/configuration.nix
+sudo nano /etc/nixos/configuration.nix
 ```
 
 Add the line
