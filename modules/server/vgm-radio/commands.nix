@@ -18,4 +18,8 @@
       '';
     })
   ];
+
+  environment.shellAliases = {
+    vf = "cd /vgm/Music";
+  };
 }
