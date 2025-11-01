@@ -1400,6 +1400,10 @@
         name = "Mozilla Policy Templates";
         url = "https://mozilla.github.io/policy-templates/";
       }
+      {
+        name = "Breath of the Wild Interactive Map";
+        url = "https://www.zeldadungeon.net/breath-of-the-wild-interactive-map/";
+      }
     ];
   };
 }
