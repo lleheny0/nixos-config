@@ -26,9 +26,7 @@
       "browser.download.autohideButton" = false;
       "browser.formfill.enable" = false;
       "browser.link.open_newwindow" = 3;
-      "browser.ml.chat.enabled" = false;
-      "browser.newtabpage.activity-stream.feeds.section.topstories" = false;
-      "browser.newtabpage.activity-stream.showSponsored" = false;
+      "browser.newtabpage.activity-stream.showSponsoredCheckboxes" = false;
       "browser.newtabpage.activity-stream.showWeather" = false;
       "browser.search.suggest.enabled.private" = true;
       "browser.sessionstore.restore_pinned_tabs_on_demand" = true;

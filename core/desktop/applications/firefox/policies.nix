@@ -16,10 +16,7 @@
     DisplayMenuBar = "never";
     DontCheckDefaultBrowser = true;
     EnableTrackingProtection = {
-      Value = true;
-      Cryptomining = true;
-      Fingerprinting = true;
-      EmailTracking = true;
+      Category = "strict";
       Locked = true;
     };
     Extensions = {
@@ -34,7 +31,9 @@
       SponsoredTopSites = false;
       Highlights = false;
       Pocket = false;
+      Stories = false;
       SponsoredPocket = false;
+      SponsoredStories = false;
       Snippets = false;
       Locked = true;
     };
@@ -42,6 +41,13 @@
       WebSuggestions = false;
       SponsoredSuggestions = false;
       ImproveSuggest = false;
+      Locked = true;
+    };
+    GenerativeAI = {
+      Enabled = false;
+      Chatbot = false;
+      LinkPreviews = false;
+      TabGroups = false;
       Locked = true;
     };
     HardwareAcceleration = true;
