@@ -26,6 +26,13 @@
       "browser.download.autohideButton" = false;
       "browser.formfill.enable" = false;
       "browser.link.open_newwindow" = 3;
+      "browser.ml.chat.menu" = false;
+      "browser.ml.chat.page" = false;
+      "browser.ml.chat.shortcuts" = false;
+      "browser.ml.chat.sidebar" = false;
+      "browser.ml.enable" = false;
+      "browser.ml.linkPreview.enabled" = false;
+      "browser.ml.pageAssist.enabled" = false;
       "browser.newtabpage.activity-stream.showSponsoredCheckboxes" = false;
       "browser.newtabpage.activity-stream.showWeather" = false;
       "browser.search.suggest.enabled.private" = true;
