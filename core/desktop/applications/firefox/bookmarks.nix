@@ -1396,6 +1396,10 @@
         name = "Bing";
         url = "https://www.bing.com/";
       }
+      {
+        name = "Mozilla Policy Templates";
+        url = "https://mozilla.github.io/policy-templates/";
+      }
     ];
   };
 }
