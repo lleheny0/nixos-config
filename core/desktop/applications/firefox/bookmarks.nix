@@ -1408,6 +1408,10 @@
         name = "Tubi";
         url = "https://tubitv.com/";
       }
+      {
+        name = "NixHub | A Nix Packages Registry";
+        url = "https://www.nixhub.io/";
+      }
     ];
   };
 }
