@@ -12,5 +12,5 @@
 
   firefox.scrollSpeed = 50;
 
-  networking.hostName = "ideapad";
+  networking.hostName = "laptop";
 }
