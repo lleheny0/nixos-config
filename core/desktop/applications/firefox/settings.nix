@@ -55,6 +55,7 @@
       "browser.warnOnQuitShortcut" = false;
       "datareporting.healthreport.uploadEnabled" = false;
       "layout.css.devPixelsPerPx" = config.firefox.textScaling;
+      "media.eme.enabled" = true;
       "media.ffmpeg.vaapi.enabled" = true;
       "media.hardware-video-decoding.force-enabled" = true;
       "mousewheel.default.delta_multiplier_x" = config.firefox.scrollSpeed;
