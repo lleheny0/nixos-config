@@ -1,5 +1,8 @@
 { pkgs, ... }:
 
+# Launch options in steam: mangohud %command%
+# Limit to 60pfs: MANGOHUD_CONFIG=read_cfg,fps_limit=60 mangohud %command%
+
 {
   users.users.luke.packages = with pkgs; [
     goverlay
