@@ -105,6 +105,7 @@
         sleep-inactive-ac-type = "nothing";
       };
       "org/gnome/shell" = {
+        disable-extension-version-validation = true;
         favorite-apps = [
           "firefox.desktop"
           "org.gnome.Nautilus.desktop"
