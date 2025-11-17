@@ -9,7 +9,7 @@ let
         owner = "KDE";
         repo = "oxygen";
         rev = "master";
-        hash = "sha256-8/g1VSTs6i1WvuYIUZtmIBtbXSOI7b79K5413GBeq9E=";
+        hash = "sha256-QzlQVWihyis4bweMWAlyuwcDh1oGLXSzV1/xr/ZPHas=";
       };
       installPhase = ''
         mkdir -p $out/share/icons/KDE_Classic
