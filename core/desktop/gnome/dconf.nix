@@ -113,6 +113,7 @@
           "code.desktop"
           "signal.desktop"
           "discord.desktop"
+          "slack.desktop"
           "spotify.desktop"
           "steam.desktop"
           "org.prismlauncher.PrismLauncher.desktop"
