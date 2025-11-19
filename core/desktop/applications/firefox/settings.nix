@@ -12,11 +12,6 @@
       default = -1.0;
       description = "Text scaling factor";
     };
-    volumeScale = lib.mkOption {
-      type = lib.types.float;
-      default = 1.0;
-      description = "Volume scaling factor";
-    };
   };
 
   config.home-manager.users.luke.programs.firefox.profiles.default = {
@@ -63,7 +58,6 @@
       "media.eme.enabled" = true;
       "media.ffmpeg.vaapi.enabled" = true;
       "media.hardware-video-decoding.force-enabled" = true;
-      "media.volume_scale" = config.firefox.volumeScale;
       "mousewheel.default.delta_multiplier_x" = config.firefox.scrollSpeed;
       "mousewheel.default.delta_multiplier_y" = config.firefox.scrollSpeed;
       "permissions.default.desktop-notification" = 2;
