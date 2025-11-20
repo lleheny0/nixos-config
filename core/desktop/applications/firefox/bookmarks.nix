@@ -1416,6 +1416,10 @@
         name = "RHPF Electronics Nerd Lab | Tone Maps | Interactive Guitar Pedal Frequency Response Graphs";
         url = "https://rhpfelectronics.com/rhpf-electronics-handmade-guitar-pedals-in-switzerland/rhpf-nerd-lab/tone-maps/";
       }
+      {
+        name = "HealthyRhode";
+        url = "https://healthyrhode.ri.gov/";
+      }
     ];
   };
 }
