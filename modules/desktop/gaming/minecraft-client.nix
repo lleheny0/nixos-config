@@ -3,7 +3,7 @@
 {
   users.users.luke.packages = with pkgs; [
     glfw3-minecraft
-    # mcaselector
+    mcaselector
     prismlauncher
   ];
 
