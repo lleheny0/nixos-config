@@ -2,9 +2,9 @@
 
 {
   users.users.luke.packages = with pkgs; [
+    deluge
     exiftool
     eyedropper
-    fragments
     libva-utils
     radeontop
     texlive.combined.scheme-small
