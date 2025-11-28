@@ -34,7 +34,7 @@
     engine_short_names
     frame_timing
     frametime_color=00FF00
-    fps_limit_method=late
+    fps_limit_method=early
     toggle_fps_limit=Shift_L+F1
 
     fps_limit=0
