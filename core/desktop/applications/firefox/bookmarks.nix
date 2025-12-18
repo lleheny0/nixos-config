@@ -1420,6 +1420,10 @@
         name = "HealthyRhode";
         url = "https://healthyrhode.ri.gov/";
       }
+      {
+        name = "GNOME Extensions";
+        url = "https://extensions.gnome.org/";
+      }
     ];
   };
 }
