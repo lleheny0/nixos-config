@@ -6,6 +6,10 @@
     dash-to-dock
   ];
 
+  home-manager.users.luke.home.file.".local/share/gnome-shell/extensions/quarterwindows@troyready.com".source = builtins.fetchGit {
+    url = "https://github.com/troyready/quarterwindows";
+  };
+
   home-manager.users.luke.dconf.settings = {
     "org/gnome/shell" = {
       disable-user-extensions = false;
@@ -13,6 +17,7 @@
       enabled-extensions = [
         "appindicatorsupport@rgcjonas.gmail.com"
         "dash-to-dock@micxgx.gmail.com"
+        "quarterwindows@troyready.com"
       ];
     };
     "org/gnome/shell/extensions/appindicator" = {
@@ -45,6 +50,14 @@
       show-show-apps-button = false;
       show-trash = false;
       transparency-mode = "DEFAULT";
+    };
+    "org/gnome/shell/extensions/com-troyready-quarterwindows" = {
+      put-to-corner-ne = ["<Primary><Super>Right"];
+      put-to-corner-nw = ["<Primary><Super>Left"];
+      put-to-corner-se = ["<Primary><Super><Shift>Right"];
+      put-to-corner-sw = ["<Primary><Super><Shift>Left"];
+      put-to-half-e = [];
+      put-to-half-w = [];
     };
   };
 }
