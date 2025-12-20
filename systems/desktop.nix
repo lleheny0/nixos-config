@@ -11,5 +11,7 @@
     ../modules/server/snapcast/client.nix
   ];
 
+  firefox.volumeScale = 0.25;
+
   networking.hostName = "desktop";
 }
