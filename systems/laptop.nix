@@ -12,5 +12,7 @@
 
   firefox.scrollSpeed = 50;
 
+  networking.networkmanager.wifi.powersave = false;
+
   networking.hostName = "laptop";
 }
