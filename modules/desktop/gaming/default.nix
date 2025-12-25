@@ -1,7 +1,7 @@
 {
   imports = [
     ./cemu.nix
-    ./minecraft-client.nix
+    ./minecraft.nix
     ./mangohud.nix
     ./slippi.nix
     ./steam.nix
