@@ -9,5 +9,6 @@
     radeontop
     texlive.combined.scheme-small
     vlc
+    xeyes
   ];
 }
