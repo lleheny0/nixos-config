@@ -29,6 +29,6 @@
   };
 
   environment.variables = {
-    EDITOR = "vim";
+    EDITOR = "nvim";
   };
 }
