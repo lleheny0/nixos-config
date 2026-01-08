@@ -2,6 +2,7 @@
 
 {
   users.users.luke.packages = with pkgs; [
+    android-tools
     deluge
     exiftool
     eyedropper

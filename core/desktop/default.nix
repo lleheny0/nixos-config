@@ -1,7 +1,6 @@
 {
   imports = [
     ../default.nix
-    ./adb.nix
     ./applications
     ./cursor.nix
     ./environment.nix
