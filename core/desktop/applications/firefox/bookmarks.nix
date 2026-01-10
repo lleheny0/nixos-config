@@ -1424,6 +1424,10 @@
         name = "GNOME Extensions";
         url = "https://extensions.gnome.org/";
       }
+      {
+        name = "HealSonic Song Request";
+        url = "https://www.healsonic.com/song-request";
+      }
     ];
   };
 }
