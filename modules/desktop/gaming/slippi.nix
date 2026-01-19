@@ -27,7 +27,7 @@
 
   home-manager.users.luke.xdg.desktopEntries.slippi = {
     name = "Slippi";
-    exec = "appimage-run /home/luke/Programs/Slippi-Launcher-2.13.1-x86_64.AppImage";
+    exec = "appimage-run /home/luke/Programs/Slippi-Launcher-2.13.3-x86_64.AppImage";
     icon = ./slippi.png;
     categories = [ "Game" ];
   };
