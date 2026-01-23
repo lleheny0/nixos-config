@@ -20,6 +20,7 @@
     gnome-maps
     gnome-music
     gnome-online-accounts
+    gnome-software
     gnome-tour
     seahorse
     yelp
