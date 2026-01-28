@@ -68,6 +68,8 @@
       "org/gnome/desktop/wm/keybindings" = {
         cycle-group = [];
         cycle-group-backward = [];
+        cycle-windows = [];
+        cycle-windows-backward = [];
         switch-applications = [];
         switch-applications-backward = [];
         switch-group = ["<Super>Tab"];

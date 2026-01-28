@@ -11,5 +11,7 @@
     ../modules/server/snapcast/client.nix
   ];
 
+  services.keyd.keyboards.default.settings.alt.esc = "A-`";
+
   networking.hostName = "desktop";
 }
