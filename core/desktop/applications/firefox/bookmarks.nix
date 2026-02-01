@@ -1428,6 +1428,15 @@
         name = "HealSonic Song Request";
         url = "https://www.healsonic.com/song-request";
       }
+      {
+        name = "r/MechanicalKeyboards for all the Click and None of the Clack!";
+        url = "https://www.reddit.com/r/MechanicalKeyboards/";
+        keyword = "rmk";
+      }
+      {
+        name = "Mechanical Keyboards";
+        url = "https://mechanicalkeyboards.com/";
+      }
     ];
   };
 }
