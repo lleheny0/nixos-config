@@ -57,7 +57,7 @@
       "browser.urlbar.suggest.openpage" = false;
       "browser.urlbar.suggest.quickactions" = false;
       "browser.urlbar.suggest.topsites" = false;
-      "browser.warnOnQuitShortcut" = false;
+      "browser.warnOnQuitShortcut" = true;
       "datareporting.healthreport.uploadEnabled" = false;
       "layout.css.devPixelsPerPx" = config.firefox.textScaling;
       "media.eme.enabled" = true;
