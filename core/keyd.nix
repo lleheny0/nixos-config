@@ -1,4 +1,4 @@
-{ lib, ... }:
+{ pkgs, ... }:
 
 {
   services.keyd = {
@@ -51,4 +51,8 @@
       };
     };
   };
+
+  users.users.luke.packages = with pkgs; [
+    keyd
+  ];
 }
