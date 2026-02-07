@@ -49,7 +49,7 @@ def get_icy_meta(m) =
   "#{game} --- #{track_with_duration}"
 end
 
-radio.on_metadata(update_meta)
+radio.on_metadata(update_meta, synchronous = false)
 
 harbor.http.register(port=8080, method="GET", "/metadata", get_meta)
 
