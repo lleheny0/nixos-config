@@ -2,7 +2,6 @@
   imports = [
     ./boot.nix
     ./environment.nix
-    ./flatpak.nix
     ./gc.nix
     ./git.nix
     ./home.nix
