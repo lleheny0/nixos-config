@@ -25,6 +25,8 @@
       set wildoptions-=pum
       set wrap
       syntax on
+
+      inoremap <C-j> <Esc>
     '';
   };
 
