@@ -1369,8 +1369,9 @@
         url = "https://carpenoctem.dev/blog/just-enough-systemd-for-developers/";
       }
       {
-        name = "Duck AI";
-        url = "https://duck.ai";
+        name = "Duck AI Search";
+        url = "https://duckduckgo.com/?&ia=chat&bang=true&q=%s";
+        keyword = "da";
       }
       {
         name = "TimeGuessr";
