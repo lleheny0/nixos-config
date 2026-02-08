@@ -1438,6 +1438,11 @@
         name = "Mechanical Keyboards";
         url = "https://mechanicalkeyboards.com/";
       }
+      {
+        name = "r/MechanicalKeyboards Search";
+        url = "https://www.reddit.com/r/MechanicalKeyboards/search/?q=%s";
+        keyword = "rmks";
+      }
     ];
   };
 }
