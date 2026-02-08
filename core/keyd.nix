@@ -43,6 +43,7 @@
             "0" = "f10";
             "-" = "f11";
             "equal" = "f12";
+            "backspace" = "delete";
           };
           control = {
             j = "escape";
