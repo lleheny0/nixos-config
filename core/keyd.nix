@@ -45,17 +45,12 @@
             "equal" = "f12";
             "backspace" = "delete";
           };
-          control = {
-            j = "escape";
-          };
           "control+alt" = {
             q = "A-f4";
-            j = "C-A-j";
           };
           "control+shift" = {
             "[" = "C-pageup";
             "]" = "C-pagedown";
-            j = "C-S-j";
           };
           "meta+shift" = {
             s = "sysrq";

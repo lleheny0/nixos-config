@@ -45,11 +45,11 @@
       "command" = "-extension.vim_ctrl+h";
       "when" = "editorTextFocus && vim.active && vim.use<C-h> && !inDebugRepl";
     }
-    # {
-    #   "key" = "ctrl+j";
-    #   "command" = "-extension.vim_ctrl+j";
-    #   "when" = "editorTextFocus && vim.active && vim.use<C-j> && !inDebugRepl";
-    # }
+    {
+      "key" = "ctrl+j";
+      "command" = "-extension.vim_ctrl+j";
+      "when" = "editorTextFocus && vim.active && vim.use<C-j> && !inDebugRepl";
+    }
     {
       "key" = "ctrl+k";
       "command" = "-extension.vim_ctrl+k";
@@ -105,24 +105,24 @@
       "command" = "-extension.vim_ctrl+z";
       "when" = "editorTextFocus && vim.active && vim.use<C-z> && !inDebugRepl";
     }
-    # {
-    #   "key" = "ctrl+j";
-    #   "command" = "extension.vim_escape";
-    #   "when" = "editorTextFocus && vim.active && !inDebugRepl";
-    # }
-    # {
-    #   "key" = "escape";
-    #   "command" = "-extension.vim_escape";
-    #   "when" = "editorTextFocus && vim.active && !inDebugRepl";
-    # }
+    {
+      "key" = "ctrl+j";
+      "command" = "extension.vim_escape";
+      "when" = "editorTextFocus && vim.active && !inDebugRepl";
+    }
+    {
+      "key" = "escape";
+      "command" = "-extension.vim_escape";
+      "when" = "editorTextFocus && vim.active && !inDebugRepl";
+    }
     {
       "key" = "ctrl+alt+j";
       "command" = "workbench.action.togglePanel";
     }
-    # {
-    #   "key" = "ctrl+j";
-    #   "command" = "-workbench.action.togglePanel";
-    # }
+    {
+      "key" = "ctrl+j";
+      "command" = "-workbench.action.togglePanel";
+    }
     {
       "key" = "shift+alt+j";
       "command" = "workbench.action.toggleMaximizedPanel";
