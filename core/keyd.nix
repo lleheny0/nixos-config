@@ -31,6 +31,7 @@
             x = "forward";
             c = "brightnessdown";
             v = "brightnessup";
+            "esc" = "`";
             "1" = "f1";
             "2" = "f2";
             "3" = "f3";
