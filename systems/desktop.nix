@@ -12,6 +12,7 @@
   ];
 
   services.keyd.keyboards.default.settings.alt.esc = "A-`";
+  services.keyd.keyboards.default.settings.meta.esc = "M-`";
 
   networking.hostName = "desktop";
 }

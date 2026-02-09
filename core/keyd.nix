@@ -45,6 +45,12 @@
             "-" = "f11";
             "equal" = "f12";
             "backspace" = "delete";
+            "up" = "pageup";
+            "down" = "pagedown";
+            "left" = "home";
+            "right" = "end";
+            "pageup" = "home";
+            "pagedown" = "end";
           };
           "control+alt" = {
             q = "A-f4";
