@@ -17,10 +17,10 @@
             k = "up";
             h = "left";
             l = "right";
-            y = "home";
-            u = "pagedown";
-            i = "pageup";
-            o = "end";
+            n = "home";
+            m = "pagedown";
+            "," = "pageup";
+            "." = "end";
             q = "mute";
             w = "volumedown";
             e = "volumeup";
@@ -49,8 +49,6 @@
             "down" = "pagedown";
             "left" = "home";
             "right" = "end";
-            "pageup" = "home";
-            "pagedown" = "end";
           };
           "control+alt" = {
             q = "A-f4";
