@@ -1443,6 +1443,10 @@
         url = "https://www.reddit.com/r/MechanicalKeyboards/search/?q=%s";
         keyword = "rmks";
       }
+      {
+        name = "Keychron Mechanical Keyboards";
+        url = "https://www.keychron.com/";
+      }
     ];
   };
 }
