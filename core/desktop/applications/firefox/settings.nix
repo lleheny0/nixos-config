@@ -59,6 +59,7 @@
       "browser.urlbar.suggest.topsites" = false;
       "browser.warnOnQuitShortcut" = true;
       "datareporting.healthreport.uploadEnabled" = false;
+      "font.default.x-western" = "sans-serif";
       "layout.css.devPixelsPerPx" = config.firefox.textScaling;
       "media.eme.enabled" = true;
       "media.ffmpeg.vaapi.enabled" = true;
