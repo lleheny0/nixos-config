@@ -11,6 +11,8 @@
     ../modules/server/snapcast/client.nix
   ];
 
+  services.keyd.keyboards.default.settings.main."`" = "delete";
+  services.keyd.keyboards.default.settings.aux."`" = "`";
   services.keyd.keyboards.default.settings.alt.esc = "A-`";
   services.keyd.keyboards.default.settings.meta.esc = "M-`";
 
