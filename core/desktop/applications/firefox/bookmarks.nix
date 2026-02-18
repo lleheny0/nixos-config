@@ -1447,6 +1447,10 @@
         name = "Keychron Mechanical Keyboards";
         url = "https://www.keychron.com/";
       }
+      {
+        name = "Niz Keyboards";
+        url = "https://www.nizkeyboard.com/";
+      }
     ];
   };
 }
