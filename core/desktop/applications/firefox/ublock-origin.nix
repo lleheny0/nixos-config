@@ -19,6 +19,9 @@
           www.youtube.com###cinematics
           www.youtube.com###shorts-cinematic-container
           www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_cinematics, false)
+
+          ! Perplexity AI
+          www.perplexity.ai##[data-type="portal"]
         '';
       };
       toOverwrite = {
