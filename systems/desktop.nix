@@ -10,6 +10,8 @@
     ../modules/server/snapcast/client.nix
   ];
 
+  # boot.kernelParams = [ "amdgpu.dcdebugmask=0x410" ];
+
   services.keyd.keyboards.default.settings.main."`" = "delete";
   services.keyd.keyboards.default.settings.aux."`" = "`";
   services.keyd.keyboards.default.settings.alt.esc = "A-`";
