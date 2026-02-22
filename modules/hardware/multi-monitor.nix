@@ -4,8 +4,11 @@
 # containing <layoutmode>logical</layoutmode>
 
 let
-  monitorsXmlContent = builtins.readFile /home/luke/.config/monitors.xml;
-  monitorsConfig = pkgs.writeText "gdm_monitors.xml" monitorsXmlContent;
+  monitorsPath = /home/luke/.config/monitors.xml;
+  monitorsContent = if builtins.pathExists monitorsPath then
+    builtins.readFile monitorsPath
+  else "";
+  monitorsConfig = pkgs.writeText "gdm_monitors.xml" monitorsContent;
 in
 {
   systemd.tmpfiles.rules = [
