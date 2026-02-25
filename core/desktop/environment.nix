@@ -8,6 +8,7 @@
       npub = "mb && np && nu && nb";
       npus = "mb && np && nu && ns";
       pa = "for file in *.tex; do pdflatex \"$file\"; done";
+      vgm = "ssh -t 192.168.1.128 'vgm'";
     };
 
     variables = {
