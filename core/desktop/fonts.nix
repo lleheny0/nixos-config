@@ -70,7 +70,7 @@ in
       hack-font
       inconsolata
       iosevka
-      jetbrains-mono
+      # jetbrains-mono
       meslo-lg
       monaco
       monaco-fira-code
