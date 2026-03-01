@@ -11,6 +11,6 @@
     gimp
     helvum
     pavucontrol
-    vgmplay-libvgm
+    # vgmplay-libvgm
   ];
 }
