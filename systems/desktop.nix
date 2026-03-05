@@ -13,9 +13,6 @@
 
   # boot.kernelParams = [ "amdgpu.dcdebugmask=0x410" ];
 
-  services.keyd.keyboards.default.settings.alt.esc = "A-`";
-  services.keyd.keyboards.default.settings.meta.esc = "M-`";
-
   cursor.theme = "KDE_Classic";
 
   networking.hostName = "desktop";
