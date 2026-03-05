@@ -11,8 +11,6 @@
     ../modules/server/snapcast/client.nix
   ];
 
-  # boot.kernelParams = [ "amdgpu.dcdebugmask=0x410" ];
-
   cursor.theme = "KDE_Classic";
 
   networking.hostName = "desktop";
