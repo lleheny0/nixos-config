@@ -86,7 +86,7 @@
         center-new-windows = true;
         dynamic-workspaces = true;
         edge-tiling = true;
-        experimental-features = ["scale-monitor-framebuffer"];
+        # experimental-features = ["scale-monitor-framebuffer"];
         workspaces-only-on-primary = true;
       };
       "org/gnome/settings-daemon/plugins/color" = {
