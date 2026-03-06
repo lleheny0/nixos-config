@@ -4,10 +4,10 @@
   users.users.luke.packages = with pkgs; [
     alsa-utils
     btop-rocm
+    fastfetch
     git
     home-manager
     lm_sensors
-    neofetch
     tmux
     unzip
     wget
