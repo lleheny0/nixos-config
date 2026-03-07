@@ -24,6 +24,7 @@
     "security.workspace.trust.untrustedFiles" = "open";
     "svelte.enable-ts-plugin" = true;
     "telemetry.telemetryLevel" = "off";
+    "terminal.integrated.persistentSessionReviveProcess" = "never";
     "update.mode" = "none";
     "vim.useSystemClipboard" = true;
     "workbench.colorTheme" = "Brogrammer";
