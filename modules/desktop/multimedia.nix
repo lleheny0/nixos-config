@@ -7,9 +7,9 @@
 
   users.users.luke.packages = with pkgs; [
     audacity
+    crosspipe
     ffmpeg
     gimp
-    helvum
     pavucontrol
     # vgmplay-libvgm
   ];

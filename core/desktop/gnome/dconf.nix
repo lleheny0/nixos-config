@@ -122,7 +122,6 @@
           "org.prismlauncher.PrismLauncher.desktop"
           "slippi.desktop"
           "info.cemu.Cemu.desktop"
-          "org.pipewire.Helvum.desktop"
           "com.obsproject.Studio.desktop"
         ];
       };
