@@ -18,11 +18,5 @@
 
   environment.shellAliases.rl = "sudo systemctl restart librespot.service";
 
-  networking = {
-    firewall.allowedTCPPorts = [ 5353 15353 ];
-
-    hosts = {
-      "0.0.0.0" = [ "apresolve.spotify.com" ];
-    };
-  };
+  networking.firewall.allowedTCPPorts = [ 5353 15353 ];
 }
