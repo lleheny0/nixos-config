@@ -1,6 +1,7 @@
 {
   imports = [
     ../core/server
+    ../modules/server/dns.nix
     ../modules/server/snapcast/server.nix
   ];
 
