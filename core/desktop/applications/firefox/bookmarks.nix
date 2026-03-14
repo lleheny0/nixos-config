@@ -1450,6 +1450,11 @@
         name = "Niz Keyboards";
         url = "https://www.nizkeyboard.com/";
       }
+      {
+        name = "Adguard Home";
+        url = "http://192.168.1.128:3000/";
+        keyword = "agh";
+      }
     ];
   };
 }
