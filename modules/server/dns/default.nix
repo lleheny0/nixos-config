@@ -1,6 +1,6 @@
 {
   imports = [
-    ./pihole.nix
+    ./adguardhome.nix
     ./unbound.nix
   ];
 }
