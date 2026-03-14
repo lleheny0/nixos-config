@@ -8,7 +8,10 @@
     ../modules/hardware/ecotank.nix
   ];
 
-  dconf.nightLightTemperature = 2700;
+  dconf = {
+    experimentalFeatures = [ "scale-monitor-framebuffer" ];
+    nightLightTemperature = 2700;
+  };
 
   firefox.scrollSpeed = 50;
 

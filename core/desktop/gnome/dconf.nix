@@ -2,6 +2,11 @@
 
 {
   options.dconf = {
+    experimentalFeatures = lib.mkOption {
+      type = lib.types.listOf lib.types.str;
+      default = [];
+      description = "List of experimental features to enable";
+    };
     idleDelay = lib.mkOption {
       type = lib.types.int;
       default = 900;
@@ -86,7 +91,7 @@
         center-new-windows = true;
         dynamic-workspaces = true;
         edge-tiling = true;
-        # experimental-features = ["scale-monitor-framebuffer"];
+        experimental-features = config.dconf.experimentalFeatures;
         workspaces-only-on-primary = true;
       };
       "org/gnome/settings-daemon/plugins/color" = {
