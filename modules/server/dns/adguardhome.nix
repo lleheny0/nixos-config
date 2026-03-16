@@ -12,6 +12,7 @@
       filtering = {
         protection_enabled = true;
         filtering_enabled = true;
+        # cache_optimistic = true;
 
         parental_enabled = false;
         safe_search = {

@@ -7,6 +7,7 @@
         port = 5335;
         access-control = [ "127.0.0.1 allow" ];
         prefetch = true;
+        # serve-expired = true;
       };
     };
   };
