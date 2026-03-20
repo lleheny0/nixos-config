@@ -23,6 +23,8 @@
         "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt"
         "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt"
       ];
+      querylog.interval = "720h";
+      statistics.interval = "720h";
     };
   };
 
