@@ -2,8 +2,8 @@
 
 {
   imports = [
-    ../core/desktop
-    ../modules/hardware/multi-monitor.nix
+    ../../core/desktop
+    ../../modules/hardware/multi-monitor.nix
   ];
 
   networking.hostName = "imac";

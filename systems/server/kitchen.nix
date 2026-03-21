@@ -1,7 +1,7 @@
 {
   imports = [
-    ../core/server
-    ../modules/server/snapcast/client.nix
+    ../../core/server
+    ../../modules/server/snapcast/client.nix
   ];
 
   gc.deleteOlderThan = "7d";
@@ -11,5 +11,5 @@
     params = "--soundcard 2";
   };
 
-  networking.hostName = "bathroom";
+  networking.hostName = "kitchen";
 }
