@@ -10,6 +10,7 @@
         pull.rebase = true;
         rebase.autostash = true;
       };
+      signing.format = null;
     };
   };
 
