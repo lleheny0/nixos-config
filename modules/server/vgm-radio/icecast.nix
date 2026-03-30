@@ -7,7 +7,7 @@
       port = 8000;
     };
     admin.password = " ";
-    extraConf = ''
+    extraConfig = ''
       <authentication>
         <source-password> </source-password>
         <relay-password> </relay-password>
