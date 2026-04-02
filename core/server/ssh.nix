@@ -15,9 +15,14 @@
       settings = {
         PasswordAuthentication = config.ssh.usePasswordAuth;
         KbdInteractiveAuthentication = config.ssh.usePasswordAuth;
+        PermitRootLogin = "no";
       };
     };
 
-    services.fail2ban.enable = true;
+    services.fail2ban = {
+      enable = true;
+      bantime = "24h";
+      bantime-increment.enable = true;
+    };
   };
 }
