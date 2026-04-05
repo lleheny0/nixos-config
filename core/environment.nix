@@ -1,6 +1,6 @@
 {
   environment.shellAliases = {
-    ll = "ls -alF";
+    ll = "ls -aFhl";
     nb = "sudo nixos-rebuild boot";
     np = "cd /home/luke/Projects/nixos-config && git pull && cd ~-";
     nr = "sudo nixos-rebuild switch --rollback";
