@@ -8,6 +8,7 @@
     fastfetch
     git
     home-manager
+    imagemagick
     lm_sensors
     tmux
     unzip
