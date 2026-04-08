@@ -10,7 +10,7 @@
           ! Instagram
           www.instagram.com##._aagw
           www.instagram.com##.x1azxncr
-          www.instagram.com##.x1nhvcw1.x1oa3qoh.x1qjc9v5.xqjyukv.xdt5ytf.x2lah0s.x1c4vz4f.xryxfnj.x1plvlek.x1uhb9sk.xseo6mj.xo71vjh.x5pf9jr.x13lgxp2.x168nmei.x78zum5.xjbqb8w.x9f619
+          www.instagram.com##._aagu > .x13vifvy.x10l6tqk.x1o0tod.xtijo5x.x1ey2m1c
 
           ! Ebay
           www.ebay.com##.evo-carousel
