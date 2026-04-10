@@ -10,6 +10,7 @@
     home-manager
     imagemagick
     lm_sensors
+    smartmontools
     tmux
     unzip
     wget
