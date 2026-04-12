@@ -3,11 +3,11 @@
 # Note: Run cemu on a 60hz monitor to avoid stutter
 # Uncomment the lines below to switch to stable cemu
 
-# let
-#   stable = import
-#     (builtins.fetchTarball https://github.com/nixos/nixpkgs/tarball/24.05)
-#     { config = config.nixpkgs.config; };
-# in
+let
+  stable = import
+    (builtins.fetchTarball https://github.com/nixos/nixpkgs/tarball/25.11)
+    { config = config.nixpkgs.config; };
+in
 
 {
   boot.kernelModules = [
@@ -15,8 +15,8 @@
   ];
 
   users.users.luke.packages = with pkgs; [
-    # stable.cemu
-    cemu
+    stable.cemu
+    # cemu
     joycond-cemuhook
   ];
 
