@@ -11,7 +11,5 @@
     ../../modules/server/snapcast/client.nix
   ];
 
-  cursor.theme = "KDE_Classic";
-
   networking.hostName = "desktop";
 }
