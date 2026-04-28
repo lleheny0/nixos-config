@@ -41,6 +41,8 @@
       "browser.ml.pageAssist.enabled" = false;
       "browser.newtabpage.activity-stream.showSponsoredCheckboxes" = false;
       "browser.newtabpage.activity-stream.showWeather" = false;
+      "browser.profiles.created" = false;
+      "browser.profiles.enabled" = false;
       "browser.search.suggest.enabled.private" = true;
       "browser.sessionstore.restore_pinned_tabs_on_demand" = true;
       "browser.startup.homepage" = "chrome://browser/content/blanktab.html";

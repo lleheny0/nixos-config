@@ -39,8 +39,8 @@ git update-index --assume-unchanged configuration.nix
 # Add desktop's publickey to authorized keys
 vim /home/luke/.ssh/authorized_keys
 
-# Remove .mozilla folder
-rm /home/luke/.mozilla -rf
+# Remove mozilla folder
+rm /home/luke/.config/mozilla -rf
 
 # Rebuild
 sudo nixos-rebuild boot

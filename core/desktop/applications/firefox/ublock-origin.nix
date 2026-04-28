@@ -1,6 +1,5 @@
-{
-  home-manager.users.luke.home.file.".mozilla/managed-storage/uBlock0@raymondhill.net.json".text =
-  builtins.toJSON {
+let
+  ublockConfig = builtins.toJSON {
     name = "uBlock0@raymondhill.net";
     description = "_";
     type = "storage";
@@ -60,4 +59,8 @@
       };
     };
   };
+in
+{
+  home-manager.users.luke.home.file.".mozilla/managed-storage/uBlock0@raymondhill.net.json".text = ublockConfig;
+  home-manager.users.luke.home.file.".config/mozilla/managed-storage/uBlock0@raymondhill.net.json".text = ublockConfig;
 }
