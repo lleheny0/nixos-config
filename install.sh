@@ -36,9 +36,6 @@ vim /home/luke/Projects/nixos-config/configuration.nix
 cd /home/luke/Projects/nixos-config
 git update-index --assume-unchanged configuration.nix
 
-# Add desktop's publickey to authorized keys
-vim /home/luke/.ssh/authorized_keys
-
 # Remove mozilla folder
 rm /home/luke/.config/mozilla -rf
 
