@@ -8,11 +8,11 @@
         upstream_dns = [
           "127.0.0.1:5335"
         ];
+        cache_optimistic = true;
       };
       filtering = {
         protection_enabled = true;
         filtering_enabled = true;
-        # cache_optimistic = true;
 
         parental_enabled = false;
         safe_search = {
