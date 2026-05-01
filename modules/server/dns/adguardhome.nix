@@ -20,7 +20,7 @@
         };
       };
       filters = map(url: { enabled = true; url = url; }) [
-        "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt"
+        "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt"
         "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt"
       ];
       querylog.interval = "720h";
