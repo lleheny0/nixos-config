@@ -8,6 +8,6 @@
     ./packages.nix
     ./spotify.nix
     ./vscode
-    ./wireshark.nix
+    # ./wireshark.nix
   ];
 }
