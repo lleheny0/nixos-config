@@ -11,9 +11,6 @@ let
           www.instagram.com##.x1azxncr
           www.instagram.com##._aagu > .x13vifvy.x10l6tqk.x1o0tod.xtijo5x.x1ey2m1c
 
-          ! Ebay
-          www.ebay.com##.evo-carousel
-
           ! Youtube ambient mode
           www.youtube.com###cinematics
           www.youtube.com###shorts-cinematic-container
