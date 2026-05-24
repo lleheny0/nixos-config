@@ -465,7 +465,7 @@
       }
       {
         name = "weather";
-        url = "https://www.google.com/search?q=weather+02906";
+        url = "https://duckduckgo.com/?q=weather+02906";
         keyword = "w";
       }
       {
