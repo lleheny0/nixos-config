@@ -112,6 +112,7 @@
         sleep-inactive-ac-type = "nothing";
       };
       "org/gnome/shell" = {
+        always-show-log-out = true;
         disable-extension-version-validation = true;
         favorite-apps = [
           "firefox.desktop"
