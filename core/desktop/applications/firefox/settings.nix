@@ -48,7 +48,7 @@
       "browser.startup.homepage" = "chrome://browser/content/blanktab.html";
       "browser.startup.page" = 3;
       "browser.tabs.firefox-view" = false;
-      "browser.tabs.insertAfterCurrent" = true;
+      "browser.tabs.insertAfterCurrent" = false;
       "browser.tabs.tabmanager.enabled" = false;
       "browser.urlbar.scotchBonnet.enableOverride" = false;
       "browser.urlbar.shortcuts.bookmarks" = false;
