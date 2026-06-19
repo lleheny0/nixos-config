@@ -10,6 +10,8 @@
   };
 
   config.home-manager.users.luke.programs.vscode.profiles.default.userSettings = {
+    "chat.agent.enabled" = false;
+    "chat.agentsControl.enabled" = "hidden";
     "editor.colorDecorators" = false;
     "explorer.confirmDelete" = false;
     "editor.acceptSuggestionOnCommitCharacter" = false;
