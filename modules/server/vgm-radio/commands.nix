@@ -7,7 +7,7 @@
       name = "vu";
       text = ''
         filter="''${1:-}"
-        find /vgm/Music -type f -name "*.mp3" | grep "$filter" > /vgm/playlist.txt
+        find /vgm/Music -type f -name "*.mp3" | grep -E "$filter" > /vgm/playlist.txt
         wc -l < /vgm/playlist.txt
       '';
     })
