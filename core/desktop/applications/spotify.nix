@@ -5,12 +5,12 @@
     spotify
   ];
 
-  home-manager.users.luke.xdg.desktopEntries.spotify = {
-    name = "Spotify";
-    genericName = "Music Player";
-    exec = "spotify --ozone-platform=x11 %U";
-    icon = "spotify-client";
-    mimeType = [ "x-scheme-handler/spotify" ];
-    categories = [ "Audio" "Music" "Player" "AudioVideo" ];
-  };
+  # home-manager.users.luke.xdg.desktopEntries.spotify = {
+  #   name = "Spotify";
+  #   genericName = "Music Player";
+  #   exec = "spotify --ozone-platform=x11 %U";
+  #   icon = "spotify-client";
+  #   mimeType = [ "x-scheme-handler/spotify" ];
+  #   categories = [ "Audio" "Music" "Player" "AudioVideo" ];
+  # };
 }
