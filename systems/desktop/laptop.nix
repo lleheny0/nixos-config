@@ -4,6 +4,7 @@
   imports = [
     ../../core/desktop
     ../../modules/desktop/social.nix
+    ../../modules/desktop/work.nix
     ../../modules/development/javascript.nix
     ../../modules/hardware/ecotank.nix
   ];
