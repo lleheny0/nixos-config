@@ -1,5 +1,5 @@
 let
-  wallpaper = "file://" + ./wallpaper.jpg;
+  wallpaper = "file://" + ./wallpaper.png;
   color = "#222226";
 in
 {
