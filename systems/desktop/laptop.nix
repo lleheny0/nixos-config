@@ -3,6 +3,7 @@
 {
   imports = [
     ../../core/desktop
+    ../../modules/desktop/gaming/minecraft.nix
     ../../modules/desktop/social.nix
     ../../modules/desktop/work.nix
     ../../modules/development/javascript.nix
