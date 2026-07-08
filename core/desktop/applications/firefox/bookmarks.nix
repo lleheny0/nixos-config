@@ -630,7 +630,7 @@
       }
       {
         name = "Reddit Search";
-        url = "https://www.google.com/search?q=%s+site:reddit.com";
+        url = "https://duckduckgo.com/?q=%s+site:reddit.com";
         keyword = "rs";
       }
       {
