@@ -67,6 +67,7 @@ in {
 
   config.home-manager.users.luke = {
     home.pointerCursor = {
+      enable = true;
       name = config.cursor.theme;
       package = themes.${config.cursor.theme} or pkgs.adwaita-icon-theme;
       size = 24;
