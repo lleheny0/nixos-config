@@ -8,7 +8,7 @@
     eyedropper
     libva-utils
     radeontop
-    texlive.combined.scheme-small
+    texliveSmall
     vlc
     xeyes
   ];
