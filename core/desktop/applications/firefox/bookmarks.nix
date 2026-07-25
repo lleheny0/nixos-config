@@ -1113,11 +1113,6 @@
         keyword = "11";
       }
       {
-        name = "Guitar Pedal Search";
-        url = "https://www.reddit.com/r/guitarpedals/search/?q=%s";
-        keyword = "rgps";
-      }
-      {
         name = "Game Search - GameFAQs";
         url = "https://gamefaqs.gamespot.com/search?game=%s";
         keyword = "gfs";
@@ -1438,11 +1433,6 @@
         url = "https://mechanicalkeyboards.com/";
       }
       {
-        name = "r/MechanicalKeyboards Search";
-        url = "https://www.reddit.com/r/MechanicalKeyboards/search/?q=%s";
-        keyword = "rmks";
-      }
-      {
         name = "Keychron Mechanical Keyboards";
         url = "https://www.keychron.com/";
       }
@@ -1454,6 +1444,11 @@
         name = "Adguard Home";
         url = "http://192.168.1.128:3000/";
         keyword = "agh";
+      }
+      {
+        name = "Subreddit Search";
+        url = "javascript:(()=>{a='%s'.split(' ');location='https://www.reddit.com/r/'+a[0]+'/search/?q='+a.slice(1).join(' ')})()";
+        keyword = "srs";
       }
     ];
   };
