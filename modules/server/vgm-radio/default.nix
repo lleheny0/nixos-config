@@ -14,5 +14,6 @@
     ./commands.nix
     ./icecast.nix
     ./liquidsoap.nix
+    ./namecheap.nix
   ];
 }

@@ -3,7 +3,7 @@
 {
   services.caddy = {
     enable = true;
-    virtualHosts."leheny.ddns.net".extraConfig = ''
+    virtualHosts."lukeleheny.com".extraConfig = ''
       root * /vgm/vgm-radio
       file_server
 
