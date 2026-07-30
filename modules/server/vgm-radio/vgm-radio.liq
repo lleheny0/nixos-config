@@ -58,7 +58,7 @@ output.icecast(
   host = "localhost",
   port = 8000,
   password = " ",
-  mount = "/vgmradio",
+  mount = "/icecast",
   icy_song = get_icy_meta,
   radio
 )

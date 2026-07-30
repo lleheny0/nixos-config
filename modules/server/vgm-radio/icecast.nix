@@ -17,14 +17,14 @@
       <hostname>localhost</hostname>
       <listen-socket>
         <port>8000</port>
-        <shoutcast-mount>/vgmradio</shoutcast-mount>
+        <shoutcast-mount>/icecast</shoutcast-mount>
         <shoutcast-mount>/void</shoutcast-mount>
       </listen-socket>
       <http-headers>
         <header name="Access-Control-Allow-Origin" value="*" />
       </http-headers>
       <mount>
-        <mount-name>/vgmradio</mount-name>
+        <mount-name>/icecast</mount-name>
         <fallback-mount>/void</fallback-mount>
         <fallback-override>1</fallback-override>
         <fallback-when-full>1</fallback-when-full>
