@@ -830,7 +830,7 @@
       }
       {
         name = "VGM Radio";
-        url = "https://leheny.ddns.net/";
+        url = "https://lukeleheny.com/vgmradio/";
         keyword = "vgm";
       }
       {

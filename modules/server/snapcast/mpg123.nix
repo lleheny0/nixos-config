@@ -7,7 +7,7 @@
       name = "vgm";
       runtimeInputs = [ mpg123 tmux ];
       text = ''
-        tmux new-session -d -s vgmradio 'mpg123 -s https://leheny.ddns.net/vgmradio > /run/snapcast'
+        tmux new-session -d -s vgmradio 'mpg123 -s https://lukeleheny.com/vgmradio/icecast > /run/snapcast'
         tmux send-keys -t vgmradio 'u------------------------------u' Enter
         tmux attach -t vgmradio
       '';
