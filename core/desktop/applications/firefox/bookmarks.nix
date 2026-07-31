@@ -691,8 +691,8 @@
         url = "https://www.windy.com/?41.833,-71.431,5";
       }
       {
-        name = "lleheny0 (Luke Leheny)";
-        url = "https://github.com/lleheny0";
+        name = "Github";
+        url = "https://github.com/lukeleheny";
         keyword = "gh";
       }
       {
@@ -1263,7 +1263,7 @@
       }
       {
         name = "Cursor Tester";
-        url = "https://lleheny0.github.io/cursor-tester/";
+        url = "https://lukeleheny.github.io/cursor-tester/";
         keyword = "ct";
       }
       {

@@ -23,6 +23,6 @@ sudo nixos-rebuild switch
 
 ```sh
 cd
-curl -O https://raw.githubusercontent.com/lleheny0/nixos-config/main/install.sh
+curl -O https://raw.githubusercontent.com/lukeleheny/nixos-config/main/install.sh
 nix-shell -p vim git --run 'bash install.sh'
 ```

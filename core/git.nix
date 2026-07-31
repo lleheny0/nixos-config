@@ -5,7 +5,7 @@
       settings = {
         user = {
           name  = "Luke Leheny";
-          email = "luke.leheny@pm.me";
+          email = "hello@lukeleheny.com";
         };
         pull.rebase = true;
         rebase.autostash = true;

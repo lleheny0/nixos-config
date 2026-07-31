@@ -6,7 +6,7 @@ sudo nix-channel --add https://github.com/nix-community/home-manager/archive/mas
 sudo nix-channel --update
 
 # Generate SSH key
-ssh-keygen -t ed25519 -C "luke.leheny@pm.me"
+ssh-keygen -t ed25519 -C "hello@lukeleheny.com"
 eval "$(ssh-agent -s)"
 ssh-add /home/luke/.ssh/id_ed25519
 cat /home/luke/.ssh/id_ed25519.pub
@@ -20,7 +20,7 @@ echo
 cd /home/luke
 mkdir Projects
 cd Projects
-git clone git@github.com:lleheny0/nixos-config.git
+git clone git@github.com:lukeleheny/nixos-config.git
 
 # Relocate hardware-configuration.nix
 sudo mv /etc/nixos/hardware-configuration.nix /home/luke/Projects/nixos-config/
