@@ -5,5 +5,6 @@
 
   users.users.luke.packages = with pkgs; [
     protonup-ng
+    vrrtest
   ];
 }
