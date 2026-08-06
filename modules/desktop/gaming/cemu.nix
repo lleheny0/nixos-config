@@ -22,6 +22,13 @@
 
   environment.shellAliases.jc = "sudo joycond-cemuhook";
 
+  home-manager.users.luke.xdg.desktopEntries."info.cemu.Cemu" = {
+    name = "Cemu";
+    exec = "env MANGOHUD_CONFIG=\"read_cfg,fps_limit=60\" mangohud cemu";
+    icon = ./cemu.png;
+    categories = [ "Game" ];
+  };
+
   # systemd.services.botw-backup = {
   #   description = "BOTW save backup";
   #   path = with pkgs; [ gnutar gzip ];
